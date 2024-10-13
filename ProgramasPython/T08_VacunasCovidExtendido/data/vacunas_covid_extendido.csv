@@ -1,0 +1,1001 @@
+usuario;fechaNacimiento;provincia;marca;importe;fechaAdministracion;pautaCompleta;Reacción a la vacuna
+Tillie;18/12/1977;Madrid;JANSSEN;1.22;13/05/2021;S;Mareos-Fiebre
+Kelsey;13/11/1969;Almería;ASTRAZENECA;0.97;09/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Uriah;08/03/1977;Tarragona;MODERNA;1.31;30/06/2021;N;Mareos-Fiebre-Dolor muscular
+Benito;15/05/2002;Almería;ASTRAZENECA;0.97;23/06/2021;N;Mareos-Fiebre-Dolor muscular
+Milo;07/07/1970;Guadalajara;JANSSEN;1.22;05/12/2021;S;Mareos-Fiebre
+Buckie;04/01/1994;Castelló;MODERNA;1.31;14/09/2021;S;Fiebre
+Sibbie;05/12/2004;Zamora;ASTRAZENECA;0.97;23/12/2021;N;Mareos-Fiebre
+Lanna;17/01/1978;Albacete;MODERNA;1.31;23/05/2021;N;Mareos-Fiebre-Dolor muscular
+Lorry;09/11/1980;La Rioja;MODERNA;1.31;01/10/2021;S;Mareos-Fiebre
+Dolorita;23/02/1995;Castelló;JANSSEN;1.22;09/11/2021;N;Mareos-Fiebre
+Kerr;08/11/1990;Cantabria;ASTRAZENECA;0.97;16/06/2021;S;Mareos-Fiebre-Dolor muscular
+Jeramey;06/04/1993;València;JANSSEN;1.22;04/05/2021;S;Mareos-Fiebre-Dolor muscular
+Gunter;06/08/2009;Córdoba;JANSSEN;1.22;05/02/2021;S;Dolor muscular
+Miran;10/04/1997;Toledo;ASTRAZENECA;0.97;07/01/2021;N;Mareos-Dolor de cabeza
+Galina;17/03/1994;La Rioja;PFIZER;1.4;08/05/2021;S;Mareos-Fiebre-Dolor muscular
+Elberta;22/07/1999;Cáceres;MODERNA;1.31;21/03/2021;S;Dolor muscular
+Rosalind;28/04/1990;Soria;JANSSEN;1.22;23/02/2021;N;Dolor muscular
+Marian;06/01/1971;Burgos;ASTRAZENECA;0.97;06/08/2021;N;
+Margot;30/12/2005;Granada;JANSSEN;1.22;08/12/2021;N;Mareos-Fiebre
+Fielding;24/03/2010;Cuenca;ASTRAZENECA;0.97;24/03/2021;S;Dolor muscular
+Padraic;03/07/2008;Melilla;ASTRAZENECA;0.97;18/01/2021;N;Mareos-Dolor de cabeza
+Aurthur;13/10/1963;Guipuzcoa;ASTRAZENECA;0.97;04/07/2021;N;Mareos-Fiebre-Dolor muscular
+Mattheus;09/04/1966;Cantabria;ASTRAZENECA;0.97;22/08/2021;S;
+Gerti;29/09/1985;Madrid;PFIZER;1.4;09/09/2021;S;Fiebre
+Alair;30/10/1973;Lleida;ASTRAZENECA;0.97;08/10/2021;N;Mareos-Fiebre
+Gisela;06/05/1956;Segovia;ASTRAZENECA;0.97;30/07/2021;N;Mareos-Fiebre-Dolor muscular
+Giovanni;06/06/2002;Castelló;MODERNA;1.31;07/01/2021;S;Mareos-Dolor de cabeza
+Sharai;12/09/1990;Ourense;JANSSEN;1.22;28/12/2021;S;Mareos-Fiebre
+Claybourne;11/02/1960;Las Palmas;MODERNA;1.31;29/05/2021;S;Mareos-Fiebre-Dolor muscular
+Mahmoud;30/04/1963;Guadalajara;ASTRAZENECA;0.97;25/10/2021;S;Mareos-Fiebre
+Yurik;07/06/1979;León;MODERNA;1.31;12/01/2021;N;Mareos-Dolor de cabeza
+Dredi;20/09/1951;Cantabria;ASTRAZENECA;0.97;15/05/2021;S;Mareos-Fiebre-Dolor muscular
+Meridith;21/12/1984;Córdoba;JANSSEN;1.22;26/03/2021;S;Dolor muscular
+Towney;26/08/1966;Alacant;ASTRAZENECA;0.97;12/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Davide;18/05/1957;Córdoba;JANSSEN;1.22;03/03/2021;S;Dolor muscular
+Brenden;02/01/2010;Guipuzcoa;ASTRAZENECA;0.97;16/11/2021;N;Mareos-Fiebre
+Donia;30/08/1952;Tarragona;ASTRAZENECA;0.97;06/05/2021;S;Mareos-Fiebre-Dolor muscular
+Nolly;14/12/1957;Burgos;ASTRAZENECA;0.97;07/03/2021;N;Dolor muscular
+Evey;10/10/1955;Almería;ASTRAZENECA;0.97;23/11/2021;N;Mareos-Fiebre
+Sam;01/05/2004;Segovia;MODERNA;1.31;29/06/2021;N;Mareos-Fiebre-Dolor muscular
+Ceciley;17/07/2010;Palencia;JANSSEN;1.22;10/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Winnie;12/05/1968;Barcelona;JANSSEN;1.22;24/11/2021;N;Mareos-Fiebre
+Herrick;11/01/1959;Castelló;MODERNA;1.31;26/01/2021;N;Mareos-Dolor de cabeza
+Keelia;28/05/1985;Cáceres;ASTRAZENECA;0.97;17/11/2021;S;Mareos-Fiebre
+Hamel;26/06/1964;Huesca;JANSSEN;1.22;23/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Madelyn;08/02/1991;A Coruña;PFIZER;1.4;26/11/2021;N;Mareos-Fiebre
+Marnia;22/12/1993;Barcelona;ASTRAZENECA;0.97;09/06/2021;S;Mareos-Fiebre-Dolor muscular
+Raquel;06/11/1955;Tarragona;JANSSEN;1.22;30/01/2021;N;Mareos-Dolor de cabeza
+Cass;05/05/1984;Cuenca;JANSSEN;1.22;20/03/2021;S;Dolor muscular
+Dorry;08/04/1951;Ciudad Real;JANSSEN;1.22;29/08/2021;S;
+Erick;04/04/1962;Las Palmas;ASTRAZENECA;0.97;26/08/2021;N;
+Janith;28/12/1977;València;PFIZER;1.4;18/08/2021;S;
+Caye;09/12/1966;Jaén;MODERNA;1.31;28/11/2021;N;Mareos-Fiebre
+Luther;01/04/1975;Granada;ASTRAZENECA;0.97;13/06/2021;S;Mareos-Fiebre-Dolor muscular
+Shurlocke;10/10/2003;Guipuzcoa;PFIZER;1.4;08/06/2021;N;Mareos-Fiebre-Dolor muscular
+Lannie;09/01/2005;Madrid;MODERNA;1.31;02/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Basia;03/05/1966;Teruel;ASTRAZENECA;0.97;19/01/2021;N;Mareos-Dolor de cabeza
+Darleen;12/12/1998;Sevilla;MODERNA;1.31;27/05/2021;S;Mareos-Fiebre-Dolor muscular
+Gaynor;08/04/1996;Salamanca;JANSSEN;1.22;01/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Wayland;06/03/1975;Barcelona;ASTRAZENECA;0.97;10/07/2021;N;Mareos-Fiebre-Dolor muscular
+Gerry;11/03/1985;Cantabria;JANSSEN;1.22;05/12/2021;S;Mareos-Fiebre
+Bearnard;23/07/1962;Navarra;MODERNA;1.31;23/01/2021;S;Mareos-Dolor de cabeza
+Carmencita;01/01/1957;Málaga;ASTRAZENECA;0.97;14/08/2021;S;
+Hilly;02/04/1958;Barcelona;ASTRAZENECA;0.97;23/12/2021;N;Mareos-Fiebre
+Weider;12/12/2008;Sevilla;JANSSEN;1.22;18/11/2021;S;Mareos-Fiebre
+Shana;21/07/1984;Almería;MODERNA;1.31;19/09/2021;S;Fiebre
+Conrado;27/06/1993;Navarra;JANSSEN;1.22;09/07/2021;N;Mareos-Fiebre-Dolor muscular
+Nellie;21/10/1995;Toledo;MODERNA;1.31;09/07/2021;N;Mareos-Fiebre-Dolor muscular
+Reinaldos;03/09/1957;A Coruña;JANSSEN;1.22;21/10/2021;N;Mareos-Fiebre
+Mandie;30/10/1975;Navarra;MODERNA;1.31;11/07/2021;N;Mareos-Fiebre-Dolor muscular
+Carroll;18/09/1976;Teruel;MODERNA;1.31;12/08/2021;N;
+Janina;13/12/1985;A Coruña;JANSSEN;1.22;26/09/2021;N;Fiebre
+Steffie;08/04/1964;Guipuzcoa;ASTRAZENECA;0.97;01/09/2021;S;Fiebre
+Grata;14/02/1953;Girona;JANSSEN;1.22;05/07/2021;S;Mareos-Fiebre-Dolor muscular
+Marina;19/01/1979;Soria;MODERNA;1.31;30/10/2021;N;Mareos-Fiebre
+Karleen;01/12/1957;Almería;JANSSEN;1.22;18/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Beltran;08/10/2007;Barcelona;ASTRAZENECA;0.97;27/01/2021;N;Mareos-Dolor de cabeza
+Leilah;26/03/1973;Lugo;JANSSEN;1.22;22/09/2021;N;Fiebre
+Nevil;03/09/2001;Valladolid;ASTRAZENECA;0.97;04/08/2021;S;
+Kira;01/02/1984;Castelló;ASTRAZENECA;0.97;08/06/2021;S;Mareos-Fiebre-Dolor muscular
+Othilie;16/05/2008;Almería;ASTRAZENECA;0.97;28/10/2021;N;Mareos-Fiebre
+Kalle;21/02/1966;Ourense;MODERNA;1.31;29/12/2021;S;Mareos-Fiebre
+Antin;12/12/1986;Granada;ASTRAZENECA;0.97;14/08/2021;S;
+Sabine;29/07/1951;Asturias;JANSSEN;1.22;13/06/2021;S;Mareos-Fiebre-Dolor muscular
+Jere;20/07/2004;Zamora;MODERNA;1.31;09/03/2021;N;Dolor muscular
+Lucie;12/04/2012;Madrid;ASTRAZENECA;0.97;25/03/2021;S;Dolor muscular
+Abram;01/02/1976;Cantabria;ASTRAZENECA;0.97;29/08/2021;N;
+Elihu;22/12/1983;Illes Balears;MODERNA;1.31;07/12/2021;N;Mareos-Fiebre
+Tiphanie;09/03/1994;Lleida;ASTRAZENECA;0.97;13/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Linell;16/12/1962;Teruel;ASTRAZENECA;0.97;05/02/2021;N;Dolor muscular
+Alvis;01/01/1969;Burgos;MODERNA;1.31;08/02/2021;S;Dolor muscular
+Marie;31/01/1984;Albacete;JANSSEN;1.22;05/09/2021;S;Fiebre
+Bryce;01/02/1952;Asturias;ASTRAZENECA;0.97;17/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Xena;12/02/1998;Castelló;ASTRAZENECA;0.97;22/07/2021;S;Mareos-Fiebre-Dolor muscular
+Julee;18/03/1994;Alacant;ASTRAZENECA;0.97;22/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Judye;04/09/1981;Sevilla;ASTRAZENECA;0.97;25/02/2021;N;Dolor muscular
+Tore;05/02/1981;Málaga;MODERNA;1.31;12/12/2021;N;Mareos-Fiebre
+Beitris;05/02/1992;Asturias;ASTRAZENECA;0.97;04/07/2021;S;Mareos-Fiebre-Dolor muscular
+Emma;14/07/2005;València;ASTRAZENECA;0.97;19/06/2021;N;Mareos-Fiebre-Dolor muscular
+Lowrance;20/01/1970;Segovia;JANSSEN;1.22;17/08/2021;N;
+Ximenez;29/05/1952;València;JANSSEN;1.22;29/06/2021;S;Mareos-Fiebre-Dolor muscular
+Nancey;18/06/1965;Tarragona;ASTRAZENECA;0.97;23/01/2021;S;Mareos-Dolor de cabeza
+Ripley;26/08/1956;Toledo;ASTRAZENECA;0.97;07/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Prudi;24/06/2010;Ourense;ASTRAZENECA;0.97;25/05/2021;S;Mareos-Fiebre-Dolor muscular
+Jessie;06/05/1996;Guadalajara;JANSSEN;1.22;23/07/2021;S;Mareos-Fiebre-Dolor muscular
+Kimbra;02/01/1987;Ciudad Real;ASTRAZENECA;0.97;27/06/2021;N;Mareos-Fiebre-Dolor muscular
+Anabel;20/06/2006;Murcia;JANSSEN;1.22;14/05/2021;S;Mareos-Fiebre-Dolor muscular
+Laughton;19/05/1994;Albacete;ASTRAZENECA;0.97;23/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Nicola;13/03/1951;Soria;MODERNA;1.31;19/01/2021;N;Mareos-Dolor de cabeza
+Margaretta;12/06/2011;Asturias;JANSSEN;1.22;25/09/2021;S;Fiebre
+Feodora;14/01/1965;Sevilla;ASTRAZENECA;0.97;19/11/2021;N;Mareos-Fiebre
+Slade;21/08/1972;A Coruña;ASTRAZENECA;0.97;16/02/2021;N;Dolor muscular
+Micheline;15/11/1995;Barcelona;ASTRAZENECA;0.97;29/01/2021;S;Mareos-Dolor de cabeza
+Agnella;18/05/1974;Guipuzcoa;MODERNA;1.31;01/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Anne-marie;02/05/1977;Sevilla;ASTRAZENECA;0.97;11/08/2021;N;
+Gregoor;18/10/1950;Cáceres;JANSSEN;1.22;07/08/2021;N;
+Connie;07/01/1993;Huesca;ASTRAZENECA;0.97;06/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Marybelle;24/07/2002;Castelló;ASTRAZENECA;0.97;18/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Henriette;29/03/1977;Cádiz;ASTRAZENECA;0.97;14/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Wally;07/07/1990;Salamanca;MODERNA;1.31;10/11/2021;N;Mareos-Fiebre
+Tallie;25/02/2011;Murcia;JANSSEN;1.22;10/10/2021;S;Mareos-Fiebre
+Kristian;24/03/1997;Navarra;ASTRAZENECA;0.97;27/12/2021;S;Mareos-Fiebre
+Richmound;17/07/1976;Asturias;ASTRAZENECA;0.97;31/01/2021;S;Mareos-Dolor de cabeza
+Pennie;08/02/1963;Bizkaia;ASTRAZENECA;0.97;12/12/2021;S;Mareos-Fiebre
+Cherye;14/10/1960;Granada;ASTRAZENECA;0.97;20/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Hoebart;10/09/2006;Palencia;MODERNA;1.31;20/12/2021;N;Mareos-Fiebre
+Vincenz;23/11/2011;Ceuta;JANSSEN;1.22;17/10/2021;N;Mareos-Fiebre
+Demott;01/09/2008;Badajoz;MODERNA;1.31;22/12/2021;S;Mareos-Fiebre
+Godfree;24/11/2008;Zaragoza;PFIZER;1.4;11/06/2021;S;Mareos-Fiebre-Dolor muscular
+Maria;21/08/2002;Burgos;MODERNA;1.31;14/10/2021;S;Mareos-Fiebre
+Celene;29/04/1976;Soria;JANSSEN;1.22;10/03/2021;N;Dolor muscular
+Jodie;08/03/1984;Zamora;ASTRAZENECA;0.97;29/12/2021;S;Mareos-Fiebre
+Cami;17/06/2000;Huesca;ASTRAZENECA;0.97;11/07/2021;S;Mareos-Fiebre-Dolor muscular
+Larissa;08/03/2011;Bizkaia;ASTRAZENECA;0.97;01/03/2021;S;Dolor muscular
+Vittoria;01/01/1978;Teruel;JANSSEN;1.22;19/11/2021;S;Mareos-Fiebre
+Cinnamon;28/10/2011;Alacant;JANSSEN;1.22;13/06/2021;N;Mareos-Fiebre-Dolor muscular
+Daveta;17/03/2010;Segovia;PFIZER;1.4;03/09/2021;S;Fiebre
+Melisande;18/04/1992;Sevilla;PFIZER;1.4;26/09/2021;N;Fiebre
+Lizbeth;08/12/1991;Santa Cruz de Tenerife;JANSSEN;1.22;24/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Von;14/06/2011;Asturias;ASTRAZENECA;0.97;18/12/2021;N;Mareos-Fiebre
+Maribelle;12/03/1955;Asturias;MODERNA;1.31;05/09/2021;S;Fiebre
+Karyn;04/02/1978;Toledo;PFIZER;1.4;01/06/2021;N;Mareos-Fiebre-Dolor muscular
+Paulie;12/02/1967;Lleida;MODERNA;1.31;27/11/2021;N;Mareos-Fiebre
+Mella;14/06/1959;Cádiz;JANSSEN;1.22;08/08/2021;S;
+Latisha;08/07/1996;Huesca;MODERNA;1.31;04/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Malia;31/03/1991;Huesca;ASTRAZENECA;0.97;23/10/2021;S;Mareos-Fiebre
+Herbert;12/11/1972;Tarragona;ASTRAZENECA;0.97;30/11/2021;N;Mareos-Fiebre
+Baily;07/09/2010;Girona;ASTRAZENECA;0.97;08/02/2021;N;Dolor muscular
+Leyla;29/10/1993;Salamanca;JANSSEN;1.22;24/01/2021;N;Mareos-Dolor de cabeza
+Juan;04/01/1975;Guipuzcoa;ASTRAZENECA;0.97;01/06/2021;N;Mareos-Fiebre-Dolor muscular
+Freddi;30/09/1972;Huelva;MODERNA;1.31;06/08/2021;S;
+Ulrica;28/10/1982;Melilla;MODERNA;1.31;17/11/2021;N;Mareos-Fiebre
+Darbee;22/01/1982;Araba;JANSSEN;1.22;23/06/2021;S;Mareos-Fiebre-Dolor muscular
+Koren;17/02/2010;Segovia;ASTRAZENECA;0.97;18/06/2021;S;Mareos-Fiebre-Dolor muscular
+Anatola;20/06/1987;Madrid;MODERNA;1.31;17/10/2021;S;Mareos-Fiebre
+Yank;11/04/1983;Burgos;JANSSEN;1.22;30/09/2021;S;Fiebre
+Rufus;05/04/1966;Tarragona;JANSSEN;1.22;28/01/2021;N;Mareos-Dolor de cabeza
+Rosita;24/08/2005;Huesca;ASTRAZENECA;0.97;23/05/2021;S;Mareos-Fiebre-Dolor muscular
+Karalynn;08/05/1955;València;MODERNA;1.31;15/02/2021;S;Dolor muscular
+Cherry;05/04/2007;Jaén;JANSSEN;1.22;04/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Raye;02/10/1988;A Coruña;MODERNA;1.31;13/02/2021;N;Dolor muscular
+Radcliffe;27/03/1990;Cádiz;MODERNA;1.31;07/10/2021;N;Mareos-Fiebre
+Garrard;27/01/1974;Teruel;ASTRAZENECA;0.97;22/06/2021;N;Mareos-Fiebre-Dolor muscular
+Adella;06/05/1976;Cádiz;MODERNA;1.31;09/11/2021;N;Mareos-Fiebre
+Richy;03/02/1999;Ourense;ASTRAZENECA;0.97;27/06/2021;S;Mareos-Fiebre-Dolor muscular
+Matty;04/06/1976;Tarragona;ASTRAZENECA;0.97;13/12/2021;S;Mareos-Fiebre
+Korry;08/01/1971;Granada;ASTRAZENECA;0.97;21/10/2021;N;Mareos-Fiebre
+Markus;13/07/1963;Zamora;JANSSEN;1.22;23/08/2021;N;
+Cinnamon;09/05/1986;Guipuzcoa;JANSSEN;1.22;20/05/2021;S;Mareos-Fiebre-Dolor muscular
+Andi;29/03/1999;Salamanca;ASTRAZENECA;0.97;04/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Kaitlyn;25/09/2011;Ceuta;MODERNA;1.31;14/10/2021;N;Mareos-Fiebre
+Jourdan;15/11/2005;Ceuta;ASTRAZENECA;0.97;22/05/2021;S;Mareos-Fiebre-Dolor muscular
+Sonya;07/05/2011;Cantabria;ASTRAZENECA;0.97;30/06/2021;S;Mareos-Fiebre-Dolor muscular
+Jaymie;26/12/1980;Burgos;ASTRAZENECA;0.97;22/03/2021;N;Dolor muscular
+Jerrilyn;15/02/1979;Pontevedra;ASTRAZENECA;0.97;19/02/2021;S;Dolor muscular
+Micheal;07/08/1990;Araba;ASTRAZENECA;0.97;05/03/2021;N;Dolor muscular
+Melinda;02/07/1994;Navarra;ASTRAZENECA;0.97;10/01/2021;S;Mareos-Dolor de cabeza
+Staford;02/02/1973;Pontevedra;MODERNA;1.31;08/11/2021;N;Mareos-Fiebre
+Neville;21/08/1971;Guadalajara;ASTRAZENECA;0.97;14/09/2021;N;Fiebre
+Maria;06/01/1973;Girona;ASTRAZENECA;0.97;27/05/2021;S;Mareos-Fiebre-Dolor muscular
+Reamonn;30/03/2004;Ciudad Real;MODERNA;1.31;26/01/2021;N;Mareos-Dolor de cabeza
+Jacquenette;31/03/1976;Asturias;MODERNA;1.31;03/01/2021;N;Mareos-Dolor de cabeza
+Niels;07/06/1995;Girona;ASTRAZENECA;0.97;01/05/2021;S;Mareos-Fiebre-Dolor muscular
+Jennifer;03/04/1971;Guadalajara;JANSSEN;1.22;11/12/2021;S;Mareos-Fiebre
+Nikola;02/11/1976;Las Palmas;ASTRAZENECA;0.97;08/12/2021;N;Mareos-Fiebre
+Elias;07/04/1962;Santa Cruz de Tenerife;ASTRAZENECA;0.97;31/10/2021;N;Mareos-Fiebre
+Lou;05/06/2004;Salamanca;ASTRAZENECA;0.97;15/07/2021;N;Mareos-Fiebre-Dolor muscular
+Velma;11/04/2006;Huesca;MODERNA;1.31;01/09/2021;N;Fiebre
+Lewie;17/02/1960;Ourense;MODERNA;1.31;17/09/2021;N;Fiebre
+Aubine;21/08/1957;Barcelona;ASTRAZENECA;0.97;02/07/2021;S;Mareos-Fiebre-Dolor muscular
+Hattie;10/10/1987;Salamanca;JANSSEN;1.22;24/05/2021;S;Mareos-Fiebre-Dolor muscular
+Ivett;08/09/1960;Ceuta;ASTRAZENECA;0.97;02/11/2021;S;Mareos-Fiebre
+Saul;09/11/1968;Ourense;JANSSEN;1.22;20/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Aarika;11/07/2008;Palencia;JANSSEN;1.22;04/06/2021;N;Mareos-Fiebre-Dolor muscular
+Courtenay;12/07/2004;Castelló;ASTRAZENECA;0.97;18/12/2021;N;Mareos-Fiebre
+Lincoln;08/01/1994;Ciudad Real;ASTRAZENECA;0.97;09/07/2021;N;Mareos-Fiebre-Dolor muscular
+Brigit;24/09/2006;Murcia;MODERNA;1.31;21/11/2021;S;Mareos-Fiebre
+Justis;21/12/1964;Barcelona;ASTRAZENECA;0.97;30/01/2021;N;Mareos-Dolor de cabeza
+Kial;11/02/1962;Huesca;JANSSEN;1.22;02/03/2021;S;Dolor muscular
+Fons;08/02/1982;A Coruña;ASTRAZENECA;0.97;07/06/2021;N;Mareos-Fiebre-Dolor muscular
+Pauly;24/09/2002;Ourense;JANSSEN;1.22;03/01/2021;N;Mareos-Dolor de cabeza
+Evangelina;13/03/1975;Teruel;ASTRAZENECA;0.97;25/07/2021;S;Mareos-Fiebre-Dolor muscular
+Abbie;30/12/2008;Murcia;JANSSEN;1.22;12/07/2021;S;Mareos-Fiebre-Dolor muscular
+Dacey;30/04/1992;Zaragoza;ASTRAZENECA;0.97;21/02/2021;S;Dolor muscular
+Fern;11/04/1958;Cádiz;ASTRAZENECA;0.97;01/02/2021;S;Dolor muscular
+Philippa;30/07/1956;Málaga;JANSSEN;1.22;12/05/2021;N;Mareos-Fiebre-Dolor muscular
+Fremont;28/10/1982;Segovia;ASTRAZENECA;0.97;14/11/2021;N;Mareos-Fiebre
+Korella;11/05/1975;Illes Balears;MODERNA;1.31;16/11/2021;S;Mareos-Fiebre
+Sibylle;28/06/1964;Tarragona;ASTRAZENECA;0.97;18/03/2021;N;Dolor muscular
+Aili;29/05/2007;Cádiz;ASTRAZENECA;0.97;13/08/2021;N;
+Berkly;15/09/2009;Araba;MODERNA;1.31;19/08/2021;N;
+Susannah;23/02/2002;Ciudad Real;JANSSEN;1.22;02/11/2021;S;Mareos-Fiebre
+Francyne;29/06/1994;Sevilla;ASTRAZENECA;0.97;28/12/2021;N;Mareos-Fiebre
+Alexandros;11/06/1952;Ceuta;ASTRAZENECA;0.97;13/07/2021;N;Mareos-Fiebre-Dolor muscular
+Emlyn;22/09/1991;Sevilla;ASTRAZENECA;0.97;13/02/2021;S;Dolor muscular
+Maiga;08/09/1974;Teruel;ASTRAZENECA;0.97;26/10/2021;N;Mareos-Fiebre
+Chariot;11/12/2003;Illes Balears;ASTRAZENECA;0.97;12/08/2021;N;
+Bekki;14/08/1981;Madrid;ASTRAZENECA;0.97;31/01/2021;S;Mareos-Dolor de cabeza
+Torrin;14/09/1964;Girona;MODERNA;1.31;22/09/2021;S;Fiebre
+Linnie;07/12/1970;Lleida;JANSSEN;1.22;15/06/2021;S;Mareos-Fiebre-Dolor muscular
+Lolita;30/10/1957;Córdoba;MODERNA;1.31;25/11/2021;S;Mareos-Fiebre
+Shawn;28/03/1952;Bizkaia;JANSSEN;1.22;22/07/2021;N;Mareos-Fiebre-Dolor muscular
+Stanislaw;17/02/1957;Cuenca;PFIZER;1.4;13/09/2021;S;Fiebre
+Olympie;20/05/1997;Cádiz;PFIZER;1.4;21/09/2021;N;Fiebre
+Jacenta;22/05/1976;Murcia;JANSSEN;1.22;03/08/2021;N;
+Kylynn;20/09/1952;Navarra;ASTRAZENECA;0.97;08/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Viole;14/06/2011;Melilla;MODERNA;1.31;29/07/2021;N;Mareos-Fiebre-Dolor muscular
+Grethel;18/12/2000;Cuenca;ASTRAZENECA;0.97;06/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Sherry;26/05/1975;Ciudad Real;PFIZER;1.4;19/10/2021;N;Mareos-Fiebre
+Gabriello;04/10/1975;Asturias;ASTRAZENECA;0.97;09/06/2021;S;Mareos-Fiebre-Dolor muscular
+Meghan;07/05/2002;Ceuta;MODERNA;1.31;10/08/2021;N;
+Callie;04/02/1959;Toledo;PFIZER;1.4;09/08/2021;N;
+Caterina;14/04/1964;Bizkaia;JANSSEN;1.22;18/07/2021;S;Mareos-Fiebre-Dolor muscular
+Nannette;25/12/1982;Huesca;ASTRAZENECA;0.97;16/05/2021;N;Mareos-Fiebre-Dolor muscular
+Elnar;14/12/1984;Soria;MODERNA;1.31;01/07/2021;N;Mareos-Fiebre-Dolor muscular
+Skelly;05/02/1965;Araba;PFIZER;1.4;01/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Deane;09/09/1975;Teruel;ASTRAZENECA;0.97;16/01/2021;S;Mareos-Dolor de cabeza
+Starla;29/11/1973;Huesca;ASTRAZENECA;0.97;20/07/2021;S;Mareos-Fiebre-Dolor muscular
+Stanfield;15/03/1959;Burgos;JANSSEN;1.22;01/01/2021;N;Mareos-Dolor de cabeza
+Lawry;06/05/1980;Madrid;JANSSEN;1.22;27/05/2021;S;Mareos-Fiebre-Dolor muscular
+Crysta;12/10/2005;Jaén;MODERNA;1.31;13/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Salvatore;24/03/1966;Zaragoza;JANSSEN;1.22;25/11/2021;N;Mareos-Fiebre
+Farra;14/12/1993;Castelló;MODERNA;1.31;19/10/2021;N;Mareos-Fiebre
+Saxon;24/03/1960;Lleida;ASTRAZENECA;0.97;21/05/2021;N;Mareos-Fiebre-Dolor muscular
+Moore;07/04/1963;Valladolid;ASTRAZENECA;0.97;29/11/2021;S;Mareos-Fiebre
+Abran;07/09/1978;Navarra;ASTRAZENECA;0.97;24/06/2021;N;Mareos-Fiebre-Dolor muscular
+Jehanna;01/08/1955;Cuenca;ASTRAZENECA;0.97;21/05/2021;N;Mareos-Fiebre-Dolor muscular
+Amata;01/09/1958;Guipuzcoa;JANSSEN;1.22;02/01/2021;N;Mareos-Dolor de cabeza
+Vickie;15/04/1983;Segovia;MODERNA;1.31;12/07/2021;N;Mareos-Fiebre-Dolor muscular
+Charles;16/11/1997;Asturias;ASTRAZENECA;0.97;29/07/2021;N;Mareos-Fiebre-Dolor muscular
+Laurie;07/07/1964;Murcia;JANSSEN;1.22;01/02/2021;S;Dolor muscular
+Nissa;08/02/2007;Almería;ASTRAZENECA;0.97;04/11/2021;N;Mareos-Fiebre
+Maris;03/06/2007;Burgos;JANSSEN;1.22;07/06/2021;S;Mareos-Fiebre-Dolor muscular
+Alma;30/08/1979;Lleida;ASTRAZENECA;0.97;07/02/2021;S;Dolor muscular
+Ray;01/05/1954;Araba;JANSSEN;1.22;11/02/2021;S;Dolor muscular
+Rosalind;21/01/2002;Palencia;ASTRAZENECA;0.97;22/12/2021;N;Mareos-Fiebre
+Amii;15/07/1976;Barcelona;JANSSEN;1.22;17/11/2021;N;Mareos-Fiebre
+Sallie;31/03/1977;Córdoba;JANSSEN;1.22;13/08/2021;S;
+Ava;07/01/1955;Badajoz;JANSSEN;1.22;08/09/2021;S;Fiebre
+Tate;29/09/1976;Guipuzcoa;ASTRAZENECA;0.97;03/01/2021;N;Mareos-Dolor de cabeza
+Alicea;20/12/1998;Murcia;MODERNA;1.31;14/09/2021;S;Fiebre
+Bernadette;15/01/1968;Ciudad Real;MODERNA;1.31;17/02/2021;S;Dolor muscular
+Theressa;23/09/1957;Tarragona;JANSSEN;1.22;30/03/2021;S;Dolor muscular
+Estella;28/12/1991;Córdoba;JANSSEN;1.22;07/03/2021;S;Dolor muscular
+Mitchael;25/02/1968;Cantabria;JANSSEN;1.22;16/07/2021;N;Mareos-Fiebre-Dolor muscular
+Osmund;16/02/1983;Valladolid;MODERNA;1.31;09/07/2021;N;Mareos-Fiebre-Dolor muscular
+Hoyt;16/06/1981;Pontevedra;JANSSEN;1.22;19/03/2021;N;Dolor muscular
+Levy;12/03/1967;Zaragoza;ASTRAZENECA;0.97;25/03/2021;S;Dolor muscular
+Ginelle;23/08/2001;Ourense;JANSSEN;1.22;17/07/2021;S;Mareos-Fiebre-Dolor muscular
+Jessy;20/01/1997;Teruel;JANSSEN;1.22;27/02/2021;S;Dolor muscular
+Berti;13/09/1962;Huelva;ASTRAZENECA;0.97;30/12/2021;N;Mareos-Fiebre
+Far;06/05/2008;Segovia;MODERNA;1.31;27/05/2021;S;Mareos-Fiebre-Dolor muscular
+Chev;05/03/2008;Ceuta;ASTRAZENECA;0.97;29/03/2021;S;Dolor muscular
+Dew;26/06/1965;Melilla;ASTRAZENECA;0.97;03/02/2021;S;Dolor muscular
+Lynnet;02/01/2004;Tarragona;JANSSEN;1.22;06/10/2021;S;Mareos-Fiebre
+Anastasie;12/02/2001;Badajoz;JANSSEN;1.22;22/02/2021;S;Dolor muscular
+Tresa;14/12/1994;Palencia;MODERNA;1.31;16/03/2021;S;Dolor muscular
+Arly;12/06/1975;Badajoz;ASTRAZENECA;0.97;25/03/2021;S;Dolor muscular
+Johan;16/06/1993;Cáceres;JANSSEN;1.22;27/09/2021;S;Fiebre
+Suzanne;02/03/1972;Cuenca;MODERNA;1.31;03/03/2021;S;Dolor muscular
+Chaunce;13/04/2009;Ciudad Real;JANSSEN;1.22;02/10/2021;S;Mareos-Fiebre
+Eudora;02/03/2012;Soria;MODERNA;1.31;25/11/2021;N;Mareos-Fiebre
+Chas;12/12/1981;Granada;MODERNA;1.31;29/09/2021;N;Fiebre
+Morse;10/09/1996;Burgos;MODERNA;1.31;02/12/2021;N;Mareos-Fiebre
+Barrie;23/11/1972;Murcia;ASTRAZENECA;0.97;01/10/2021;N;Mareos-Fiebre
+Callie;05/04/1976;Cuenca;MODERNA;1.31;19/03/2021;N;Dolor muscular
+Betsy;15/11/1964;Burgos;ASTRAZENECA;0.97;16/05/2021;S;Mareos-Fiebre-Dolor muscular
+Madalyn;25/05/1997;Lleida;JANSSEN;1.22;16/08/2021;N;
+Gwenny;15/12/1986;Ciudad Real;ASTRAZENECA;0.97;24/06/2021;N;Mareos-Fiebre-Dolor muscular
+Fredrika;25/10/1987;Granada;MODERNA;1.31;05/05/2021;S;Mareos-Fiebre-Dolor muscular
+Mollie;16/12/2001;València;ASTRAZENECA;0.97;22/01/2021;S;Mareos-Dolor de cabeza
+Lucky;25/11/1979;Araba;JANSSEN;1.22;24/11/2021;N;Mareos-Fiebre
+Abramo;21/10/1995;Palencia;ASTRAZENECA;0.97;27/08/2021;N;
+Cairistiona;20/01/2003;Sevilla;JANSSEN;1.22;14/10/2021;N;Mareos-Fiebre
+Miran;31/08/1979;Toledo;ASTRAZENECA;0.97;25/06/2021;N;Mareos-Fiebre-Dolor muscular
+Sallyanne;11/02/1983;Zaragoza;ASTRAZENECA;0.97;09/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Stacee;12/09/1971;Cáceres;MODERNA;1.31;29/10/2021;N;Mareos-Fiebre
+Audre;11/06/1991;Illes Balears;MODERNA;1.31;11/07/2021;N;Mareos-Fiebre-Dolor muscular
+Lynea;03/11/1983;Teruel;ASTRAZENECA;0.97;06/10/2021;N;Mareos-Fiebre
+Carleen;04/06/1964;Cádiz;ASTRAZENECA;0.97;13/03/2021;S;Dolor muscular
+Kattie;24/01/1980;Ceuta;ASTRAZENECA;0.97;23/02/2021;N;Dolor muscular
+Arluene;15/01/1951;Burgos;MODERNA;1.31;12/10/2021;S;Mareos-Fiebre
+Trever;16/07/1973;Castelló;ASTRAZENECA;0.97;09/10/2021;N;Mareos-Fiebre
+Stanley;17/06/1973;Cádiz;MODERNA;1.31;29/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Derrik;29/04/1999;Cáceres;MODERNA;1.31;15/01/2021;S;Mareos-Dolor de cabeza
+Beverley;09/08/1976;Las Palmas;JANSSEN;1.22;27/07/2021;S;Mareos-Fiebre-Dolor muscular
+Dorian;24/05/2006;Badajoz;ASTRAZENECA;0.97;19/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Daisi;07/08/1976;Barcelona;MODERNA;1.31;03/03/2021;S;Dolor muscular
+Merry;13/08/1985;Huesca;ASTRAZENECA;0.97;27/06/2021;N;Mareos-Fiebre-Dolor muscular
+Katharine;06/03/1990;Tarragona;ASTRAZENECA;0.97;16/08/2021;S;
+Read;19/01/1967;Salamanca;JANSSEN;1.22;18/05/2021;S;Mareos-Fiebre-Dolor muscular
+Jonis;26/12/1989;Ciudad Real;ASTRAZENECA;0.97;26/01/2021;N;Mareos-Dolor de cabeza
+Hamlin;26/08/2005;Huesca;ASTRAZENECA;0.97;21/03/2021;N;Dolor muscular
+Nicolea;01/07/1992;Zamora;ASTRAZENECA;0.97;23/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Ferdy;24/10/1971;Tarragona;ASTRAZENECA;0.97;17/05/2021;N;Mareos-Fiebre-Dolor muscular
+Juliette;06/09/1997;León;ASTRAZENECA;0.97;13/10/2021;S;Mareos-Fiebre
+Celestia;06/03/1951;Alacant;MODERNA;1.31;01/05/2021;N;Mareos-Fiebre-Dolor muscular
+Tann;04/03/1973;Badajoz;MODERNA;1.31;27/08/2021;N;
+Belinda;01/08/2002;Salamanca;MODERNA;1.31;20/02/2021;N;Dolor muscular
+Leontyne;05/09/1959;Ciudad Real;ASTRAZENECA;0.97;27/05/2021;S;Mareos-Fiebre-Dolor muscular
+Harland;28/01/1978;Palencia;MODERNA;1.31;07/03/2021;S;Dolor muscular
+Ambrosi;22/07/1968;Cuenca;ASTRAZENECA;0.97;25/03/2021;N;Dolor muscular
+Moria;08/07/1975;Cuenca;JANSSEN;1.22;03/02/2021;N;Dolor muscular
+Bob;26/08/1969;Illes Balears;MODERNA;1.31;08/12/2021;N;Mareos-Fiebre
+Kessia;10/06/1983;Zaragoza;JANSSEN;1.22;10/11/2021;N;Mareos-Fiebre
+Baird;31/12/2007;Lleida;ASTRAZENECA;0.97;27/07/2021;N;Mareos-Fiebre-Dolor muscular
+Haley;17/05/1985;Ciudad Real;JANSSEN;1.22;04/05/2021;N;Mareos-Fiebre-Dolor muscular
+Cayla;08/02/1974;Madrid;JANSSEN;1.22;26/06/2021;S;Mareos-Fiebre-Dolor muscular
+Brendis;21/03/1985;Guadalajara;MODERNA;1.31;13/07/2021;N;Mareos-Fiebre-Dolor muscular
+Royce;28/03/1987;Girona;JANSSEN;1.22;15/02/2021;N;Dolor muscular
+Richmond;25/11/1997;Cádiz;ASTRAZENECA;0.97;21/06/2021;N;Mareos-Fiebre-Dolor muscular
+Barrett;23/10/2006;Jaén;MODERNA;1.31;20/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Dion;31/05/1979;Huelva;ASTRAZENECA;0.97;24/06/2021;N;Mareos-Fiebre-Dolor muscular
+Hewet;30/01/1995;León;JANSSEN;1.22;25/03/2021;N;Dolor muscular
+Dukie;12/10/2000;Araba;JANSSEN;1.22;14/02/2021;S;Dolor muscular
+Netty;31/12/2003;La Rioja;ASTRAZENECA;0.97;28/02/2021;S;Dolor muscular
+Kristoffer;21/11/2002;Navarra;MODERNA;1.31;25/12/2021;N;Mareos-Fiebre
+Raquela;19/05/1973;Pontevedra;MODERNA;1.31;19/01/2021;S;Mareos-Dolor de cabeza
+Saba;08/05/1954;A Coruña;MODERNA;1.31;08/03/2021;S;Dolor muscular
+Derek;28/04/2012;Córdoba;ASTRAZENECA;0.97;02/05/2021;N;Mareos-Fiebre-Dolor muscular
+Gibby;19/06/2001;Málaga;ASTRAZENECA;0.97;20/08/2021;S;
+Elvera;18/12/1965;Ceuta;ASTRAZENECA;0.97;11/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Teodoor;21/03/2002;Burgos;MODERNA;1.31;05/05/2021;N;Mareos-Fiebre-Dolor muscular
+Ardith;01/12/1973;Asturias;ASTRAZENECA;0.97;08/12/2021;S;Mareos-Fiebre
+Charisse;16/09/2003;Lugo;ASTRAZENECA;0.97;27/08/2021;S;
+Aurelia;18/11/1953;Badajoz;MODERNA;1.31;28/01/2021;N;Mareos-Dolor de cabeza
+Catriona;24/02/1972;Lleida;MODERNA;1.31;28/07/2021;S;Mareos-Fiebre-Dolor muscular
+Sinclair;07/07/1971;Guadalajara;ASTRAZENECA;0.97;23/01/2021;S;Mareos-Dolor de cabeza
+Jessica;28/01/1983;Santa Cruz de Tenerife;ASTRAZENECA;0.97;06/09/2021;N;Fiebre
+Adrian;15/04/1998;Madrid;ASTRAZENECA;0.97;07/01/2021;S;Mareos-Dolor de cabeza
+Stafford;24/07/1975;Bizkaia;JANSSEN;1.22;02/07/2021;N;Mareos-Fiebre-Dolor muscular
+Moyra;30/04/1963;Santa Cruz de Tenerife;JANSSEN;1.22;07/08/2021;N;
+Trish;02/03/2006;Badajoz;MODERNA;1.31;24/08/2021;N;
+Darryl;08/06/1975;Córdoba;MODERNA;1.31;26/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Hermione;25/08/1955;Las Palmas;ASTRAZENECA;0.97;12/03/2021;N;Dolor muscular
+Jordain;06/11/2007;Guadalajara;MODERNA;1.31;14/03/2021;N;Dolor muscular
+Natalina;05/05/2004;Lugo;ASTRAZENECA;0.97;26/07/2021;N;Mareos-Fiebre-Dolor muscular
+David;23/09/1970;Lugo;JANSSEN;1.22;18/03/2021;N;Dolor muscular
+Westbrooke;25/04/2012;Almería;JANSSEN;1.22;03/02/2021;N;Dolor muscular
+Oswell;22/04/1999;A Coruña;MODERNA;1.31;27/07/2021;S;Mareos-Fiebre-Dolor muscular
+Galina;20/09/2008;Zamora;ASTRAZENECA;0.97;29/06/2021;N;Mareos-Fiebre-Dolor muscular
+Tedie;16/01/1960;Huesca;JANSSEN;1.22;22/10/2021;N;Mareos-Fiebre
+Corella;20/05/1970;Burgos;JANSSEN;1.22;09/02/2021;S;Dolor muscular
+Ned;04/04/1976;Tarragona;ASTRAZENECA;0.97;29/11/2021;N;Mareos-Fiebre
+Giffy;26/08/1982;Santa Cruz de Tenerife;ASTRAZENECA;0.97;05/06/2021;N;Mareos-Fiebre-Dolor muscular
+Vincent;22/12/1989;Illes Balears;ASTRAZENECA;0.97;09/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Mel;21/11/1990;Alacant;JANSSEN;1.22;05/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Bettine;01/01/1960;Guipuzcoa;ASTRAZENECA;0.97;14/12/2021;N;Mareos-Fiebre
+Nicholas;26/01/1979;Madrid;ASTRAZENECA;0.97;12/06/2021;N;Mareos-Fiebre-Dolor muscular
+Denni;29/04/2000;Castelló;MODERNA;1.31;06/06/2021;N;Mareos-Fiebre-Dolor muscular
+Zilvia;13/03/1969;Las Palmas;ASTRAZENECA;0.97;16/07/2021;N;Mareos-Fiebre-Dolor muscular
+Louella;08/02/1988;València;ASTRAZENECA;0.97;14/11/2021;N;Mareos-Fiebre
+Anthe;29/07/2004;Huelva;ASTRAZENECA;0.97;20/10/2021;S;Mareos-Fiebre
+Saxon;09/03/2003;Almería;ASTRAZENECA;0.97;17/02/2021;S;Dolor muscular
+Gloria;06/04/1978;Zamora;JANSSEN;1.22;20/03/2021;S;Dolor muscular
+Edithe;30/05/1950;Pontevedra;ASTRAZENECA;0.97;24/09/2021;N;Fiebre
+Normand;28/02/1975;Barcelona;ASTRAZENECA;0.97;25/10/2021;N;Mareos-Fiebre
+Laurianne;31/08/1956;Zamora;ASTRAZENECA;0.97;25/09/2021;S;Fiebre
+Normand;05/03/1997;Badajoz;ASTRAZENECA;0.97;31/08/2021;S;
+Tillie;10/04/1961;Guadalajara;JANSSEN;1.22;01/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Lorraine;16/10/1993;Almería;ASTRAZENECA;0.97;19/05/2021;S;Mareos-Fiebre-Dolor muscular
+Haslett;26/05/1955;A Coruña;ASTRAZENECA;0.97;30/01/2021;N;Mareos-Dolor de cabeza
+Laurice;26/02/1988;Melilla;JANSSEN;1.22;09/03/2021;S;Dolor muscular
+Buckie;28/09/2007;Madrid;ASTRAZENECA;0.97;10/02/2021;N;Dolor muscular
+Tania;02/04/1951;Bizkaia;JANSSEN;1.22;15/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Yvonne;04/06/1970;Tarragona;ASTRAZENECA;0.97;17/08/2021;N;
+Farlay;17/12/1966;León;JANSSEN;1.22;09/06/2021;N;Mareos-Fiebre-Dolor muscular
+Kirsten;05/07/1951;Asturias;MODERNA;1.31;27/02/2021;S;Dolor muscular
+Binny;28/07/1980;Guadalajara;MODERNA;1.31;30/11/2021;N;Mareos-Fiebre
+Gregorius;20/10/2009;Cuenca;ASTRAZENECA;0.97;20/08/2021;N;
+Cirstoforo;17/08/1963;Melilla;JANSSEN;1.22;25/06/2021;S;Mareos-Fiebre-Dolor muscular
+Vida;15/02/2010;Segovia;ASTRAZENECA;0.97;06/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Win;12/02/1958;Zaragoza;MODERNA;1.31;10/10/2021;S;Mareos-Fiebre
+Cornie;20/02/1963;Guadalajara;ASTRAZENECA;0.97;04/05/2021;S;Mareos-Fiebre-Dolor muscular
+Gabriello;06/01/2003;Toledo;MODERNA;1.31;04/07/2021;S;Mareos-Fiebre-Dolor muscular
+Jennifer;09/10/1969;Zaragoza;JANSSEN;1.22;06/10/2021;S;Mareos-Fiebre
+Heida;28/01/2005;Lugo;JANSSEN;1.22;21/06/2021;N;Mareos-Fiebre-Dolor muscular
+Marge;22/03/1967;Araba;ASTRAZENECA;0.97;14/06/2021;N;Mareos-Fiebre-Dolor muscular
+Diane-marie;11/07/1974;Girona;ASTRAZENECA;0.97;29/05/2021;S;Mareos-Fiebre-Dolor muscular
+Alejandrina;16/02/1996;Pontevedra;MODERNA;1.31;25/09/2021;S;Fiebre
+Lin;07/09/1986;Toledo;ASTRAZENECA;0.97;11/05/2021;N;Mareos-Fiebre-Dolor muscular
+Aksel;11/10/1998;Teruel;JANSSEN;1.22;17/11/2021;S;Mareos-Fiebre
+Sinclair;04/09/1951;Las Palmas;ASTRAZENECA;0.97;21/08/2021;S;
+Marcia;25/04/1989;Córdoba;ASTRAZENECA;0.97;24/09/2021;N;Fiebre
+Tanya;26/12/2007;Huelva;MODERNA;1.31;09/02/2021;N;Dolor muscular
+Franny;11/02/1990;Toledo;ASTRAZENECA;0.97;24/01/2021;S;Mareos-Dolor de cabeza
+Zena;22/05/1971;Guipuzcoa;JANSSEN;1.22;23/09/2021;S;Fiebre
+Kaja;29/01/1995;Lleida;JANSSEN;1.22;25/06/2021;N;Mareos-Fiebre-Dolor muscular
+Alwyn;10/07/1965;Ceuta;ASTRAZENECA;0.97;25/07/2021;N;Mareos-Fiebre-Dolor muscular
+Micheline;26/04/2005;Cádiz;ASTRAZENECA;0.97;21/07/2021;S;Mareos-Fiebre-Dolor muscular
+Meredith;07/11/1956;Palencia;ASTRAZENECA;0.97;04/01/2021;S;Mareos-Dolor de cabeza
+Angelita;01/04/1979;Cantabria;MODERNA;1.31;08/08/2021;S;
+Amil;07/08/1984;Ceuta;ASTRAZENECA;0.97;22/09/2021;N;Fiebre
+Veronique;01/04/1987;Ciudad Real;MODERNA;1.31;27/03/2021;S;Dolor muscular
+Farlee;28/01/1951;Murcia;ASTRAZENECA;0.97;25/12/2021;N;Mareos-Fiebre
+Goldarina;24/07/1985;Huesca;MODERNA;1.31;11/07/2021;N;Mareos-Fiebre-Dolor muscular
+Xylia;16/09/2008;Asturias;ASTRAZENECA;0.97;07/02/2021;S;Dolor muscular
+Kellia;22/02/1974;Castelló;ASTRAZENECA;0.97;06/02/2021;S;Dolor muscular
+Emelyne;06/05/1966;Palencia;JANSSEN;1.22;18/11/2021;N;Mareos-Fiebre
+Pierce;13/12/2002;València;MODERNA;1.31;19/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Trisha;16/10/1997;Lleida;MODERNA;1.31;08/11/2021;S;Mareos-Fiebre
+Ivette;12/07/1993;Cuenca;ASTRAZENECA;0.97;13/02/2021;N;Dolor muscular
+Claudine;22/10/2001;Pontevedra;ASTRAZENECA;0.97;27/11/2021;N;Mareos-Fiebre
+Ina;24/10/1954;Bizkaia;ASTRAZENECA;0.97;27/05/2021;S;Mareos-Fiebre-Dolor muscular
+Hirsch;23/06/2005;Jaén;MODERNA;1.31;28/12/2021;N;Mareos-Fiebre
+Nealon;04/02/1959;Asturias;JANSSEN;1.22;15/02/2021;S;Dolor muscular
+Marthena;30/07/1983;Huelva;ASTRAZENECA;0.97;05/07/2021;S;Mareos-Fiebre-Dolor muscular
+Shelby;27/08/1976;Almería;ASTRAZENECA;0.97;04/08/2021;S;
+Marylin;06/05/2006;Zamora;ASTRAZENECA;0.97;25/01/2021;S;Mareos-Dolor de cabeza
+Lorita;26/12/1966;Tarragona;ASTRAZENECA;0.97;08/07/2021;S;Mareos-Fiebre-Dolor muscular
+Junie;19/08/1993;Bizkaia;MODERNA;1.31;19/12/2021;N;Mareos-Fiebre
+Clim;15/08/1977;Ourense;JANSSEN;1.22;23/06/2021;N;Mareos-Fiebre-Dolor muscular
+Hersh;25/03/1973;Córdoba;JANSSEN;1.22;02/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Fianna;30/09/1960;Badajoz;ASTRAZENECA;0.97;15/05/2021;N;Mareos-Fiebre-Dolor muscular
+Amandie;13/01/1952;Barcelona;MODERNA;1.31;18/02/2021;N;Dolor muscular
+Catlee;29/03/1965;Araba;MODERNA;1.31;31/08/2021;N;
+Shawnee;01/08/1986;La Rioja;MODERNA;1.31;12/01/2021;N;Mareos-Dolor de cabeza
+Pierson;11/04/1966;Córdoba;JANSSEN;1.22;02/06/2021;S;Mareos-Fiebre-Dolor muscular
+Archibold;18/08/1978;València;ASTRAZENECA;0.97;03/10/2021;S;Mareos-Fiebre
+Alphard;04/08/1988;Lleida;JANSSEN;1.22;21/02/2021;N;Dolor muscular
+Margot;15/02/1957;Cuenca;PFIZER;1.4;12/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Brod;20/10/1982;Araba;PFIZER;1.4;26/12/2021;S;Mareos-Fiebre
+Alisun;17/07/1959;Tarragona;PFIZER;1.4;26/06/2021;S;Mareos-Fiebre-Dolor muscular
+Lev;17/05/1970;Melilla;PFIZER;1.4;04/11/2021;N;Mareos-Fiebre
+Ramonda;30/05/1988;Málaga;PFIZER;1.4;02/07/2021;S;Mareos-Fiebre-Dolor muscular
+Murry;19/08/1982;Ceuta;JANSSEN;1.22;28/01/2021;N;Mareos-Dolor de cabeza
+Candide;29/10/1969;Málaga;PFIZER;1.4;28/10/2021;S;Mareos-Fiebre
+Ken;02/02/1971;Jaén;MODERNA;1.31;05/12/2021;N;Mareos-Fiebre
+Merry;11/12/2006;Madrid;MODERNA;1.31;22/02/2021;S;Dolor muscular
+Judah;17/11/1967;Cantabria;MODERNA;1.31;01/12/2021;S;Mareos-Fiebre
+Lucina;31/12/1971;Teruel;PFIZER;1.4;10/08/2021;N;
+Nat;30/04/1997;Cádiz;ASTRAZENECA;0.97;17/03/2021;N;Dolor muscular
+Cathee;07/11/2002;Soria;PFIZER;1.4;25/07/2021;N;Mareos-Fiebre-Dolor muscular
+Delphinia;22/10/1950;Toledo;ASTRAZENECA;0.97;01/07/2021;S;Mareos-Fiebre-Dolor muscular
+Menard;11/08/1979;León;ASTRAZENECA;0.97;07/10/2021;N;Mareos-Fiebre
+Eal;14/03/2006;Guadalajara;PFIZER;1.4;19/09/2021;S;Fiebre
+Linnet;25/11/2001;Illes Balears;ASTRAZENECA;0.97;25/01/2021;N;Mareos-Dolor de cabeza
+Fonzie;20/05/1996;Segovia;ASTRAZENECA;0.97;12/12/2021;N;Mareos-Fiebre
+Teodora;01/06/2010;Almería;ASTRAZENECA;0.97;27/11/2021;S;Mareos-Fiebre
+Shelby;08/11/1997;Palencia;MODERNA;1.31;16/01/2021;S;Mareos-Dolor de cabeza
+Tadd;25/04/1986;A Coruña;ASTRAZENECA;0.97;30/08/2021;S;
+Klement;20/06/1964;Granada;PFIZER;1.4;26/08/2021;N;
+Mil;20/02/1993;Melilla;ASTRAZENECA;0.97;04/01/2021;S;Mareos-Dolor de cabeza
+Aylmer;03/08/2005;Jaén;PFIZER;1.4;12/07/2021;S;Mareos-Fiebre-Dolor muscular
+Esme;01/11/1952;Illes Balears;JANSSEN;1.22;16/08/2021;N;
+Loralyn;13/06/1974;Jaén;ASTRAZENECA;0.97;27/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Sunshine;20/06/1954;Illes Balears;ASTRAZENECA;0.97;03/03/2021;N;Dolor muscular
+Berkly;15/02/1991;Málaga;PFIZER;1.4;13/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Remington;29/01/1979;Ourense;MODERNA;1.31;16/01/2021;N;Mareos-Dolor de cabeza
+Frances;01/04/1962;Alacant;JANSSEN;1.22;12/05/2021;S;Mareos-Fiebre-Dolor muscular
+Jeannette;22/03/1954;Illes Balears;ASTRAZENECA;0.97;03/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Kimble;13/06/2011;Murcia;JANSSEN;1.22;15/11/2021;N;Mareos-Fiebre
+Helaine;10/04/1972;Guipuzcoa;ASTRAZENECA;0.97;02/03/2021;N;Dolor muscular
+Valle;08/11/1988;Cantabria;JANSSEN;1.22;01/11/2021;S;Mareos-Fiebre
+Hillel;11/06/1995;Bizkaia;PFIZER;1.4;05/03/2021;N;Dolor muscular
+Bale;24/10/1962;Ourense;ASTRAZENECA;0.97;13/12/2021;S;Mareos-Fiebre
+Rosaline;30/04/1955;Illes Balears;PFIZER;1.4;10/08/2021;S;
+Judas;15/10/1988;Girona;JANSSEN;1.22;30/11/2021;S;Mareos-Fiebre
+Vanessa;21/06/1963;Alacant;ASTRAZENECA;0.97;24/03/2021;S;Dolor muscular
+Lacie;20/02/1969;Pontevedra;MODERNA;1.31;17/08/2021;N;
+Liv;08/10/2000;Tarragona;MODERNA;1.31;18/01/2021;N;Mareos-Dolor de cabeza
+Abraham;11/06/1965;Navarra;MODERNA;1.31;06/11/2021;S;Mareos-Fiebre
+Siffre;03/09/1966;Madrid;ASTRAZENECA;0.97;21/01/2021;S;Mareos-Dolor de cabeza
+Ros;25/06/1978;Soria;ASTRAZENECA;0.97;14/03/2021;S;Dolor muscular
+Iosep;19/02/1958;Girona;ASTRAZENECA;0.97;30/05/2021;N;Mareos-Fiebre-Dolor muscular
+Stephi;07/02/1964;Zaragoza;JANSSEN;1.22;21/12/2021;S;Mareos-Fiebre
+Dalenna;02/11/1985;Granada;MODERNA;1.31;01/09/2021;S;Fiebre
+Maggi;13/07/2011;Barcelona;JANSSEN;1.22;02/05/2021;S;Mareos-Fiebre-Dolor muscular
+Caz;26/06/1952;León;ASTRAZENECA;0.97;07/10/2021;S;Mareos-Fiebre
+Zilvia;24/11/1982;Castelló;PFIZER;1.4;08/07/2021;N;Mareos-Fiebre-Dolor muscular
+Conroy;28/12/1961;León;MODERNA;1.31;05/08/2021;S;
+Logan;11/08/1967;Tarragona;JANSSEN;1.22;09/10/2021;N;Mareos-Fiebre
+Paco;28/05/1984;Palencia;PFIZER;1.4;20/02/2021;N;Dolor muscular
+Kimmie;01/09/1998;Ceuta;MODERNA;1.31;08/02/2021;N;Dolor muscular
+Eimile;22/09/1977;Córdoba;PFIZER;1.4;29/12/2021;S;Mareos-Fiebre
+Dom;08/07/1976;Asturias;ASTRAZENECA;0.97;06/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Traci;05/01/1953;Araba;ASTRAZENECA;0.97;24/03/2021;N;Dolor muscular
+Carree;05/04/2010;Las Palmas;PFIZER;1.4;03/05/2021;N;Mareos-Fiebre-Dolor muscular
+Helli;06/02/1958;Guadalajara;JANSSEN;1.22;08/01/2021;S;Mareos-Dolor de cabeza
+Imojean;02/07/1988;Barcelona;MODERNA;1.31;04/12/2021;S;Mareos-Fiebre
+Chelsea;31/10/1970;Asturias;ASTRAZENECA;0.97;11/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Melva;12/04/1958;Albacete;JANSSEN;1.22;02/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Marigold;06/11/1952;Las Palmas;JANSSEN;1.22;09/01/2021;N;Mareos-Dolor de cabeza
+Ansel;22/12/1970;Zaragoza;ASTRAZENECA;0.97;31/08/2021;S;
+Karl;31/07/2002;Castelló;ASTRAZENECA;0.97;06/12/2021;S;Mareos-Fiebre
+Lucita;18/12/1997;Córdoba;ASTRAZENECA;0.97;01/09/2021;S;Fiebre
+Stafford;19/10/1974;Ciudad Real;ASTRAZENECA;0.97;09/01/2021;N;Mareos-Dolor de cabeza
+Sanson;17/09/1992;Huesca;MODERNA;1.31;21/06/2021;N;Mareos-Fiebre-Dolor muscular
+Gail;12/04/1958;Lugo;ASTRAZENECA;0.97;28/11/2021;S;Mareos-Fiebre
+Carmon;30/01/1985;Murcia;JANSSEN;1.22;26/03/2021;S;Dolor muscular
+Zabrina;20/03/1983;Badajoz;MODERNA;1.31;07/06/2021;N;Mareos-Fiebre-Dolor muscular
+Cthrine;24/09/1971;Guadalajara;JANSSEN;1.22;14/06/2021;N;Mareos-Fiebre-Dolor muscular
+Gwenette;27/05/1985;Granada;ASTRAZENECA;0.97;22/02/2021;N;Dolor muscular
+Estrellita;07/08/1995;Melilla;JANSSEN;1.22;19/06/2021;N;Mareos-Fiebre-Dolor muscular
+Kelli;25/06/1989;Valladolid;ASTRAZENECA;0.97;30/09/2021;S;Fiebre
+Eyde;18/09/1979;Almería;ASTRAZENECA;0.97;02/01/2021;S;Mareos-Dolor de cabeza
+Beauregard;09/12/1991;València;MODERNA;1.31;07/08/2021;N;
+Evonne;16/09/1969;Lleida;ASTRAZENECA;0.97;01/06/2021;S;Mareos-Fiebre-Dolor muscular
+Marysa;04/03/1997;Burgos;ASTRAZENECA;0.97;16/05/2021;N;Mareos-Fiebre-Dolor muscular
+Kirby;30/08/1991;Palencia;ASTRAZENECA;0.97;11/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Keenan;04/05/2003;Ourense;MODERNA;1.31;22/07/2021;S;Mareos-Fiebre-Dolor muscular
+Lib;15/06/1968;Lugo;MODERNA;1.31;07/06/2021;S;Mareos-Fiebre-Dolor muscular
+Wildon;02/12/1968;Melilla;ASTRAZENECA;0.97;17/08/2021;S;
+Clarita;14/01/1989;Lleida;MODERNA;1.31;13/01/2021;N;Mareos-Dolor de cabeza
+Orlando;23/11/1994;Córdoba;JANSSEN;1.22;21/03/2021;S;Dolor muscular
+Madalyn;13/03/2006;Málaga;MODERNA;1.31;29/05/2021;S;Mareos-Fiebre-Dolor muscular
+Meggie;22/10/1976;Salamanca;MODERNA;1.31;14/09/2021;S;Fiebre
+Lombard;08/08/2001;Guipuzcoa;JANSSEN;1.22;07/12/2021;S;Mareos-Fiebre
+Gae;19/02/1966;Guipuzcoa;MODERNA;1.31;29/06/2021;N;Mareos-Fiebre-Dolor muscular
+Albina;11/02/2003;Bizkaia;JANSSEN;1.22;06/09/2021;S;Fiebre
+Pauly;23/10/1972;Guadalajara;JANSSEN;1.22;19/03/2021;S;Dolor muscular
+Isidore;19/03/1985;Ciudad Real;MODERNA;1.31;02/10/2021;S;Mareos-Fiebre
+Bree;18/07/1973;Segovia;MODERNA;1.31;29/07/2021;N;Mareos-Fiebre-Dolor muscular
+Imogen;14/02/2011;Granada;MODERNA;1.31;10/01/2021;S;Mareos-Dolor de cabeza
+Robinett;13/05/1975;Burgos;JANSSEN;1.22;31/07/2021;S;Mareos-Fiebre-Dolor muscular
+Rorie;09/05/1956;Zaragoza;ASTRAZENECA;0.97;05/11/2021;N;Mareos-Fiebre
+Morgen;13/04/1951;A Coruña;ASTRAZENECA;0.97;05/01/2021;N;Mareos-Dolor de cabeza
+Vlad;07/07/1950;Teruel;ASTRAZENECA;0.97;22/09/2021;N;Fiebre
+Archaimbaud;27/09/1955;Almería;JANSSEN;1.22;11/03/2021;N;Dolor muscular
+Archer;22/05/1978;Albacete;JANSSEN;1.22;09/11/2021;S;Mareos-Fiebre
+Fiorenze;29/04/1971;Cáceres;ASTRAZENECA;0.97;03/09/2021;S;Fiebre
+Wallis;08/09/1984;Huelva;MODERNA;1.31;19/01/2021;S;Mareos-Dolor de cabeza
+Haleigh;26/10/1960;Madrid;JANSSEN;1.22;08/03/2021;N;Dolor muscular
+Judie;26/10/1966;Cuenca;JANSSEN;1.22;11/03/2021;S;Dolor muscular
+Padriac;01/07/1970;Teruel;MODERNA;1.31;04/08/2021;N;
+Boony;07/10/1961;Melilla;MODERNA;1.31;10/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Merrily;27/09/1954;Granada;ASTRAZENECA;0.97;16/11/2021;S;Mareos-Fiebre
+Malina;21/02/1996;Guipuzcoa;ASTRAZENECA;0.97;18/03/2021;S;Dolor muscular
+Lanie;01/07/1986;Illes Balears;ASTRAZENECA;0.97;05/01/2021;N;Mareos-Dolor de cabeza
+Avis;07/12/1969;Las Palmas;MODERNA;1.31;17/03/2021;N;Dolor muscular
+Rube;29/07/2008;Girona;MODERNA;1.31;07/10/2021;S;Mareos-Fiebre
+Rodolfo;17/08/1962;Granada;ASTRAZENECA;0.97;06/08/2021;S;
+Faith;11/03/1971;Málaga;ASTRAZENECA;0.97;08/06/2021;S;Mareos-Fiebre-Dolor muscular
+Aigneis;13/02/1967;Ceuta;JANSSEN;1.22;11/10/2021;S;Mareos-Fiebre
+Tera;07/04/1967;Castelló;ASTRAZENECA;0.97;27/07/2021;S;Mareos-Fiebre-Dolor muscular
+Niels;09/09/1958;Cádiz;ASTRAZENECA;0.97;23/11/2021;N;Mareos-Fiebre
+Ilyssa;19/09/2005;A Coruña;PFIZER;1.4;22/12/2021;S;Mareos-Fiebre
+Natala;26/09/2006;León;ASTRAZENECA;0.97;26/01/2021;S;Mareos-Dolor de cabeza
+Marabel;12/11/1990;Huesca;PFIZER;1.4;19/06/2021;S;Mareos-Fiebre-Dolor muscular
+Zita;22/08/1952;Málaga;ASTRAZENECA;0.97;04/11/2021;S;Mareos-Fiebre
+Tye;06/06/1994;Las Palmas;PFIZER;1.4;21/09/2021;S;Fiebre
+Luci;03/08/2009;Cantabria;ASTRAZENECA;0.97;28/02/2021;S;Dolor muscular
+Kaylil;11/04/2008;Cádiz;PFIZER;1.4;22/11/2021;N;Mareos-Fiebre
+Tabatha;27/01/2001;Santa Cruz de Tenerife;MODERNA;1.31;21/12/2021;S;Mareos-Fiebre
+Glennie;27/07/1975;Melilla;PFIZER;1.4;04/09/2021;S;Fiebre
+Caldwell;13/12/1995;Zamora;JANSSEN;1.22;21/07/2021;N;Mareos-Fiebre-Dolor muscular
+Raffarty;18/09/1950;Jaén;PFIZER;1.4;19/06/2021;N;Mareos-Fiebre-Dolor muscular
+Devlen;14/05/1996;Santa Cruz de Tenerife;JANSSEN;1.22;06/07/2021;S;Mareos-Fiebre-Dolor muscular
+Hortense;16/08/1983;Almería;PFIZER;1.4;05/02/2021;S;Dolor muscular
+Sybilla;05/07/2006;Málaga;JANSSEN;1.22;17/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Forest;18/06/1980;Cádiz;JANSSEN;1.22;26/06/2021;S;Mareos-Fiebre-Dolor muscular
+Loutitia;31/01/1982;Guipuzcoa;PFIZER;1.4;14/08/2021;N;
+Shepperd;23/02/2011;Guadalajara;PFIZER;1.4;18/06/2021;S;Mareos-Fiebre-Dolor muscular
+Aili;23/02/1991;Toledo;JANSSEN;1.22;16/03/2021;S;Dolor muscular
+Ford;19/02/1981;La Rioja;JANSSEN;1.22;11/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Silvester;11/09/1984;Guadalajara;ASTRAZENECA;0.97;16/10/2021;S;Mareos-Fiebre
+Warde;15/03/1979;Las Palmas;PFIZER;1.4;11/03/2021;N;Dolor muscular
+Andie;14/01/2010;Zaragoza;JANSSEN;1.22;26/03/2021;N;Dolor muscular
+Blinny;01/10/1954;Palencia;JANSSEN;1.22;04/08/2021;N;
+Arvin;19/05/1974;Araba;ASTRAZENECA;0.97;30/06/2021;S;Mareos-Fiebre-Dolor muscular
+Nelli;16/11/1968;Huelva;ASTRAZENECA;0.97;04/09/2021;S;Fiebre
+Glenn;10/04/1984;Ceuta;JANSSEN;1.22;28/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Kirby;24/11/1963;Ourense;PFIZER;1.4;07/08/2021;N;
+Nahum;14/05/1950;León;JANSSEN;1.22;04/09/2021;N;Fiebre
+Audry;19/01/1984;Araba;ASTRAZENECA;0.97;17/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Fanchon;06/11/1953;Zamora;ASTRAZENECA;0.97;29/01/2021;N;Mareos-Dolor de cabeza
+Lonna;23/05/1956;Zaragoza;JANSSEN;1.22;27/11/2021;S;Mareos-Fiebre
+David;20/11/1973;Illes Balears;JANSSEN;1.22;21/10/2021;S;Mareos-Fiebre
+Page;24/04/1997;Huelva;ASTRAZENECA;0.97;01/06/2021;N;Mareos-Fiebre-Dolor muscular
+Auberon;13/05/1996;Araba;ASTRAZENECA;0.97;12/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Lutero;16/10/1951;Araba;MODERNA;1.31;25/02/2021;S;Dolor muscular
+Almira;17/10/1965;Palencia;MODERNA;1.31;06/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Georgia;22/02/1994;Zamora;ASTRAZENECA;0.97;18/03/2021;N;Dolor muscular
+Sullivan;19/11/1981;València;MODERNA;1.31;10/02/2021;S;Dolor muscular
+Sol;14/07/2011;Zaragoza;JANSSEN;1.22;17/07/2021;S;Mareos-Fiebre-Dolor muscular
+Jenni;19/08/1970;Cantabria;JANSSEN;1.22;09/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Jayme;08/06/1983;Lugo;MODERNA;1.31;26/11/2021;S;Mareos-Fiebre
+Leonard;01/05/1970;València;ASTRAZENECA;0.97;20/06/2021;S;Mareos-Fiebre-Dolor muscular
+Delcina;27/02/1959;Huesca;MODERNA;1.31;28/05/2021;N;Mareos-Fiebre-Dolor muscular
+Amii;18/02/2010;Las Palmas;MODERNA;1.31;10/06/2021;S;Mareos-Fiebre-Dolor muscular
+Deeyn;30/04/2001;Huelva;ASTRAZENECA;0.97;09/09/2021;N;Fiebre
+Augusto;02/04/2002;Girona;JANSSEN;1.22;14/06/2021;N;Mareos-Fiebre-Dolor muscular
+Donovan;23/12/1969;Alacant;MODERNA;1.31;09/08/2021;S;
+Irwinn;01/07/1954;Segovia;ASTRAZENECA;0.97;03/01/2021;N;Mareos-Dolor de cabeza
+Dorothee;20/03/1976;Teruel;MODERNA;1.31;24/12/2021;N;Mareos-Fiebre
+Caryn;13/06/2009;Illes Balears;JANSSEN;1.22;26/01/2021;N;Mareos-Dolor de cabeza
+Tove;17/08/1955;Sevilla;JANSSEN;1.22;23/05/2021;S;Mareos-Fiebre-Dolor muscular
+Tarrah;12/09/1996;Córdoba;MODERNA;1.31;05/02/2021;N;Dolor muscular
+Isaiah;06/02/2001;Córdoba;JANSSEN;1.22;30/06/2021;S;Mareos-Fiebre-Dolor muscular
+Killie;15/10/1995;Santa Cruz de Tenerife;ASTRAZENECA;0.97;25/09/2021;S;Fiebre
+Aland;28/09/1967;Palencia;ASTRAZENECA;0.97;28/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Skipp;22/12/1953;Málaga;JANSSEN;1.22;06/07/2021;N;Mareos-Fiebre-Dolor muscular
+Denise;25/08/2009;Albacete;PFIZER;1.4;27/02/2021;S;Dolor muscular
+Meggi;05/06/1979;Santa Cruz de Tenerife;ASTRAZENECA;0.97;17/02/2021;N;Dolor muscular
+Keeley;03/04/2011;Zamora;ASTRAZENECA;0.97;17/10/2021;N;Mareos-Fiebre
+Lishe;01/12/1957;Cáceres;PFIZER;1.4;04/12/2021;S;Mareos-Fiebre
+Liv;08/05/1960;Teruel;MODERNA;1.31;23/03/2021;N;Dolor muscular
+Pearline;04/08/1953;Murcia;MODERNA;1.31;15/01/2021;N;Mareos-Dolor de cabeza
+Aldin;10/01/1983;València;PFIZER;1.4;06/07/2021;N;Mareos-Fiebre-Dolor muscular
+Darcey;17/12/2007;Zaragoza;MODERNA;1.31;28/03/2021;N;Dolor muscular
+Adelaida;27/09/1967;A Coruña;PFIZER;1.4;14/05/2021;N;Mareos-Fiebre-Dolor muscular
+Dewain;30/10/1983;Soria;ASTRAZENECA;0.97;16/12/2021;N;Mareos-Fiebre
+Terry;18/08/2002;Ciudad Real;MODERNA;1.31;17/03/2021;S;Dolor muscular
+Elfrida;06/10/1965;Zamora;PFIZER;1.4;14/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Maryellen;04/09/1963;Almería;ASTRAZENECA;0.97;03/10/2021;N;Mareos-Fiebre
+Staford;07/02/1976;Cuenca;JANSSEN;1.22;14/07/2021;S;Mareos-Fiebre-Dolor muscular
+Ikey;18/02/1977;Córdoba;PFIZER;1.4;17/12/2021;S;Mareos-Fiebre
+Darci;22/01/2010;Las Palmas;MODERNA;1.31;08/11/2021;S;Mareos-Fiebre
+Reinold;22/02/1980;Asturias;PFIZER;1.4;02/02/2021;N;Dolor muscular
+Patton;12/05/1963;València;JANSSEN;1.22;15/07/2021;S;Mareos-Fiebre-Dolor muscular
+Fayina;01/11/2011;Las Palmas;MODERNA;1.31;08/07/2021;N;Mareos-Fiebre-Dolor muscular
+Meggi;27/06/2007;Almería;PFIZER;1.4;15/05/2021;S;Mareos-Fiebre-Dolor muscular
+Shermy;22/06/2007;Alacant;ASTRAZENECA;0.97;01/06/2021;N;Mareos-Fiebre-Dolor muscular
+Beatriz;05/10/1964;Cuenca;PFIZER;1.4;31/08/2021;S;
+Jennifer;23/10/1997;Cuenca;ASTRAZENECA;0.97;10/01/2021;S;Mareos-Dolor de cabeza
+Otis;15/10/2004;Castelló;PFIZER;1.4;29/03/2021;S;Dolor muscular
+Stearne;23/12/1971;Zaragoza;MODERNA;1.31;27/06/2021;N;Mareos-Fiebre-Dolor muscular
+Jayne;03/04/1952;León;JANSSEN;1.22;25/11/2021;S;Mareos-Fiebre
+Miles;27/10/1958;Granada;PFIZER;1.4;14/01/2021;N;Mareos-Dolor de cabeza
+Gar;27/05/1961;Santa Cruz de Tenerife;MODERNA;1.31;07/09/2021;N;Fiebre
+Nealson;25/05/1986;Jaén;ASTRAZENECA;0.97;17/03/2021;N;Dolor muscular
+Amelina;30/10/2001;Ceuta;ASTRAZENECA;0.97;20/05/2021;S;Mareos-Fiebre-Dolor muscular
+Chadd;28/05/1957;Lleida;JANSSEN;1.22;22/08/2021;N;
+Winifield;12/01/1960;Huelva;JANSSEN;1.22;06/06/2021;S;Mareos-Fiebre-Dolor muscular
+Giustino;28/12/1969;Santa Cruz de Tenerife;ASTRAZENECA;0.97;10/11/2021;N;Mareos-Fiebre
+Shay;04/12/1976;Cáceres;ASTRAZENECA;0.97;25/07/2021;N;Mareos-Fiebre-Dolor muscular
+Haskel;10/07/1982;Las Palmas;JANSSEN;1.22;26/05/2021;N;Mareos-Fiebre-Dolor muscular
+Warner;27/06/2011;Córdoba;JANSSEN;1.22;26/03/2021;N;Dolor muscular
+Randolph;09/12/1971;Barcelona;JANSSEN;1.22;19/03/2021;S;Dolor muscular
+Peggi;31/12/2011;Alacant;JANSSEN;1.22;11/08/2021;N;
+Philip;30/04/1966;Huesca;ASTRAZENECA;0.97;18/11/2021;S;Mareos-Fiebre
+Irving;29/10/1977;Barcelona;ASTRAZENECA;0.97;25/11/2021;N;Mareos-Fiebre
+Donnie;12/02/1983;Badajoz;ASTRAZENECA;0.97;13/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Nanete;10/04/1983;Salamanca;ASTRAZENECA;0.97;18/08/2021;S;
+Shepperd;13/12/1989;Pontevedra;MODERNA;1.31;14/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Benson;02/02/1990;Girona;MODERNA;1.31;10/10/2021;S;Mareos-Fiebre
+Tymothy;26/05/2005;La Rioja;MODERNA;1.31;07/12/2021;S;Mareos-Fiebre
+Stanleigh;21/10/1983;Alacant;MODERNA;1.31;01/01/2021;S;Mareos-Dolor de cabeza
+Blondie;16/10/1951;Zamora;JANSSEN;1.22;09/12/2021;S;Mareos-Fiebre
+Iolanthe;01/09/1979;Toledo;MODERNA;1.31;11/06/2021;S;Mareos-Fiebre-Dolor muscular
+Junette;25/10/1969;Jaén;ASTRAZENECA;0.97;28/10/2021;N;Mareos-Fiebre
+Gard;28/04/2012;Lugo;JANSSEN;1.22;17/09/2021;N;Fiebre
+Coretta;11/10/1991;Toledo;JANSSEN;1.22;05/01/2021;S;Mareos-Dolor de cabeza
+Rebecka;21/07/1988;Málaga;ASTRAZENECA;0.97;06/08/2021;N;
+Elmore;12/07/1978;La Rioja;JANSSEN;1.22;18/10/2021;N;Mareos-Fiebre
+Trenna;30/06/1954;Lugo;JANSSEN;1.22;13/11/2021;N;Mareos-Fiebre
+Aubrette;08/09/1996;Santa Cruz de Tenerife;JANSSEN;1.22;13/03/2021;S;Dolor muscular
+Rosmunda;10/11/1989;Albacete;ASTRAZENECA;0.97;18/02/2021;N;Dolor muscular
+Conant;26/07/1971;Asturias;MODERNA;1.31;10/03/2021;S;Dolor muscular
+Huey;05/11/2010;Teruel;JANSSEN;1.22;27/12/2021;S;Mareos-Fiebre
+Paola;09/11/2004;Sevilla;ASTRAZENECA;0.97;23/06/2021;N;Mareos-Fiebre-Dolor muscular
+Jewell;21/02/1955;Ciudad Real;JANSSEN;1.22;26/12/2021;S;Mareos-Fiebre
+Nance;24/01/2004;Asturias;MODERNA;1.31;08/07/2021;N;Mareos-Fiebre-Dolor muscular
+Anneliese;03/06/1977;Córdoba;ASTRAZENECA;0.97;16/11/2021;N;Mareos-Fiebre
+Dudley;17/11/1964;Toledo;MODERNA;1.31;25/01/2021;S;Mareos-Dolor de cabeza
+Aidan;06/03/1966;Ourense;ASTRAZENECA;0.97;13/06/2021;N;Mareos-Fiebre-Dolor muscular
+Rebecka;28/12/1953;Lleida;MODERNA;1.31;04/05/2021;N;Mareos-Fiebre-Dolor muscular
+Adolphe;21/10/1991;Córdoba;ASTRAZENECA;0.97;05/03/2021;S;Dolor muscular
+Filberto;23/07/1960;Cádiz;JANSSEN;1.22;14/01/2021;N;Mareos-Dolor de cabeza
+Lula;09/12/1962;Murcia;MODERNA;1.31;11/05/2021;N;Mareos-Fiebre-Dolor muscular
+Sibella;02/12/1950;Jaén;MODERNA;1.31;21/07/2021;S;Mareos-Fiebre-Dolor muscular
+Ianthe;25/01/1952;Guipuzcoa;JANSSEN;1.22;07/08/2021;S;
+Eddy;02/07/1981;Albacete;MODERNA;1.31;26/07/2021;N;Mareos-Fiebre-Dolor muscular
+Leonerd;14/11/1996;Ceuta;JANSSEN;1.22;09/10/2021;N;Mareos-Fiebre
+Candace;30/08/1997;Cantabria;MODERNA;1.31;10/12/2021;N;Mareos-Fiebre
+Brigida;26/06/1982;La Rioja;JANSSEN;1.22;05/07/2021;N;Mareos-Fiebre-Dolor muscular
+Marylinda;07/01/1999;Ciudad Real;ASTRAZENECA;0.97;09/08/2021;S;
+Antoni;24/10/1999;Cáceres;MODERNA;1.31;10/02/2021;N;Dolor muscular
+Rutger;26/08/1958;La Rioja;MODERNA;1.31;16/08/2021;S;
+Engracia;31/12/1978;Castelló;ASTRAZENECA;0.97;10/07/2021;N;Mareos-Fiebre-Dolor muscular
+Celene;08/06/1983;Sevilla;MODERNA;1.31;27/05/2021;N;Mareos-Fiebre-Dolor muscular
+Major;24/07/2011;València;ASTRAZENECA;0.97;14/02/2021;N;Dolor muscular
+Darice;24/08/1965;Segovia;MODERNA;1.31;24/11/2021;S;Mareos-Fiebre
+Meredith;16/08/1959;Murcia;JANSSEN;1.22;21/08/2021;S;
+Andrew;24/09/1969;Ciudad Real;MODERNA;1.31;21/10/2021;N;Mareos-Fiebre
+Bernette;09/09/1959;Burgos;MODERNA;1.31;09/11/2021;S;Mareos-Fiebre
+Ezri;13/01/1978;A Coruña;PFIZER;1.4;29/05/2021;S;Mareos-Fiebre-Dolor muscular
+Patin;05/10/1974;Teruel;ASTRAZENECA;0.97;05/11/2021;N;Mareos-Fiebre
+Aleta;18/08/2004;València;PFIZER;1.4;28/12/2021;N;Mareos-Fiebre
+Maude;29/09/1998;Albacete;MODERNA;1.31;24/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Aviva;05/07/1962;Guadalajara;PFIZER;1.4;10/09/2021;S;Fiebre
+Mallissa;17/07/2007;València;MODERNA;1.31;07/11/2021;S;Mareos-Fiebre
+Orel;21/10/1951;Lleida;ASTRAZENECA;0.97;11/12/2021;N;Mareos-Fiebre
+Jerome;22/02/1965;Córdoba;PFIZER;1.4;17/07/2021;S;Mareos-Fiebre-Dolor muscular
+Zelda;10/08/1990;Castelló;MODERNA;1.31;01/10/2021;S;Mareos-Fiebre
+Marijo;30/08/1965;Cáceres;ASTRAZENECA;0.97;25/06/2021;S;Mareos-Fiebre-Dolor muscular
+Camey;29/11/1976;Soria;MODERNA;1.31;25/11/2021;N;Mareos-Fiebre
+Walden;30/04/1956;Burgos;PFIZER;1.4;30/03/2021;N;Dolor muscular
+Billy;01/06/1971;Lugo;ASTRAZENECA;0.97;25/03/2021;S;Dolor muscular
+Odelinda;09/12/1968;Sevilla;JANSSEN;1.22;24/06/2021;N;Mareos-Fiebre-Dolor muscular
+Blithe;12/08/1960;Murcia;PFIZER;1.4;24/01/2021;N;Mareos-Dolor de cabeza
+Ag;07/11/2002;Ceuta;JANSSEN;1.22;24/10/2021;S;Mareos-Fiebre
+Marianna;15/04/2004;Asturias;PFIZER;1.4;08/07/2021;N;Mareos-Fiebre-Dolor muscular
+Kory;21/01/1962;Cuenca;JANSSEN;1.22;28/09/2021;S;Fiebre
+Jacquenette;31/07/2004;Huelva;PFIZER;1.4;05/12/2021;N;Mareos-Fiebre
+Laurena;01/07/1961;Valladolid;ASTRAZENECA;0.97;17/08/2021;N;
+Zola;04/08/2010;Granada;ASTRAZENECA;0.97;27/06/2021;N;Mareos-Fiebre-Dolor muscular
+Phylys;27/08/1999;Barcelona;PFIZER;1.4;25/08/2021;S;
+Christy;31/07/2002;Madrid;MODERNA;1.31;08/02/2021;N;Dolor muscular
+Guthry;22/10/1970;Salamanca;ASTRAZENECA;0.97;09/03/2021;N;Dolor muscular
+Mead;06/10/1980;Madrid;ASTRAZENECA;0.97;23/05/2021;S;Mareos-Fiebre-Dolor muscular
+Prent;21/07/1980;Barcelona;ASTRAZENECA;0.97;30/05/2021;N;Mareos-Fiebre-Dolor muscular
+Moira;11/08/2007;Illes Balears;ASTRAZENECA;0.97;22/07/2021;S;Mareos-Fiebre-Dolor muscular
+Rogerio;21/06/2009;Murcia;ASTRAZENECA;0.97;29/05/2021;S;Mareos-Fiebre-Dolor muscular
+Annadiana;20/10/1959;La Rioja;PFIZER;1.4;24/06/2021;N;Mareos-Fiebre-Dolor muscular
+Jemimah;13/06/1985;Valladolid;MODERNA;1.31;10/09/2021;N;Fiebre
+Danyelle;20/09/1986;Murcia;JANSSEN;1.22;16/09/2021;S;Fiebre
+Anallese;24/10/1968;Las Palmas;JANSSEN;1.22;15/11/2021;S;Mareos-Fiebre
+Eleen;02/07/1967;Cádiz;ASTRAZENECA;0.97;01/08/2021;S;
+Gregory;17/08/1982;Teruel;MODERNA;1.31;14/08/2021;N;
+Nicky;30/12/1953;Segovia;PFIZER;1.4;05/06/2021;N;Mareos-Fiebre-Dolor muscular
+Nikaniki;01/06/1965;Burgos;JANSSEN;1.22;21/05/2021;N;Mareos-Fiebre-Dolor muscular
+Tilda;16/10/1964;Córdoba;ASTRAZENECA;0.97;18/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Melita;01/02/1966;Guadalajara;JANSSEN;1.22;27/11/2021;S;Mareos-Fiebre
+Gaultiero;04/11/1980;Santa Cruz de Tenerife;JANSSEN;1.22;27/05/2021;N;Mareos-Fiebre-Dolor muscular
+Tuesday;12/07/1962;Girona;PFIZER;1.4;02/05/2021;N;Mareos-Fiebre-Dolor muscular
+Tandie;14/01/1999;Ciudad Real;MODERNA;1.31;09/07/2021;S;Mareos-Fiebre-Dolor muscular
+Concettina;25/05/1973;Huelva;ASTRAZENECA;0.97;03/09/2021;S;Fiebre
+Kelsey;26/10/1991;Ceuta;MODERNA;1.31;30/09/2021;S;Fiebre
+Clyve;03/02/1976;Illes Balears;ASTRAZENECA;0.97;18/03/2021;N;Dolor muscular
+Price;12/06/1965;Soria;MODERNA;1.31;02/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Keefe;02/12/1963;Toledo;JANSSEN;1.22;08/02/2021;N;Dolor muscular
+Alleyn;18/01/1959;Cádiz;MODERNA;1.31;27/05/2021;N;Mareos-Fiebre-Dolor muscular
+Andras;27/12/1968;Guipuzcoa;MODERNA;1.31;04/06/2021;S;Mareos-Fiebre-Dolor muscular
+Nate;23/08/1950;Madrid;ASTRAZENECA;0.97;05/12/2021;S;Mareos-Fiebre
+Babette;25/09/1967;Huelva;JANSSEN;1.22;05/01/2021;N;Mareos-Dolor de cabeza
+Melisandra;28/03/1984;León;JANSSEN;1.22;21/12/2021;N;Mareos-Fiebre
+Floyd;16/12/1956;Lugo;PFIZER;1.4;02/07/2021;N;Mareos-Fiebre-Dolor muscular
+Beilul;21/07/2007;Huesca;JANSSEN;1.22;18/12/2021;S;Mareos-Fiebre
+Stephen;12/08/1991;Santa Cruz de Tenerife;ASTRAZENECA;0.97;13/03/2021;S;Dolor muscular
+Gilly;25/05/1964;Asturias;PFIZER;1.4;09/09/2021;N;Fiebre
+Guillemette;04/12/1986;Burgos;JANSSEN;1.22;21/03/2021;S;Dolor muscular
+Nancey;22/04/1970;Lugo;ASTRAZENECA;0.97;04/10/2021;N;Mareos-Fiebre
+Olenka;01/05/1995;Asturias;JANSSEN;1.22;23/08/2021;S;
+Michaeline;23/10/1961;Melilla;ASTRAZENECA;0.97;29/12/2021;N;Mareos-Fiebre
+Ignacio;05/11/1992;Granada;PFIZER;1.4;05/10/2021;S;Mareos-Fiebre
+Gilburt;11/04/1969;Palencia;PFIZER;1.4;23/05/2021;S;Mareos-Fiebre-Dolor muscular
+Desmond;01/08/1980;Huesca;ASTRAZENECA;0.97;04/10/2021;N;Mareos-Fiebre
+Harold;17/06/1995;Araba;PFIZER;1.4;27/03/2021;N;Dolor muscular
+Sharron;31/01/1961;Castelló;ASTRAZENECA;0.97;15/11/2021;S;Mareos-Fiebre
+Lanny;25/12/1955;Toledo;ASTRAZENECA;0.97;04/01/2021;S;Mareos-Dolor de cabeza
+Chester;09/11/1968;Barcelona;JANSSEN;1.22;23/11/2021;S;Mareos-Fiebre
+Jamie;11/04/2012;València;JANSSEN;1.22;03/02/2021;S;Dolor muscular
+Bellina;30/05/2002;Granada;ASTRAZENECA;0.97;26/02/2021;N;Dolor muscular
+Estella;05/02/1971;La Rioja;ASTRAZENECA;0.97;06/02/2021;N;Dolor muscular
+Shadow;02/01/2008;Madrid;ASTRAZENECA;0.97;23/08/2021;S;
+Anson;09/12/1977;Albacete;ASTRAZENECA;0.97;11/09/2021;S;Fiebre
+Saundra;13/03/1954;Burgos;ASTRAZENECA;0.97;15/01/2021;N;Mareos-Dolor de cabeza
+Farris;16/05/1961;Cádiz;ASTRAZENECA;0.97;31/03/2021;N;Dolor muscular
+Zachariah;04/08/1996;Guadalajara;JANSSEN;1.22;13/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Parker;19/12/1963;Burgos;ASTRAZENECA;0.97;19/08/2021;N;
+Libbey;04/12/1965;Guipuzcoa;JANSSEN;1.22;16/12/2021;S;Mareos-Fiebre
+Carlyle;08/02/1990;Girona;JANSSEN;1.22;07/10/2021;N;Mareos-Fiebre
+Lonee;23/09/1963;Palencia;ASTRAZENECA;0.97;22/02/2021;N;Dolor muscular
+Donnie;16/07/1988;Asturias;JANSSEN;1.22;20/05/2021;S;Mareos-Fiebre-Dolor muscular
+Nicol;04/08/1986;Sevilla;ASTRAZENECA;0.97;25/08/2021;N;
+Charley;06/12/1975;La Rioja;JANSSEN;1.22;07/01/2021;S;Mareos-Dolor de cabeza
+Dorthea;28/03/2005;Granada;ASTRAZENECA;0.97;26/12/2021;N;Mareos-Fiebre
+Wally;13/07/1961;Salamanca;ASTRAZENECA;0.97;22/01/2021;N;Mareos-Dolor de cabeza
+Tomasina;12/08/1972;Madrid;ASTRAZENECA;0.97;17/10/2021;N;Mareos-Fiebre
+Tallia;12/02/2001;Araba;MODERNA;1.31;15/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Margi;26/08/1961;Teruel;ASTRAZENECA;0.97;10/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Jewel;26/01/1994;Soria;MODERNA;1.31;02/02/2021;N;Dolor muscular
+Brod;12/01/1981;Albacete;ASTRAZENECA;0.97;22/10/2021;S;Mareos-Fiebre
+Tadeo;31/07/1954;Toledo;MODERNA;1.31;09/06/2021;N;Mareos-Fiebre-Dolor muscular
+Chauncey;09/09/2002;Illes Balears;JANSSEN;1.22;26/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Maddy;01/08/1951;Cuenca;ASTRAZENECA;0.97;28/06/2021;S;Mareos-Fiebre-Dolor muscular
+Fayth;06/03/1976;Cáceres;ASTRAZENECA;0.97;18/07/2021;S;Mareos-Fiebre-Dolor muscular
+Wallache;05/01/1983;Segovia;ASTRAZENECA;0.97;10/02/2021;N;Dolor muscular
+Traci;07/03/1971;València;ASTRAZENECA;0.97;09/10/2021;N;Mareos-Fiebre
+Melba;19/01/1961;Bizkaia;ASTRAZENECA;0.97;03/01/2021;S;Mareos-Dolor de cabeza
+Jocelyne;27/04/1969;Pontevedra;ASTRAZENECA;0.97;27/09/2021;S;Fiebre
+Elias;04/02/1980;Toledo;JANSSEN;1.22;21/10/2021;N;Mareos-Fiebre
+Ursula;27/12/1990;Salamanca;MODERNA;1.31;05/05/2021;S;Mareos-Fiebre-Dolor muscular
+Allyce;06/10/1982;Cuenca;ASTRAZENECA;0.97;19/05/2021;S;Mareos-Fiebre-Dolor muscular
+Charis;31/01/1955;Cáceres;ASTRAZENECA;0.97;06/07/2021;S;Mareos-Fiebre-Dolor muscular
+Perrine;01/10/1953;Illes Balears;JANSSEN;1.22;17/11/2021;N;Mareos-Fiebre
+Hali;06/02/2000;Cuenca;ASTRAZENECA;0.97;15/06/2021;S;Mareos-Fiebre-Dolor muscular
+Tani;02/09/2007;Lugo;JANSSEN;1.22;12/10/2021;S;Mareos-Fiebre
+Ware;29/06/2009;Lleida;ASTRAZENECA;0.97;24/10/2021;N;Mareos-Fiebre
+Fairleigh;24/10/2003;València;JANSSEN;1.22;03/10/2021;S;Mareos-Fiebre
+Edithe;19/01/1997;Girona;MODERNA;1.31;09/03/2021;N;Dolor muscular
+Shaylynn;24/06/1978;Barcelona;ASTRAZENECA;0.97;29/03/2021;S;Dolor muscular
+Sydel;31/05/1977;Pontevedra;MODERNA;1.31;21/10/2021;N;Mareos-Fiebre
+Gabbie;15/12/1986;Granada;MODERNA;1.31;26/02/2021;S;Dolor muscular
+Reine;04/01/2010;Salamanca;MODERNA;1.31;19/10/2021;S;Mareos-Fiebre
+Luca;09/10/1973;Illes Balears;ASTRAZENECA;0.97;30/06/2021;N;Mareos-Fiebre-Dolor muscular
+Kirsten;03/05/1969;Madrid;ASTRAZENECA;0.97;26/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Humbert;11/04/1991;Melilla;JANSSEN;1.22;31/12/2021;N;Mareos-Fiebre
+Lexy;03/05/1966;Cádiz;ASTRAZENECA;0.97;24/11/2021;N;Mareos-Fiebre
+Tamera;27/08/1984;Granada;ASTRAZENECA;0.97;13/11/2021;N;Mareos-Fiebre
+Kenny;30/09/1958;Guadalajara;JANSSEN;1.22;13/12/2021;S;Mareos-Fiebre
+Pate;10/10/1962;Madrid;MODERNA;1.31;02/12/2021;S;Mareos-Fiebre
+Allister;13/05/1999;La Rioja;MODERNA;1.31;12/05/2021;N;Mareos-Fiebre-Dolor muscular
+Debi;17/03/1953;Cáceres;JANSSEN;1.22;14/01/2021;N;Mareos-Dolor de cabeza
+Keene;27/12/1979;Melilla;JANSSEN;1.22;24/01/2021;S;Mareos-Dolor de cabeza
+Alric;01/04/2010;Cuenca;MODERNA;1.31;16/09/2021;N;Fiebre
+Lorene;26/02/1997;Palencia;MODERNA;1.31;15/12/2021;S;Mareos-Fiebre
+Myron;18/07/1950;Illes Balears;ASTRAZENECA;0.97;10/03/2021;S;Dolor muscular
+Shea;28/09/1986;Córdoba;MODERNA;1.31;01/01/2021;S;Mareos-Dolor de cabeza
+Ardenia;20/09/1962;Cuenca;JANSSEN;1.22;11/01/2021;S;Mareos-Dolor de cabeza
+Hunfredo;17/07/1973;Salamanca;MODERNA;1.31;31/08/2021;N;
+Farlay;08/03/1968;Almería;ASTRAZENECA;0.97;21/12/2021;S;Mareos-Fiebre
+Hughie;14/04/1996;León;ASTRAZENECA;0.97;05/07/2021;N;Mareos-Fiebre-Dolor muscular
+Andrus;11/11/1959;Melilla;ASTRAZENECA;0.97;22/02/2021;S;Dolor muscular
+Sigfrid;22/05/1951;Sevilla;ASTRAZENECA;0.97;02/09/2021;N;Fiebre
+Abbie;24/07/2006;Cáceres;MODERNA;1.31;18/09/2021;S;Fiebre
+Shena;18/01/2004;Ceuta;MODERNA;1.31;10/03/2021;N;Dolor muscular
+Rickie;19/09/1994;Lugo;MODERNA;1.31;28/10/2021;S;Mareos-Fiebre
+Atlante;23/12/1992;Badajoz;JANSSEN;1.22;06/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Ettore;09/05/1968;Pontevedra;JANSSEN;1.22;18/02/2021;N;Dolor muscular
+Estell;07/06/2005;Murcia;JANSSEN;1.22;23/05/2021;N;Mareos-Fiebre-Dolor muscular
+Keriann;15/07/1996;Córdoba;ASTRAZENECA;0.97;07/11/2021;N;Mareos-Fiebre
+Archibaldo;04/07/1994;Alacant;ASTRAZENECA;0.97;02/08/2021;N;
+Sal;14/07/1956;Badajoz;MODERNA;1.31;20/09/2021;S;Fiebre
+Laurene;04/12/2010;Zaragoza;ASTRAZENECA;0.97;07/06/2021;N;Mareos-Fiebre-Dolor muscular
+Cheri;08/07/2011;Jaén;ASTRAZENECA;0.97;09/01/2021;N;Mareos-Dolor de cabeza
+Paulo;13/04/1962;Melilla;ASTRAZENECA;0.97;26/09/2021;S;Fiebre
+Gertrud;12/06/2003;Toledo;ASTRAZENECA;0.97;06/11/2021;S;Mareos-Fiebre
+Ira;06/01/2005;Sevilla;ASTRAZENECA;0.97;26/06/2021;S;Mareos-Fiebre-Dolor muscular
+Ashley;21/10/1983;Tarragona;ASTRAZENECA;0.97;18/11/2021;S;Mareos-Fiebre
+Raddy;31/12/2006;Tarragona;ASTRAZENECA;0.97;11/10/2021;S;Mareos-Fiebre
+Lisabeth;01/08/1991;Ourense;ASTRAZENECA;0.97;19/12/2021;S;Mareos-Fiebre
+Collie;02/02/1979;Murcia;ASTRAZENECA;0.97;08/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Francoise;15/08/1967;Palencia;MODERNA;1.31;10/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Kris;16/04/1999;A Coruña;ASTRAZENECA;0.97;22/10/2021;N;Mareos-Fiebre
+Delilah;12/05/1980;Cantabria;JANSSEN;1.22;03/05/2021;N;Mareos-Fiebre-Dolor muscular
+Klaus;29/09/1971;Alacant;MODERNA;1.31;28/08/2021;S;
+Alfons;31/10/2007;Cádiz;MODERNA;1.31;30/08/2021;N;
+Andreas;06/01/1955;Murcia;ASTRAZENECA;0.97;29/06/2021;S;Mareos-Fiebre-Dolor muscular
+Blinnie;24/07/1982;Sevilla;ASTRAZENECA;0.97;19/03/2021;S;Dolor muscular
+Heidi;17/09/1978;Almería;ASTRAZENECA;0.97;04/05/2021;S;Mareos-Fiebre-Dolor muscular
+Nancy;05/09/1961;Toledo;MODERNA;1.31;21/07/2021;S;Mareos-Fiebre-Dolor muscular
+Kare;27/03/2007;Murcia;JANSSEN;1.22;27/11/2021;N;Mareos-Fiebre
+Marthe;02/05/1954;Murcia;JANSSEN;1.22;19/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Gardy;29/01/1952;A Coruña;ASTRAZENECA;0.97;23/05/2021;S;Mareos-Fiebre-Dolor muscular
+Dean;06/05/1995;Zamora;ASTRAZENECA;0.97;11/10/2021;S;Mareos-Fiebre
+Aldrich;01/11/1988;Cádiz;ASTRAZENECA;0.97;02/10/2021;S;Mareos-Fiebre
+Ignace;22/04/1998;Zaragoza;MODERNA;1.31;25/02/2021;N;Dolor muscular
+Athene;08/02/2007;Teruel;ASTRAZENECA;0.97;01/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Conrado;25/09/1960;Castelló;JANSSEN;1.22;04/02/2021;S;Dolor muscular
+Emelia;16/08/1971;Cantabria;JANSSEN;1.22;10/01/2021;S;Mareos-Dolor de cabeza
+Tracy;15/05/1997;Badajoz;ASTRAZENECA;0.97;13/11/2021;S;Mareos-Fiebre
+Kinnie;18/12/2003;Málaga;JANSSEN;1.22;28/02/2021;N;Dolor muscular
+Uriah;15/04/1963;Burgos;ASTRAZENECA;0.97;05/01/2021;S;Mareos-Dolor de cabeza
+Marshall;17/07/1990;A Coruña;ASTRAZENECA;0.97;15/03/2021;N;Dolor muscular
+Brandtr;19/04/1997;Asturias;ASTRAZENECA;0.97;10/12/2021;S;Mareos-Fiebre
+Amory;10/09/1972;Málaga;JANSSEN;1.22;25/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Davide;07/11/2009;Asturias;ASTRAZENECA;0.97;08/05/2021;S;Mareos-Fiebre-Dolor muscular
+Allayne;17/02/1966;Araba;ASTRAZENECA;0.97;09/08/2021;N;
+Vinny;16/06/1960;Albacete;ASTRAZENECA;0.97;14/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Fredi;11/11/1978;Cantabria;ASTRAZENECA;0.97;18/07/2021;S;Mareos-Fiebre-Dolor muscular
+Maegan;26/12/1994;Teruel;MODERNA;1.31;28/12/2021;S;Mareos-Fiebre
+Gloriane;25/06/1974;Guadalajara;MODERNA;1.31;17/12/2021;S;Mareos-Fiebre
+Halley;18/04/1981;Salamanca;JANSSEN;1.22;23/07/2021;S;Mareos-Fiebre-Dolor muscular
+Mohandis;10/04/1978;Segovia;ASTRAZENECA;0.97;08/07/2021;S;Mareos-Fiebre-Dolor muscular
+Drusie;08/04/1960;Badajoz;ASTRAZENECA;0.97;24/12/2021;S;Mareos-Fiebre
+Solly;15/08/2002;Burgos;MODERNA;1.31;06/07/2021;N;Mareos-Fiebre-Dolor muscular
+Trev;08/02/2003;Cádiz;ASTRAZENECA;0.97;01/01/2021;N;Mareos-Dolor de cabeza
+Padraig;12/04/1994;Lleida;MODERNA;1.31;21/08/2021;S;
+Devlin;08/05/1983;León;JANSSEN;1.22;13/06/2021;S;Mareos-Fiebre-Dolor muscular
+Rowland;25/11/2006;Tarragona;ASTRAZENECA;0.97;28/02/2021;N;Dolor muscular
+Kort;12/04/1991;Segovia;MODERNA;1.31;23/01/2021;S;Mareos-Dolor de cabeza
+Florence;13/12/1962;Las Palmas;ASTRAZENECA;0.97;10/09/2021;N;Fiebre
+Dione;04/03/1989;Palencia;ASTRAZENECA;0.97;15/05/2021;S;Mareos-Fiebre-Dolor muscular
+Cass;28/12/2001;Almería;ASTRAZENECA;0.97;24/03/2021;S;Dolor muscular
+Devlen;10/12/1985;Lleida;MODERNA;1.31;04/11/2021;S;Mareos-Fiebre
+Panchito;15/02/1958;Albacete;MODERNA;1.31;25/01/2021;S;Mareos-Dolor de cabeza
+Skippie;06/08/1964;Lleida;ASTRAZENECA;0.97;31/08/2021;N;
+Moyna;11/09/1962;Palencia;ASTRAZENECA;0.97;18/07/2021;S;Mareos-Fiebre-Dolor muscular
+Aleece;20/06/1989;Asturias;JANSSEN;1.22;19/11/2021;S;Mareos-Fiebre
+Myrlene;06/09/2000;Cuenca;JANSSEN;1.22;12/08/2021;S;
+Flori;02/02/1969;Las Palmas;JANSSEN;1.22;26/03/2021;S;Dolor muscular
+Wynn;09/01/1967;Valladolid;ASTRAZENECA;0.97;23/02/2021;S;Dolor muscular
+Denys;07/04/1984;Huelva;MODERNA;1.31;08/07/2021;S;Mareos-Fiebre-Dolor muscular
+Antony;27/12/1999;Girona;ASTRAZENECA;0.97;19/07/2021;S;Mareos-Fiebre-Dolor muscular
+Bird;03/05/2010;Cáceres;JANSSEN;1.22;02/06/2021;N;Mareos-Fiebre-Dolor muscular
+Waldon;02/12/1964;Albacete;JANSSEN;1.22;22/07/2021;S;Mareos-Fiebre-Dolor muscular
+Amerigo;27/04/1979;Badajoz;JANSSEN;1.22;15/08/2021;S;
+Dal;09/11/1996;La Rioja;ASTRAZENECA;0.97;21/09/2021;N;Fiebre
+Hy;03/09/1997;Cáceres;MODERNA;1.31;04/11/2021;N;Mareos-Fiebre
+Beulah;06/11/2011;Ceuta;MODERNA;1.31;25/10/2021;N;Mareos-Fiebre
+Nisse;08/03/1980;Santa Cruz de Tenerife;ASTRAZENECA;0.97;11/08/2021;N;
+Gwendolen;10/12/1990;Almería;ASTRAZENECA;0.97;02/01/2021;S;Mareos-Dolor de cabeza
+Fanechka;07/03/2002;Navarra;MODERNA;1.31;07/06/2021;S;Mareos-Fiebre-Dolor muscular
+Simmonds;16/10/1999;València;ASTRAZENECA;0.97;12/10/2021;N;Mareos-Fiebre
+Kelila;08/12/1994;València;ASTRAZENECA;0.97;04/10/2021;S;Mareos-Fiebre
+Linell;29/02/2000;Illes Balears;ASTRAZENECA;0.97;01/05/2021;N;Mareos-Fiebre-Dolor muscular
+Barrett;04/04/1955;Alacant;MODERNA;1.31;27/11/2021;N;Mareos-Fiebre
+Doria;24/04/2006;Badajoz;ASTRAZENECA;0.97;19/12/2021;N;Mareos-Fiebre
+Delphine;19/12/1973;Salamanca;JANSSEN;1.22;04/05/2021;S;Mareos-Fiebre-Dolor muscular
+Padraig;01/01/1972;Navarra;JANSSEN;1.22;11/08/2021;N;
+Hayley;04/01/1983;Las Palmas;ASTRAZENECA;0.97;10/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Vale;26/04/1981;Madrid;ASTRAZENECA;0.97;24/02/2021;S;Dolor muscular
+Jaquith;11/09/1992;Ceuta;JANSSEN;1.22;25/01/2021;S;Mareos-Dolor de cabeza
+Leon;10/09/1976;Ceuta;MODERNA;1.31;23/09/2021;S;Fiebre
+Alisun;02/10/2003;Guipuzcoa;JANSSEN;1.22;12/12/2021;S;Mareos-Fiebre
+Belia;07/04/1960;Albacete;ASTRAZENECA;0.97;23/11/2021;S;Mareos-Fiebre
+Art;23/04/1986;Navarra;MODERNA;1.31;14/11/2021;S;Mareos-Fiebre
+Germain;23/05/1993;Guadalajara;JANSSEN;1.22;08/11/2021;N;Mareos-Fiebre
+Curcio;17/09/1990;Salamanca;ASTRAZENECA;0.97;07/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Russell;29/10/1982;Melilla;MODERNA;1.31;18/07/2021;N;Mareos-Fiebre-Dolor muscular
+Carolan;06/06/1975;Cáceres;ASTRAZENECA;0.97;14/12/2021;S;Mareos-Fiebre
+Osbourn;21/03/1952;Pontevedra;ASTRAZENECA;0.97;26/01/2021;S;Mareos-Dolor de cabeza
+Bellanca;14/05/1961;Granada;ASTRAZENECA;0.97;11/12/2021;N;Mareos-Fiebre
+Samuele;14/08/2010;Zaragoza;JANSSEN;1.22;29/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Anthea;21/06/1992;Cantabria;JANSSEN;1.22;23/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Vanya;13/10/1982;Murcia;MODERNA;1.31;05/08/2021;N;
+Nessie;23/11/1989;Pontevedra;ASTRAZENECA;0.97;01/08/2021;S;
+Herman;29/07/1972;Lleida;ASTRAZENECA;0.97;07/07/2021;N;Mareos-Fiebre-Dolor muscular
+Barnabe;19/07/1985;Segovia;MODERNA;1.31;05/02/2021;S;Dolor muscular
+Ingelbert;13/07/1985;Huesca;JANSSEN;1.22;22/06/2021;N;Mareos-Fiebre-Dolor muscular
+Westbrooke;01/09/2011;Ciudad Real;ASTRAZENECA;0.97;24/03/2021;N;Dolor muscular
+Luelle;15/11/1955;Burgos;JANSSEN;1.22;19/10/2021;S;Mareos-Fiebre
+Alick;05/10/2007;Pontevedra;ASTRAZENECA;0.97;26/10/2021;S;Mareos-Fiebre
+Thorn;15/04/1998;Navarra;ASTRAZENECA;0.97;25/05/2021;S;Mareos-Fiebre-Dolor muscular
+Isaiah;10/05/1974;Murcia;MODERNA;1.31;11/01/2021;N;Mareos-Dolor de cabeza
+Lela;30/03/1988;Albacete;MODERNA;1.31;16/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Codie;04/04/1973;Melilla;MODERNA;1.31;26/09/2021;N;Fiebre
+Chandra;11/06/1969;Huelva;ASTRAZENECA;0.97;13/05/2021;S;Mareos-Fiebre-Dolor muscular
+Jasmine;14/05/2011;Ciudad Real;ASTRAZENECA;0.97;18/09/2021;N;Fiebre
+Everard;08/04/1969;Tarragona;ASTRAZENECA;0.97;11/03/2021;S;Dolor muscular
+Frederich;07/05/2010;Lleida;MODERNA;1.31;23/06/2021;N;Mareos-Fiebre-Dolor muscular
+Isabelita;21/07/2002;Cuenca;JANSSEN;1.22;26/10/2021;S;Mareos-Fiebre
+Sara;15/05/1969;A Coruña;ASTRAZENECA;0.97;07/03/2021;N;Dolor muscular
+Rouvin;23/09/1988;Jaén;MODERNA;1.31;07/05/2021;N;Mareos-Fiebre-Dolor muscular
+Adel;01/03/1994;Castelló;ASTRAZENECA;0.97;13/03/2021;S;Dolor muscular
+Brockie;23/09/1961;València;MODERNA;1.31;04/07/2021;S;Mareos-Fiebre-Dolor muscular
+Cristionna;15/03/2010;Jaén;ASTRAZENECA;0.97;02/07/2021;S;Mareos-Fiebre-Dolor muscular
+Costanza;11/12/1983;Alacant;ASTRAZENECA;0.97;13/09/2021;N;Fiebre
+Conrad;24/10/1950;Zaragoza;ASTRAZENECA;0.97;01/12/2021;N;Mareos-Fiebre
+Tiphanie;04/04/1995;Lleida;ASTRAZENECA;0.97;17/04/2021;N;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Parke;07/09/2005;Lleida;ASTRAZENECA;0.97;27/01/2021;N;Mareos-Dolor de cabeza
+Roderick;07/03/2010;Segovia;JANSSEN;1.22;26/09/2021;N;Fiebre
+Carolus;23/05/1961;Navarra;MODERNA;1.31;18/11/2021;S;Mareos-Fiebre
+Terese;24/12/2008;Cuenca;JANSSEN;1.22;12/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Margit;19/04/1985;Illes Balears;ASTRAZENECA;0.97;31/05/2021;N;Mareos-Fiebre-Dolor muscular
+Hermine;07/09/1973;Melilla;ASTRAZENECA;0.97;01/08/2021;S;
+Pier;22/01/1970;Tarragona;MODERNA;1.31;28/10/2021;N;Mareos-Fiebre
+Sabina;17/10/2008;Cáceres;ASTRAZENECA;0.97;16/02/2021;N;Dolor muscular
+Corrina;30/03/2002;Pontevedra;ASTRAZENECA;0.97;06/12/2021;N;Mareos-Fiebre
+Yelena;05/03/2011;Cantabria;MODERNA;1.31;30/12/2021;S;Mareos-Fiebre
+Ernaline;10/07/2002;Albacete;MODERNA;1.31;12/10/2021;N;Mareos-Fiebre
+Hedvige;29/07/1998;Jaén;MODERNA;1.31;11/11/2021;N;Mareos-Fiebre
+Julina;15/02/1990;Ourense;JANSSEN;1.22;02/10/2021;N;Mareos-Fiebre
+Torry;27/10/2009;Ceuta;MODERNA;1.31;30/01/2021;S;Mareos-Dolor de cabeza
+Lesya;17/07/1987;Guadalajara;MODERNA;1.31;08/12/2021;S;Mareos-Fiebre
+Maddy;04/07/1988;Murcia;JANSSEN;1.22;08/09/2021;S;Fiebre
+Nelia;10/02/1971;Soria;ASTRAZENECA;0.97;11/05/2021;N;Mareos-Fiebre-Dolor muscular
+Jarrett;02/06/1981;Asturias;JANSSEN;1.22;28/12/2021;S;Mareos-Fiebre
+Saundra;29/11/2007;Madrid;MODERNA;1.31;04/06/2021;S;Mareos-Fiebre-Dolor muscular
+Moe;01/09/1975;Cuenca;ASTRAZENECA;0.97;19/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Leann;30/07/1979;Córdoba;PFIZER;1.4;19/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Hirsch;05/04/2008;Santa Cruz de Tenerife;ASTRAZENECA;0.97;14/06/2021;N;Mareos-Fiebre-Dolor muscular
+Kingston;15/11/1957;A Coruña;PFIZER;1.4;09/09/2021;N;Fiebre
+Georgina;11/05/1995;Navarra;MODERNA;1.31;21/10/2021;S;Mareos-Fiebre
+Caron;01/10/2006;Badajoz;PFIZER;1.4;22/03/2021;N;Dolor muscular
+Stace;04/03/1989;Cádiz;ASTRAZENECA;0.97;18/01/2021;S;Mareos-Dolor de cabeza
+Jeralee;05/04/1952;Murcia;PFIZER;1.4;02/03/2021;N;Dolor muscular
+Rivi;20/02/1974;Huesca;MODERNA;1.31;02/06/2021;S;Mareos-Fiebre-Dolor muscular
+Lurlene;04/03/1990;Girona;PFIZER;1.4;21/03/2021;N;Dolor muscular
+Aeriel;15/01/1964;Ciudad Real;PFIZER;1.4;13/11/2021;N;Mareos-Fiebre
+Aleece;15/12/1957;Sevilla;ASTRAZENECA;0.97;10/09/2021;N;Fiebre
+Haywood;13/08/1980;Ciudad Real;PFIZER;1.4;04/04/2021;S;Mareos-Dolor de cabeza-Dolor muscular-Fiebre
+Salvidor;28/11/1963;Córdoba;ASTRAZENECA;0.97;17/02/2021;S;Dolor muscular
+Paquito;14/10/1990;Murcia;PFIZER;1.4;31/12/2021;S;Mareos-Fiebre
+Rossie;21/10/1975;Ciudad Real;JANSSEN;1.22;27/08/2021;N;
+Tedra;13/01/1966;Soria;ASTRAZENECA;0.97;06/10/2021;N;Mareos-Fiebre
+Hyacinthe;21/07/1961;Girona;PFIZER;1.4;12/02/2021;S;Dolor muscular
+Nissy;19/05/1980;Cantabria;PFIZER;1.4;11/03/2021;S;Dolor muscular
+Karlee;18/08/1972;València;PFIZER;1.4;02/08/2021;N;
+Porter;18/11/1974;La Rioja;PFIZER;1.4;14/03/2021;N;Dolor muscular
+Sydney;23/04/1977;Soria;PFIZER;1.4;04/05/2021;N;Mareos-Fiebre-Dolor muscular
+Rhonda;23/10/1968;Málaga;PFIZER;1.4;01/11/2021;N;Mareos-Fiebre
+Burty;06/09/2009;Albacete;PFIZER;1.4;23/12/2021;N;Mareos-Fiebre
+Birdie;17/11/1984;Alacant;PFIZER;1.4;19/08/2021;S;
+Dottie;22/10/1960;Soria;PFIZER;1.4;13/03/2021;S;Dolor muscular
+Eward;18/06/2009;Lleida;PFIZER;1.4;17/11/2021;S;Mareos-Fiebre
+Constancy;05/12/1998;Burgos;PFIZER;1.4;21/09/2021;S;Fiebre
+Kevyn;08/03/1984;Ourense;PFIZER;1.4;10/07/2021;S;Mareos-Dolor muscular

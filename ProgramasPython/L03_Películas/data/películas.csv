@@ -1,0 +1,37 @@
+fecha_estreno;título;director;géneros;duración;presupuesto;recaudación;reparto
+19-12-2019;Star Wars: The Rise of Skywalker;J.J. Abrams;Acción#Aventura#Fantasía;2:22;275.7;1074,7;Daisy Ridley-Adam Driver-John Boyega
+23-5-2019;Joker;Todd Phillips;Drama;2:02;55.5;980,4;Joaquin Phoenix-Robert De Niro-Zazie Beetz
+22-11-2019;Frozen II;Chris Buck;Animación#Aventura#Comedia;1:43;150.9;1450,5;Idina Menzel-Kristen Bell-Jonathan Groff
+14-2-2020;Parasite;Bong Joon-ho;Drama#Thriller;2:12;11.7;254,9;Song Kang-ho-Lee Sun-kyun-Cho Yeo-jeong
+9-11-2018;Bohemian Rhapsody;Bryan Singer;Drama#Musical;2:14;52.8;903,2;Rami Malek-Lucy Boynton-Gwilym Lee
+2-5-2019;Avengers: Endgame;Anthony Russo;Acción#Aventura#Fantasía;3:01;356.2;2798;Robert Downey Jr.-Chris Evans-Mark Ruffalo
+14-12-2018;Spider-Man: Into the Spider-Verse;Bob Persichetti;Animación#Acción#Aventura;1:57;90.5;375,4;Shameik Moore-Jake Johnson-Hailee Steinfeld
+9-11-2017;Justice League;Zack Snyder;Acción#Aventura#Fantasía;2:01;300.2;657,8;Ben Affleck-Gal Gadot-Jason Momoa
+3-11-2016;Doctor Strange;Scott Derrickson;Acción#Aventura#Fantasía;1:55;165.5;678;Benedict Cumberbatch-Chiwetel Ejiofor-Rachel McAdams
+24-7-2015;Ant-Man;Peyton Reed;Acción#Aventura#Comedia;1:57;130.9;519,9;Paul Rudd-Michael Douglas-Evangeline Lilly
+19-12-2014;The Hobbit: The Battle of the Five Armies;Peter Jackson;Acción#Aventura#Fantasía;2:24;250.6;956,6;Martin Freeman-Ian McKellen-Richard Armitage
+20-12-2013;The Wolf of Wall Street;Martin Scorsese;Drama#Comedia;3:00;100.0;392,2;Leonardo DiCaprio-Jonah Hill-Margot Robbie
+22-11-2012;Skyfall;Sam Mendes;Acción#Aventura#Thriller;2:23;200.5;1108,9;Daniel Craig-Judi Dench-Javier Bardem
+18-11-2011;The Twilight Saga: Breaking Dawn – Part 1;Bill Condon;Drama#Fantasía#Romance;1:57;110.3;709,1;Kristen Stewart-Robert Pattinson-Taylor Lautner
+9-7-2010;Inception;Christopher Nolan;Acción#Aventura#Thriller;2:28;160.4;829,2;Leonardo DiCaprio-Ken Watanabe-Joseph Gordon-Levitt
+22-5-2009;Up;Pete Docter;Animación#Aventura#Comedia;1:36;175.9;731,8;Edward Asner-Jordan Nagai-John Ratzenberger
+25-12-2008;The Dark Knight;Christopher Nolan;Acción#Aventura#Crimen;2:32;185.2;1004,7;Christian Bale-Heath Ledger-Aaron Eckhart
+3-5-2008;Iron Man;Jon Favreau;Acción#Aventura#Sci-Fi;2:06;140.9;585,7;Robert Downey Jr.-Terrence Howard-Jeff Bridges
+19-12-2007;I am Legend;Francis Lawrence;Drama#Cienciaficción#Thriller;1:41;150.6;585,8;Will Smith-Alice Braga-Charlie Tahan
+3-11-2006;The Prestige;Christopher Nolan;Drama#Misterio#Thriller;2:10;40.1;109,3;Hugh Jackman-Christian Bale-Michael Caine
+18-11-2005;Harry Potter and the Goblet of Fire;Mike Newell;Aventura#Fantasía;2:37;150.9;897,7;Daniel Radcliffe-Emma Watson-Rupert Grint
+21-5-2004;Shrek 2;Andrew Adamson;Animación#Aventura#Comedia;1:33;150.2;919,7;Mike Myers-Eddie Murphy-Cameron Diaz
+25-12-2003;The Lord of the Rings: The Return of the King;Peter Jackson;Aventura#Fantasía;3:21;94.0;1142,2;Elijah Wood-Ian McKellen-Viggo Mortensen
+14-11-2002;The Bourne Identity;Doug Liman;Acción#Aventura#Thriller;1:59;60.2;214,6;Matt Damon-Franka Potente-Chris Cooper
+18-7-2001;Jurassic Park III;Joe Johnston;Acción#Aventura#Cienciaficción;1:32;93.3;361,1;Sam Neill-William H. Macy-Téa Leoni
+15-12-2017;Star Wars: The Last Jedi;Rian Johnson;Acción#Aventura#Fantasía;2:32;200.6;1333,3;Mark Hamill-Carrie Fisher-Adam Driver
+14-8-2015;Furious 7;James Wan;Acción#Aventura#Crimen;2:17;190.8;1516,4;Vin Diesel-Paul Walker-Dwayne Johnson
+7-11-2014;Interstellar;Christopher Nolan;Drama#Aventura#Cienciaficción;2:49;165.3;677;Matthew McConaughey-Anne Hathaway-Jessica Chastain
+12-7-2013;Despicable Me 2;Pierre Coffin;Animación#Comedia#Familia;1:38;76.3;970,5;Steve Carell-Kristen Wiig-Benjamin Bratt
+8-7-2012;The Dark Knight Rises;Christopher Nolan;Acción#Aventura#Crimen;2:44;250.3;1081,5;Christian Bale-Tom Hardy-Anne Hathaway
+27-5-2011;Pirates of the Caribbean: On Stranger Tides;Rob Marshall;Aventura#Fantasía;2:16;410.4;1045,2;Johnny Depp-Penélope Cruz-Ian McShane
+24-6-2010;Toy Story 3;Lee Unkrich;Animación#Aventura#Comedia;1:43;200.8;1063,7;Tom Hanks-Tim Allen-Joan Cusack
+19-5-2010;Iron Man 2;Jon Favreau;Acción#Aventura#Sci-Fi;2:04;200.3;623,8;Robert Downey Jr.-Gwyneth Paltrow-Don Cheadle
+18-12-2009;Avatar;James Cameron;Acción#Aventura#Fantasía;2:42;237.8;2789,1;Sam Worthington-Zoe Saldana-Sigourney Weaver
+28-11-2008;Twilight;Catherine Hardwicke;Drama#Fantasía#Romance;2:02;37.3;392,7;Kristen Stewart-Robert Pattinson-Billy Burke
+2-5-2002;Spider-Man;Sam Raimi;Acción#Aventura#Fantasía;2:01;139.7;820,9;Tobey Maguire-Willem Dafoe-Kirsten Dunst
