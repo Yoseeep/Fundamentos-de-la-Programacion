@@ -1,0 +1,261 @@
+Código;F_salida;F_regreso;Ciudades;Número de Personas;Precio por persona;Seguro viaje
+JKA-2532;15/07/25;2025-07-27;[Budapest - Londres - París - Florencia - Estambul];2;855,74;false
+STV-2203;23/01/25;2025-02-04;[Londres - Ánsterdam - Berlín];2;469,05;true
+WXY-2562;11/10/25;2025-10-25;[Ánsterdam - Lisboa - Atenas - Viena - Budapest];1;801,14;true
+TVW-3737;01/01/25;2025-01-08;[Lisboa - Praga - Viena - Florencia];8;563,86;true
+PQR-9395;12/02/25;2025-02-25;[Praga - Oporto - Florencia - Budapest];2;650,01;false
+LMN-6845;21/09/25;2025-09-28;[París - Roma - Viena];4;358,38;true
+TVW-0402;08/09/24;2024-09-18;[Roma - Atenas - Florencia];5;470,63;true
+XYZ-0885;16/03/25;2025-03-31;[Atenas - Viena - Budapest];5;512,98;true
+NPQ-2247;25/02/25;2025-03-07;[Viena - Florencia];5;344,95;true
+WXY-1392;28/10/25;2025-11-05;[Florencia - Estambul - Oporto - Budapest];7;711,85;true
+FGH-4230;26/05/25;2025-06-05;[Dublin-Oporto];5;317,82;false
+RAB-3508;22/03/25;2025-04-04;[Estambul - Atenas];8;300,55;true
+PQR-4825;07/08/25;2025-08-15;[Oporto - Viena];8;245,24;true
+HJK-3023;10/06/25;2025-06-22;[Budapest - Londres - París - Florencia - Estambul];7;851,5;true
+KLM-6462;26/08/24;2024-09-06;[Londres - Ánsterdam - Roma];4;476,02;false
+LMN-7281;12/02/24;2024-02-20;[Ánsterdam - Berlín - Atenas - Viena - Roma];6;816,33;true
+STV-6170;01/01/24;2024-01-09;[Lisboa - Praga - Viena - Florencia];8;603,6;true
+WXY-6671;06/02/25;2025-02-14;[Praga - Oporto - Florencia - Budapest];3;679,2;false
+XYZ-0463;15/07/25;2025-07-26;[París - Roma - Viena];2;339,47;false
+FGH-5255;14/10/24;2024-10-28;[Roma - Atenas - Florencia];7;422,67;true
+VWX-6454;13/06/25;2025-06-20;[Atenas - Viena - Budapest];6;494,04;true
+HJK-4975;28/07/24;2024-08-11;[Viena - Florencia];2;339,71;true
+CDF-5913;21/02/24;2024-02-29;[Florencia - Estambul - Oporto - Budapest];6;766,2;false
+KLM-3314;05/01/25;2025-01-12;[Dublin-Oporto];3;308,57;true
+TVW-5664;01/09/24;2024-09-10;[Estambul - Atenas];2;391,28;true
+GHJ-4944;04/04/25;2025-04-12;[Oporto - Viena];4;262,78;true
+CDF-2249;14/06/24;2024-06-23;[Florencia - Estambul - Oporto - Budapest];6;733,32;true
+LMN-8844;08/01/24;2024-01-19;[Dublin-Oporto];8;267,59;true
+TVW-4251;13/02/24;2024-02-28;[Estambul - Atenas];8;330,19;false
+MNP-6012;12/10/24;2024-10-26;[Oporto - Viena];1;269,56;true
+GHJ-9634;07/03/25;2025-03-21;[Budapest - Londres - París - Florencia - Estambul];5;842,1;true
+NPQ-8713;11/03/24;2024-03-18;[Londres - Ánsterdam - Roma];2;518,36;true
+WXY-4874;22/02/25;2025-03-09;[Ánsterdam - Lisboa - Berlín - Viena - Budapest];6;846,72;false
+NPQ-7764;01/03/25;2025-03-12;[Lisboa - Praga - Viena - Florencia];7;595,45;true
+XYZ-4744;13/01/24;2024-01-28;[Praga - Oporto - Florencia - Budapest];2;715,02;true
+GHJ-7829;22/03/24;2024-03-29;[Roma - Atenas - Florencia];4;421,53;false
+BCD-2808;07/03/25;2025-03-16;[Atenas - Viena - Budapest];5;451,82;false
+KLM-7732;14/05/24;2024-05-24;[Viena - Florencia];8;314,64;true
+XYZ-8817;12/01/25;2025-01-21;[Florencia - Estambul - Oporto - Budapest];1;739,34;true
+FGH-1350;16/04/24;2024-04-25;[Dublin-Oporto];1;359,62;false
+CDF-5272;12/03/24;2024-03-21;[Estambul - Atenas];1;383,15;true
+CDF-6492;08/05/24;2024-05-23;[Oporto - Viena];4;324,1;true
+WXY-5364;27/06/24;2024-07-05;[Budapest - Londres - París - Florencia - Estambul];2;830,19;true
+NPQ-5345;21/03/25;2025-04-03;[Londres - Ánsterdam - Roma];5;465,02;true
+DFG-0353;20/03/24;2024-04-04;[Ánsterdam - Lisboa - Atenas - Viena - Budapest];1;812,19;true
+HJK-1296;09/02/24;2024-02-19;[Lisboa - Praga - Viena - Florencia];3;589,75;false
+STV-7911;26/09/25;2025-10-10;[Praga - Oporto - Florencia - Budapest];1;633,08;true
+NPQ-6657;11/09/25;2025-09-23;[París - Roma - Viena];3;401,54;true
+RRT-8086;11/07/25;2025-07-23;[Roma - Atenas - Florencia];3;484,33;true
+BCD-2595;23/02/24;2024-03-06;[Atenas - Viena - Budapest];3;464,89;false
+VAX-9862;26/01/25;2025-02-04;[Viena - Florencia];5;302,64;true
+VWX-8960;15/01/25;2025-01-23;[Florencia - Estambul - Oporto - Budapest];8;747,93;true
+RST-8242;10/05/25;2025-05-24;[Budapest - Londres - París - Florencia;3;680,7;false
+HJK-9699;27/05/25;2025-06-03;[Londres - Ánsterdam - Berlín];2;529,33;false
+CDF-4345;26/06/24;2024-07-07;[Ánsterdam - Lisboa - Atenas - Viena;8;696,75;true
+TVW-5815;03/10/24;2024-10-18;[Lisboa - Praga - Viena - Florencia];4;583,32;true
+MNP-1054;23/06/25;2025-07-05;[Praga - Oporto - Florencia - Budapest];6;662,66;true
+GHJ-9208;27/09/24;2024-10-05;[París - Roma - Viena];5;344,52;false
+CDF-0907;18/09/24;2024-09-30;[Roma - Atenas - Florencia];4;479,49;true
+PAR-1465;19/04/24;2024-04-26;[Atenas - Viena - Budapest];2;467,39;true
+TVW-9693;02/04/24;2024-04-13;[Budapest - Londres - París - Florencia - Roma];1;848,76;true
+KLM-2964;22/10/25;2025-11-03;[Londres - Ánsterdam - Roma];7;508,3;true
+JKL-4246;04/09/24;2024-09-18;[Ánsterdam - Lisboa - Atenas - Viena - Budapest];7;835,59;true
+BCD-2080;28/08/25;2025-09-08;[Lisboa - Praga - Viena - Florencia];5;592,08;false
+CDF-5447;19/01/24;2024-01-31;[Praga - Oporto - Florencia - Budapest];1;691,76;true
+GHJ-9072;15/04/24;2024-04-28;[París - Roma - Viena];1;382,96;true
+HJK-7864;13/10/24;2024-10-28;[Roma - Atenas - Florencia];7;506,78;true
+JKL-0467;25/02/24;2024-03-08;[Atenas - Viena - Budapest];4;469,91;false
+HJK-3091;13/03/24;2024-03-23;[Viena - Florencia];2;366,39;true
+RST-7543;25/03/25;2025-04-02;[Roma - Estambul - Berlín - Budapest];6;729,07;true
+HJK-9870;15/09/24;2024-09-22;[Dublin-Oporto];7;272,26;false
+VWX-7695;13/08/24;2024-08-27;[Estambul - Atenas];8;341,03;false
+PQR-4980;11/09/24;2024-09-19;[Oporto - Viena];4;290,73;true
+GHJ-7211;01/02/24;2024-02-12;[Budapest - Londres - París - Roma - Estambul];7;908,82;true
+MNP-1591;12/06/25;2025-06-26;[Londres - Ánsterdam - Roma];3;464,39;true
+KLM-4041;23/01/24;2024-02-05;[Ánsterdam - Lisboa - Atenas - Viena - Budapest];4;792,83;false
+FGH-6421;18/09/24;2024-10-01;[Budapest - Londres - París - Florencia - Estambul];5;891,55;true
+MNP-3246;04/08/24;2024-08-17;[Londres - Ánsterdam - Roma];2;475,87;true
+JKL-1959;27/06/24;2024-07-09;[Ánsterdam - Lisboa - Atenas - Viena - Budapest];8;830,79;true
+AHJ-0359;06/02/24;2024-02-21;[Lisboa - Praga - Viena - Florencia];4;603,05;true
+FGH-2051;28/08/24;2024-09-12;[Praga - Oporto - Florencia - Budapest];8;638,74;true
+FGH-0203;23/10/25;2025-11-02;[París - Roma - Viena];8;388,87;false
+FGH-4719;20/06/25;2025-07-04;[Roma - Atenas - Florencia];7;458,39;true
+JKL-5653;08/10/24;2024-10-21;[Atenas - Viena - Budapest];7;475,19;true
+KLM-8948;13/08/24;2024-08-26;[Viena - Florencia];7;317,79;true
+RST-5753;16/07/25;2025-07-26;[Florencia - Estambul - Oporto - Budapest];1;717,45;false
+CDF-3354;09/07/24;2024-07-24;[Dublin-Oporto];3;342,63;true
+TVW-9133;14/03/25;2025-03-28;[Estambul - Atenas];1;394,63;true
+XYZ-2391;05/04/24;2024-04-16;[Oporto - Viena];3;329,94;false
+GHJ-6225;26/05/25;2025-06-06;[Budapest - Londres - París - Florencia - Roma];7;892,15;false
+KLM-1469;11/08/24;2024-08-25;[Londres - Ánsterdam - Roma];3;456,63;true
+JKL-9768;07/10/24;2024-10-20;[Ánsterdam - Lisboa - Atenas - Viena - Budapest];8;771,52;true
+NPQ-6531;28/05/25;2025-06-07;[Budapest - Londres - París - Roma - Estambul];4;890,38;true
+GHJ-9777;10/07/24;2024-07-18;[Londres - Ánsterdam - Roma];6;477,31;false
+CDF-6414;27/07/25;2025-08-10;[Ánsterdam - Lisboa - Atenas - Viena - Budapest];8;807,99;true
+JKL-5658;21/09/25;2025-10-04;[Lisboa - Praga - Viena - Florencia];6;648,86;true
+KLM-4060;14/04/24;2024-04-25;[Praga - Oporto - Florencia - Budapest];3;696,12;true
+QRS-9003;12/03/24;2024-03-20;[París - Roma - Viena];5;335,81;true
+PQA-2757;06/01/24;2024-01-16;[Roma - Atenas - Florencia];3;472,47;true
+GHJ-8154;23/06/24;2024-07-04;[Atenas - Viena - Budapest];8;449,09;false
+JKL-7323;04/10/24;2024-10-12;[Viena - Florencia];6;361,17;true
+TVW-7793;19/03/25;2025-03-29;[Florencia - Estambul - Oporto - Budapest];5;739,57;true
+RAY-7133;16/02/24;2024-03-01;[Dublin-Oporto];7;288,4;true
+CDF-3705;20/04/25;2025-05-03;[Estambul - Atenas];2;342,05;false
+PQR-8732;02/01/24;2024-01-13;[Oporto - Viena];4;319,68;true
+STV-8214;25/05/24;2024-06-06;[Budapest - Londres - París - Florencia - Roma];4;870,88;true
+HJK-2305;11/07/24;2024-07-20;[Londres - Ánsterdam - Roma];3;517,75;false
+PQR-4406;25/08/25;2025-09-05;[Ánsterdam - Lisboa - Atenas - Viena - Roma];6;854,43;false
+STV-5770;07/10/24;2024-10-18;[Lisboa - Praga - Viena - Florencia];6;595,04;true
+WXY-2658;18/04/25;2025-04-30;[Praga - Oporto - Florencia - Budapest];4;712,7;true
+TVW-1158;04/03/24;2024-03-12;[París - Roma - Viena];5;337,7;false
+JKL-6985;25/09/25;2025-10-10;[Roma - Atenas - Florencia];6;449,79;true
+FGH-4337;18/02/24;2024-02-26;[Atenas - Viena - Budapest];2;439,98;true
+VWX-9659;11/06/24;2024-06-18;[Viena - Florencia];6;301,35;true
+RST-0247;27/05/24;2024-06-11;[Florencia - Estambul - Oporto - Budapest];8;713,45;true
+VWX-8933;16/10/24;2024-10-25;[Dublin-Oporto];2;291,96;true
+FGH-1778;10/03/24;2024-03-19;[Estambul - Atenas];2;341,38;false
+MNP-5486;03/04/25;2025-04-14;[Oporto - Viena];7;294,17;true
+DFG-5067;05/07/25;2025-07-14;[Florencia - Estambul - Oporto - Roma];2;754,07;true
+LMN-5753;06/10/25;2025-10-15;[Dublin-Oporto];1;307,36;true
+JKL-9735;10/10/24;2024-10-18;[Estambul - Atenas];2;364,44;false
+BCD-2771;05/04/25;2025-04-12;[Oporto - Viena];1;289,23;true
+XYZ-4497;24/01/25;2025-01-31;[Budapest - Londres - París - Florencia - Estambul];4;840,43;true
+PQR-3955;25/01/25;2025-02-08;[Londres - Ánsterdam - Roma];2;529,89;false
+WXY-2139;06/05/24;2024-05-18;[Ánsterdam - Lisboa - Atenas - Viena - Budapest];8;817,91;false
+CDF-1487;28/08/25;2025-09-12;[Lisboa - Praga - Viena - Florencia];7;615,41;true
+MNP-4058;23/04/25;2025-05-04;[Praga - Oporto - Florencia - Budapest];6;699,55;true
+NPQ-2353;09/02/24;2024-02-21;[Roma - Atenas - Florencia];8;472,89;true
+KLM-5208;08/05/24;2024-05-20;[Atenas - Viena - Budapest];8;480,04;false
+PQR-6228;20/09/25;2025-10-01;[Viena - Florencia];2;334,69;true
+PQR-3170;08/06/25;2025-06-21;[Florencia - Berlín - Oporto - Budapest];6;749,27;true
+XYZ-1196;05/07/24;2024-07-15;[Dublin-Oporto];8;313,76;true
+RST-6796;17/08/25;2025-09-01;[Estambul - Atenas];6;333,51;true
+LMN-0984;08/05/25;2025-05-17;[Oporto - Viena];8;251,74;true
+CDF-9316;23/07/25;2025-08-06;[Budapest - Londres - París - Florencia - Roma];5;862,57;false
+HJK-5739;06/05/24;2024-05-18;[Londres - Ánsterdam - Roma];7;446,53;true
+TVW-7363;27/06/24;2024-07-12;[Ánsterdam - Lisboa - Atenas - Viena - Budapest];6;786,24;true
+GHJ-1089;10/05/24;2024-05-18;[Lisboa - Praga - Viena - Florencia];1;631,73;true
+RST-5491;27/09/24;2024-10-11;[Praga - Oporto - Florencia - Budapest];4;660,2;false
+GHJ-0389;22/01/24;2024-02-01;[París - Roma - Viena];4;322,6;true
+NPQ-1264;12/03/24;2024-03-21;[Roma - Atenas - Florencia];3;511,62;true
+RST-5122;25/09/25;2025-10-04;[Atenas - Viena - Budapest];6;497,02;false
+TVW-5266;13/05/24;2024-05-22;[Viena - Florencia];7;399,49;false
+RST-9572;01/10/25;2025-10-16;[Florencia - Estambul - Oporto - Budapest];2;727,38;true
+WXY-2205;09/04/24;2024-04-18;[Budapest - Londres - París - Florencia;6;690,12;true
+DFG-9130;06/06/24;2024-06-14;[Londres - Ánsterdam - Roma];3;507,24;true
+RST-3392;16/08/25;2025-08-26;[Ánsterdam - Lisboa - Atenas - Viena;6;652,23;false
+FGH-8456;14/06/24;2024-06-26;[Lisboa - Praga - Viena - Florencia];7;602,94;true
+VWX-9259;11/04/24;2024-04-22;[Praga - Oporto - Florencia - Roma];5;711,08;true
+TVW-7219;14/07/24;2024-07-28;[París - Roma - Viena];3;382,08;true
+FGH-9605;07/06/25;2025-06-19;[Roma - Atenas - Florencia];4;446,36;true
+CDF-2483;21/01/24;2024-02-04;[Atenas - Viena - Budapest];5;463,11;true
+XYZ-5469;25/04/25;2025-05-04;[Budapest - Praga - París - Florencia - Estambul];4;832,53;false
+GHJ-6007;09/09/24;2024-09-22;[Londres - Ánsterdam - Roma];5;483,95;true
+TVW-4256;27/03/25;2025-04-05;[Ánsterdam - Lisboa - Atenas - Viena - Budapest];3;829,38;true
+GHJ-0170;02/07/24;2024-07-09;[Lisboa - Praga - Viena - Florencia];6;567,26;true
+KLm - 2334;04/06/25;2025-06-14;[Praga - Oporto - Florencia - Budapest];2;677,88;false
+GAJ-1395;27/09/25;2025-10-12;[París - Roma - Viena];1;337,45;true
+HJK-2253;07/10/24;2024-10-22;[Roma - Atenas - Florencia];1;472,33;true
+TVW-0607;08/04/24;2024-04-15;[Atenas - Viena - Budapest];2;465,2;false
+DFG-4944;15/08/25;2025-08-25;[Viena - Florencia];7;371,45;false
+LMN-2901;10/06/24;2024-06-18;[Florencia - Estambul - Oporto - Budapest];2;707,17;true
+GHJ-6439;27/02/25;2025-03-11;[Dublin-Oporto];2;293,13;true
+BCD-0540;22/09/25;2025-10-05;[Estambul - Atenas];8;322,94;true
+PQR-4844;27/06/25;2025-07-06;[Oporto - Viena];8;339;false
+NPQ-0832;25/06/25;2025-07-09;[Budapest - Londres - Praga - Florencia - Estambul];2;862,78;true
+JKL-9883;08/03/24;2024-03-17;[Londres - Ánsterdam - Roma];7;466,93;true
+CDF-3780;21/06/25;2025-07-04;[Ánsterdam - Lisboa - Atenas - Viena - Budapest];7;794,47;true
+NPQ-1308;05/03/25;2025-03-19;[Budapest - Londres - París - Florencia - Roma];7;867,37;true
+RST-6070;08/04/25;2025-04-20;[Londres - Ánsterdam - Roma];6;464,48;true
+DFG-0615;24/05/24;2024-06-08;[Ánsterdam - Lisboa - Atenas - Viena - Budapest];3;787,2;false
+LMN-9395;13/04/24;2024-04-26;[Lisboa - Praga - Viena - Florencia];8;648,35;true
+VWX-6254;26/06/25;2025-07-05;[Praga - Oporto - Florencia - Budapest];5;666,76;true
+NPA-1421;21/06/24;2024-07-05;[París - Roma - Viena];8;321,88;true
+PQR-9419;09/06/25;2025-06-23;[Roma - Atenas - Berlín];5;437,15;false
+JKL-8874;14/09/24;2024-09-23;[Atenas - Viena - Budapest];2;515,24;true
+MNP-2909;24/01/24;2024-02-02;[Viena - Florencia];8;343,37;true
+STV-9931;23/10/24;2024-10-31;[Florencia - Estambul - Oporto - Budapest];2;688,69;false
+VWX-0252;23/08/25;2025-08-31;[Dublin-Oporto];4;325,95;false
+LMN-9514;05/05/24;2024-05-18;[Estambul - Atenas];6;359,75;true
+GHJ-9905;02/03/25;2025-03-10;[Oporto - Viena];7;269,25;true
+WAY-7979;11/05/25;2025-05-23;[Praga - Londres - París - Florencia - Estambul];1;903,93;false
+QRS-6538;10/05/25;2025-05-21;[Londres - Ánsterdam - Roma];2;514,82;true
+HJK-6937;28/05/24;2024-06-08;[Ánsterdam - Lisboa - Atenas - Viena - Budapest];6;786,02;true
+FGH-7740;21/06/24;2024-06-30;[Budapest - Londres - París - Florencia - Estambul];7;906,02;true
+NPQ-3644;01/03/24;2024-03-13;[Londres - Ánsterdam - Roma];8;529,62;true
+GHJ-1298;15/01/24;2024-01-30;[Ánsterdam - Lisboa - Atenas - Viena - Budapest];6;803,21;true
+BCD-4225;04/07/25;2025-07-13;[Lisboa - Praga - Viena - Florencia];4;643,89;false
+STV-1780;24/06/25;2025-07-04;[Praga - Oporto - Florencia - Budapest];5;636,16;true
+QRS-8527;20/09/24;2024-09-30;[París - Roma - Viena];2;324,64;true
+JKL-0565;02/08/24;2024-08-10;[Roma - Atenas - Florencia];2;426,1;true
+PQR-9536;17/07/25;2025-07-30;[Atenas - Viena - Budapest];6;465,35;false
+STV-9438;26/07/24;2024-08-06;[Viena - Florencia];3;385,14;true
+LMN-8172;15/04/24;2024-04-27;[Florencia - Estambul - Oporto - Budapest];5;779,5;true
+JKL-8947;01/03/24;2024-03-10;[Dublin-Oporto];1;262,96;false
+RST-3596;03/08/25;2025-08-16;[Estambul - Atenas];4;390,33;false
+NPQ-2455;07/01/24;2024-01-19;[Oporto - Viena];3;300,48;true
+KST-5664;10/03/25;2025-03-21;[Budapest - Londres - París - Florencia - Estambul];4;880,23;true
+FGH-3031;05/02/25;2025-02-16;[Londres - Ánsterdam - Roma];5;464,43;true
+NPQ-2588;21/03/25;2025-03-31;[Ánsterdam - Lisboa - Atenas - Viena - Praga];8;817,26;false
+HJK-9505;08/02/24;2024-02-20;[Lisboa - Praga - Viena - Florencia];7;565,23;true
+MNP-9670;27/05/25;2025-06-10;[Praga - Oporto - Florencia - Budapest];6;649,99;true
+XYZ-9913;25/08/24;2024-09-08;[París - Roma - Viena];3;336,11;true
+HJK-1294;27/09/25;2025-10-08;[Roma - Atenas - Florencia];4;511,19;true
+TVW-1572;07/01/25;2025-01-18;[Atenas - Viena - Budapest];7;507,76;true
+WXY-8237;03/07/25;2025-07-16;[Viena - Florencia];4;355,2;false
+VWX-6456;21/04/25;2025-04-28;[Florencia - Estambul - Oporto - Budapest];8;779,03;true
+HJK-1234;27/08/25;2025-09-08;[Dublin-Oporto];8;348,19;true
+DFG-2229;09/07/24;2024-07-19;[Estambul - Atenas];1;376,62;true
+DFG-6291;11/06/24;2024-06-25;[Oporto - Viena];1;293,07;false
+GHJ-2014;11/09/24;2024-09-22;[Florencia - Estambul - Oporto - Budapest];8;730,57;true
+GHJ-3982;03/04/24;2024-04-15;[Dublin-Oporto];5;280,27;true
+RST-2491;07/10/25;2025-10-20;[Estambul - Atenas];8;369,51;false
+XYZ-2743;16/07/24;2024-07-23;[Oporto - Viena];8;277,03;true
+FGH-9197;22/06/25;2025-07-07;[Budapest - Londres - París - Florencia - Estambul];8;841,7;true
+PQR-0740;12/05/25;2025-05-27;[Londres - Ánsterdam - Roma];7;518,93;false
+MNP-1763;15/05/24;2024-05-28;[Praga - Lisboa - Atenas - Viena - Budapest];6;807,08;true
+FGH-7824;07/03/25;2025-03-17;[Lisboa - Praga - Viena - Florencia];8;615,7;true
+PQR-1272;06/01/24;2024-01-17;[Praga - Oporto - Florencia - Budapest];3;642,96;false
+VWX-9414;15/10/24;2024-10-23;[Roma - Atenas - Florencia];7;468,78;false
+DFA-3210;17/02/25;2025-03-01;[Atenas - Viena - Budapest];8;485,15;true
+LMN-8416;05/10/24;2024-10-13;[Viena - Florencia];8;378,93;true
+GHJ-5771;11/08/24;2024-08-26;[Florencia - Estambul - Oporto - Budapest];1;698,15;true
+WXY-9695;06/06/25;2025-06-19;[Dublin-Oporto];2;282,81;false
+RAT-5703;02/05/24;2024-05-15;[Estambul - Atenas];4;362,11;true
+GHJ-4272;18/02/24;2024-02-27;[Oporto - Viena];6;244,48;true
+LMN-2285;18/01/24;2024-01-31;[Budapest - Londres - París - Praga - Estambul];1;892,14;true
+GHJ-9798;20/10/24;2024-10-28;[Londres - Ánsterdam - Roma];8;525,92;true
+HJK-5007;28/01/25;2025-02-10;[Ánsterdam - Lisboa - Atenas - Viena - Budapest];6;775,32;true
+WXY-8691;17/02/25;2025-02-26;[Lisboa - Praga - Viena - Florencia];7;573,47;false
+VWX-2235;04/03/25;2025-03-13;[Praga - Oporto - Florencia - Budapest];6;646,38;true
+WXY-4335;02/07/24;2024-07-13;[París - Roma - Viena];3;406,96;true
+PQR-8133;25/07/24;2024-08-09;[Roma - Atenas - Florencia];3;489,67;true
+TVW-8087;19/08/24;2024-09-03;[Atenas - Viena - Budapest];5;457,56;false
+RST-7839;05/07/25;2025-07-20;[Viena - Florencia];3;343,27;true
+QRS-1945;08/08/24;2024-08-16;[Florencia - Estambul - Oporto - Budapest];8;776,76;true
+BCD-0609;06/06/24;2024-06-14;[Budapest - Londres - París - Florencia;6;758,41;false
+JKL-2266;10/04/25;2025-04-23;[Londres - Ánsterdam - Roma];8;523,49;true
+XYZ-3986;27/04/24;2024-05-04;[Ánsterdam - Lisboa - Atenas - Viena;4;647,6;true
+QRS-4399;11/06/25;2025-06-26;[Lisboa - Praga - Viena - Florencia];3;655,2;false
+NPQ-2667;19/08/24;2024-08-29;[Praga - Oporto - Florencia - Budapest];5;684,73;true
+GHJ-1993;20/07/25;2025-08-01;[París - Roma - Viena];8;381,94;true
+PQR-0333;14/08/24;2024-08-22;[Roma - Atenas - Florencia];6;509,52;false
+KLM-6778;13/06/25;2025-06-26;[Atenas - Viena - Budapest];4;493,08;false
+GHJ-6795;04/03/24;2024-03-11;[Budapest - Londres - París - Florencia - Estambul];6;854,57;true
+TVW-7672;09/04/24;2024-04-17;[Londres - Ánsterdam - Roma];8;442,42;true
+HJK-9535;05/02/25;2025-02-15;[Ánsterdam - Lisboa - Atenas - Viena - Budapest];2;842,81;true
+HJK-0350;13/03/24;2024-03-23;[Lisboa - Praga - Viena - Florencia];6;613,06;false
+LMN-4821;20/02/24;2024-03-01;[Praga - Oporto - Florencia - Budapest];4;693,65;true
+KLM-4498;15/07/24;2024-07-24;[París - Roma - Viena];3;377,86;true
+JKL-7352;08/07/24;2024-07-19;[Roma - Atenas - Florencia];2;474,13;true
+FGH-3425;13/03/24;2024-03-21;[Budapest - Londres - París - Florencia - Estambul];8;854,57;true
+XYZ-6579;14/04/24;2024-04-28;[Londres - Ánsterdam - Roma];6;493,08;true
+FGH-5429;13/07/24;2024-07-27;[Ánsterdam - Lisboa - Atenas - Viena - Budapest];2;854,57;false
+JKL-8309;04/09/24;2024-09-11;[Lisboa - Praga - Viena - Florencia];2;509,52;true
+RSY-5725;13/07/25;2025-07-23;[Praga - Oporto - Florencia - Budapest];2;509,52;true
+NPQ-0330;05/06/25;2025-06-17;[París - Roma - Viena];8;442,42;true
+QRS-0079;13/02/25;2025-02-20;[Roma - Atenas - Florencia];8;442,42;false
+NPQ-5725;02/02/24;2024-02-17;[Atenas - Viena - Budapest];4;442,42;false
+TVW-6579;07/10/25;2025-10-16;[Viena - Florencia];4;377,86;true
