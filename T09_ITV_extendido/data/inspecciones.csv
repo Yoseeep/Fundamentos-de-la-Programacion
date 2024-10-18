@@ -1,0 +1,271 @@
+Fecha Inspección,Estación,Número,Fecha límite,Matrícula,Tipo Vehículo,Fecha Matriculación,Resultado,Importe
+7/6/2022,Sevilla-El Pino,1,14-06-2022,3595KLW,Turismo gasolina,14/6/18,S,48
+23/2/2022,Sevilla-Gelves,1,28-02-2022,6577KJP,Turismo gasolina,28/2/18,N,64
+18/12/2021,La Rinconada,1,19-12-2021,2324JJJ,Turismo diésel,19/12/15,S,63
+24/2/2021,Sevilla-El Pino,1,23-02-2021,8244JFT,Turismo eléctrico,23/2/15,S,37.3
+17/3/2022,Alcalá de Guadaíra,1,27-03-2022,7734KGB,Turismo gasolina,27/3/18,S,46.2
+14/3/2022,Sevilla-Gelves,1,15-03-2022,6724JPP,Turismo gasolina,15/3/16,S,74.9
+1/2/2022,La Rinconada,1,29-01-2022,7466KJC,Turismo diésel,29/1/18,N,46.8
+9/11/2020,Sevilla-El Pino,1,09-11-2020,5523HST,Turismo gasolina,9/11/14,S,57.3
+5/1/2022,Alcalá de Guadaíra,2,03-01-2022,3242JMV,Turismo diésel,3/1/16,S,72.7
+19/2/2021,Sevilla-Gelves,1,21-02-2021,1234JGP,Turismo eléctrico,21/2/15,S,35.2
+5/4/2017,Sevilla-El Pino,1,27-03-2019,4545FNY,Turismo diésel,15/3/07,N,49.8
+02/02/2021,Sevilla-El Pino,3,02-04-2021,6299RST,Turismo gasolina,02/04/17,S,46.2
+07/02/2023,Utrera,1,07-04-2023,3689BCD,Turismo gasolina,07/04/19,S,64.6
+01/05/2021,La Rinconada,2,01-07-2021,2073VWX,Moto,01/07/17,S,41
+05/09/2020,Sanlucar la Mayor,2,05-11-2020,4812HJK,Turismo eléctrico,05/11/16,N,44.8
+04/04/2021,Alcalá de Guadaíra,2,04-06-2021,9233CDF,Turismo gasolina,04/06/17,S,56.6
+11/09/2023,Sevilla-Gelves,1,11-11-2023,5906LMN,Camión,11/11/19,S,175.8
+11/08/2022,La Rinconada,3,11-10-2022,0866RST,Turismo diésel,11/10/18,S,47.2
+04/07/2023,Sanlucar la Mayor,1,04-09-2023,6999DFG,Turismo gasolina,04/09/19,N,53.1
+22/02/2023,Alcalá de Guadaíra,1,22-04-2023,8466KLM,Camión,22/04/19,S,178.1
+05/08/2019,Sevilla-Gelves,3,05-10-2019,5474LMN,Turismo eléctrico,05/10/15,S,44
+18/03/2019,Sevilla-El Pino,1,18-05-2019,5636BCD,Turismo diésel,18/05/15,S,64.4
+26/08/2022,Sanlucar la Mayor,2,26-10-2022,6317LMN,Moto,26/10/18,S,22.5
+28/09/2024,Sevilla-El Pino,1,28-11-2024,3251PQR,Turismo gasolina,28/11/20,N,69.2
+13/10/2021,Sevilla-Gelves,1,13-12-2021,9239FGH,Camión,13/12/17,S,182.3
+23/04/2020,La Rinconada,1,23-06-2020,5486LMN,Turismo gasolina,23/06/16,S,61.9
+16/06/2020,Sanlucar la Mayor,1,16-08-2020,3621LMN,Turismo diésel,16/08/16,S,63.6
+07/01/2020,Alcalá de Guadaíra,2,07-03-2020,8058NPQ,Turismo eléctrico,07/03/16,N,36.7
+27/03/2021,Sevilla-Gelves,3,27-05-2021,9400FGH,Turismo diésel,27/05/17,S,56.9
+18/01/2020,La Rinconada,1,18-03-2020,2888PQR,Turismo eléctrico,18/03/16,S,36
+21/10/2020,Sanlucar la Mayor,3,21-12-2020,8617RST,Turismo diésel,21/12/16,S,54.9
+06/04/2021,Alcalá de Guadaíra,2,06-06-2021,2368TVW,Camión,06/06/17,N,185.2
+24/03/2022,Sevilla-Gelves,1,24-05-2022,9197RST,Camión,24/05/18,S,151.5
+18/06/2020,Sevilla-El Pino,1,18-08-2020,0600LBZ,Moto,18/08/16,S,44.4
+07/01/2020,Sanlucar la Mayor,2,07-03-2020,7240VWX,Turismo gasolina,07/03/16,S,50.1
+05/09/2019,Utrera,1,05-11-2019,6181BCD,Turismo gasolina,05/11/15,N,46.2
+16/05/2021,Sevilla-El Pino,3,16-07-2021,5425NPQ,Moto,16/07/17,S,25.3
+26/06/2022,Utrera,1,26-08-2022,8076TVW,Turismo eléctrico,26/08/18,N,42.8
+25/03/2021,La Rinconada,2,25-05-2021,6405QRS,Turismo diésel,25/05/17,S,45.5
+07/09/2020,Sanlucar la Mayor,2,07-11-2020,4327LYZ,Turismo gasolina,07/11/16,S,54.7
+01/02/2020,Alcalá de Guadaíra,2,01-04-2020,1123LMN,Camión,01/04/16,S,106
+27/02/2024,Sevilla-Gelves,1,27-04-2024,1696MNP,Turismo eléctrico,27/04/20,S,36.5
+13/05/2021,La Rinconada,3,13-07-2021,9811LYZ,Turismo diésel,13/07/17,N,59.9
+15/07/2020,Sanlucar la Mayor,1,15-09-2020,4530FGH,Moto,15/09/16,S,41.2
+08/05/2019,Cazalla de la Sierra,1,08-07-2019,4524DFG,Turismo gasolina,08/07/15,S,70.1
+10/07/2022,Cazalla de la Sierra,3,10-09-2022,8904MNP,Camión,10/09/18,S,157.2
+20/04/2024,Lebrija,1,20-06-2024,1303PQR,Turismo gasolina,20/06/20,N,56.6
+23/08/2023,Sanlucar la Mayor,2,23-10-2023,6387QRS,Turismo diésel,23/10/19,S,47.4
+12/01/2024,Sevilla-El Pino,1,12-03-2024,4388KLM,Turismo eléctrico,12/03/20,S,35.2
+03/10/2022,Sevilla-Gelves,1,03-12-2022,3832LYZ,Turismo diésel,03/12/18,S,72.8
+26/03/2019,Cazalla de la Sierra,1,26-05-2019,8110WXY,Camión,26/05/15,N,165.3
+07/02/2024,Sanlucar la Mayor,1,07-04-2024,6578WXY,Camión,07/04/20,S,132.3
+08/05/2020,Alcalá de Guadaíra,2,08-07-2020,5810NPQ,Moto,08/07/16,S,43.5
+08/06/2024,Sevilla-Gelves,3,08-08-2024,9974MNP,Turismo diésel,08/08/20,S,69.4
+25/03/2024,La Rinconada,1,25-05-2024,0232FGH,Turismo eléctrico,25/05/20,N,43.7
+04/03/2022,Sanlucar la Mayor,3,04-05-2022,7382HJK,Turismo diésel,04/05/18,S,50.1
+02/08/2019,Cazalla de la Sierra,2,02-10-2019,2791DFG,Camión,02/10/15,S,139.3
+18/07/2019,Carmona,1,18-09-2019,3259XYZ,Camión,18/09/15,S,163
+05/04/2023,Sevilla-El Pino,1,05-06-2023,5963XYZ,Moto,05/06/19,S,32.6
+24/08/2021,Sanlucar la Mayor,2,24-10-2021,4191GHJ,Turismo gasolina,24/10/17,N,65.5
+23/10/2024,Utrera,1,23-12-2024,4473WXY,Turismo gasolina,23/12/20,S,75
+04/08/2021,Cazalla de la Sierra,3,04-10-2021,4959RST,Moto,04/10/17,S,24.3
+09/08/2021,Cazalla de la Sierra,1,09-10-2021,1804VWX,Turismo eléctrico,09/10/17,S,39.4
+25/03/2020,Lebrija,2,25-05-2020,9585BCD,Turismo diésel,25/05/16,N,56.8
+16/04/2019,Sevilla-El Pino,2,16-06-2019,8806XYZ,Turismo eléctrico,16/06/15,S,42.4
+19/05/2019,Utrera,2,19-07-2019,5917KLM,Turismo diésel,19/07/15,S,61.6
+09/01/2020,La Rinconada,1,09-03-2020,0833STV,Turismo eléctrico,09/03/16,S,40.3
+28/01/2024,Sanlucar la Mayor,3,28-03-2024,8839LLZ,Turismo diésel,28/03/20,N,53.5
+21/02/2024,Alcalá de Guadaíra,1,21-04-2024,2678PQR,Camión,21/04/20,S,166.5
+06/06/2023,Sevilla-Gelves,1,06-08-2023,1497BCD,Turismo gasolina,06/08/19,S,58.2
+19/10/2023,La Rinconada,3,19-12-2023,8983XYZ,Moto,19/12/19,S,37.1
+20/05/2020,Sanlucar la Mayor,1,20-07-2020,6693LLZ,Turismo gasolina,20/07/16,N,66.7
+27/07/2023,Alcalá de Guadaíra,2,27-09-2023,6932TVW,Turismo gasolina,27/09/19,S,46.8
+28/02/2019,Sevilla-Gelves,1,28-04-2019,9769NPQ,Turismo diésel,28/04/15,N,58.6
+08/09/2022,Carmona,1,08-11-2022,7450VWX,Turismo gasolina,08/11/18,S,47.2
+05/04/2019,Sanlucar la Mayor,1,05-06-2019,3268PQR,Camión,05/06/15,S,186.8
+09/09/2024,Sevilla-El Pino,1,09-11-2024,1433BCD,Turismo eléctrico,09/11/20,S,40.3
+02/08/2020,Sevilla-Gelves,2,02-10-2020,9443LLZ,Turismo diésel,02/10/16,S,74.4
+07/07/2023,La Rinconada,3,07-09-2023,4494VWX,Moto,07/09/19,N,21.9
+09/07/2021,Sanlucar la Mayor,1,09-09-2021,5139HJK,Turismo gasolina,09/09/17,S,56.9
+06/03/2024,Alcalá de Guadaíra,3,06-05-2024,4279GHJ,Camión,06/05/20,S,128.2
+02/10/2019,Sevilla-Gelves,2,02-12-2019,9452FGH,Turismo gasolina,02/12/15,S,49.9
+01/06/2020,La Rinconada,1,01-08-2020,2382CDF,Turismo diésel,01/08/16,N,65.6
+15/02/2022,Carmona,1,15-04-2022,0046RST,Turismo eléctrico,15/04/18,S,40.5
+02/01/2019,Alcalá de Guadaíra,2,02-03-2019,2849JKL,Turismo diésel,02/03/15,S,62.5
+14/04/2021,Sevilla-Gelves,1,14-06-2021,7025XYZ,Camión,14/06/17,S,153.7
+18/08/2020,Sevilla-El Pino,1,18-10-2020,7909HJK,Camión,18/10/16,N,130.2
+13/02/2023,Sanlucar la Mayor,3,13-04-2023,8416TVW,Moto,13/04/19,S,20
+05/05/2024,Utrera,2,05-07-2024,1504RST,Turismo diésel,05/07/20,S,64.4
+20/06/2022,Sevilla-El Pino,3,20-08-2022,8506PQR,Turismo eléctrico,20/08/18,S,40.2
+15/09/2020,Utrera,2,15-11-2020,9066DFG,Turismo diésel,15/11/16,N,59.2
+23/08/2024,La Rinconada,1,23-10-2024,7353FGH,Camión,23/10/20,S,149.6
+06/10/2022,Sanlucar la Mayor,3,06-12-2022,1527RST,Camión,06/12/18,S,124.6
+01/01/2021,Alcalá de Guadaíra,2,01-03-2021,8612RST,Moto,01/03/17,S,25.5
+25/09/2022,Sevilla-Gelves,1,25-11-2022,6186KLM,Turismo gasolina,25/11/18,S,72.2
+03/03/2024,La Rinconada,1,03-05-2024,2779KLM,Turismo gasolina,03/05/20,N,64.3
+05/09/2021,Sanlucar la Mayor,2,05-11-2021,7265VWX,Moto,05/11/17,S,25.2
+22/02/2024,Cazalla de la Sierra,1,22-04-2024,4528STV,Turismo eléctrico,22/04/20,S,44.5
+14/10/2021,Carmona,1,14-12-2021,5522RST,Turismo diésel,14/12/17,S,56.4
+08/06/2019,Lebrija,3,08-08-2019,6191MNP,Turismo eléctrico,08/08/15,N,36.4
+26/05/2019,Sanlucar la Mayor,2,26-07-2019,5161PQR,Turismo diésel,26/07/15,S,58.1
+28/06/2023,Sevilla-El Pino,3,28-08-2023,8545BBZ,Turismo eléctrico,28/08/19,S,40.2
+05/06/2022,Sevilla-Gelves,2,05-08-2022,3097STV,Turismo diésel,05/08/18,S,73.9
+06/02/2023,Cazalla de la Sierra,1,06-04-2023,8871YZ,Moto,06/04/19,N,31.2
+03/03/2024,Sanlucar la Mayor,2,03-05-2024,8056HJK,Camión,03/05/20,S,144.3
+04/02/2020,Alcalá de Guadaíra,1,04-04-2020,2052PQR,Moto,04/04/16,S,44
+23/07/2022,Sevilla-Gelves,3,23-09-2022,1033KLM,Turismo gasolina,23/09/18,S,50.7
+10/03/2021,La Rinconada,1,10-05-2021,6649XYZ,Turismo gasolina,10/05/17,N,59.4
+08/04/2022,Sanlucar la Mayor,2,08-06-2022,7030WXY,Turismo diésel,08/06/18,S,68.2
+11/01/2021,Cazalla de la Sierra,2,11-03-2021,5933QRS,Camión,11/03/17,N,193.4
+12/09/2019,Carmona,2,12-11-2019,7206JKL,Turismo gasolina,12/11/15,S,68.4
+15/09/2021,Sevilla-El Pino,3,15-11-2021,4296DFG,Moto,15/11/17,S,27
+25/01/2022,Sanlucar la Mayor,2,25-03-2022,5776XYZ,Turismo gasolina,25/03/18,S,53.8
+17/03/2019,Utrera,2,17-05-2019,5872PQR,Turismo gasolina,17/05/15,S,47.8
+12/08/2023,Cazalla de la Sierra,3,12-10-2023,3609XYZ,Turismo diésel,12/10/19,N,48.8
+18/03/2024,Cazalla de la Sierra,2,18-05-2024,4631HJK,Turismo gasolina,18/05/20,S,49.9
+07/08/2019,Lebrija,2,07-10-2019,9926TVW,Camión,07/10/15,S,193
+08/06/2023,Carmona,1,08-08-2023,5179WXY,Turismo eléctrico,08/08/19,S,38.5
+01/07/2019,La Rinconada,3,01-09-2019,9963VWX,Turismo diésel,01/09/15,N,46.8
+13/07/2024,Carmona,3,13-09-2024,7183BCD,Moto,13/09/20,S,39.4
+02/03/2021,Alcalá de Guadaíra,2,02-05-2021,7615LMN,Turismo gasolina,02/05/17,S,61.1
+22/08/2019,Sevilla-Gelves,2,22-10-2019,5882JKL,Camión,22/10/15,S,138.1
+24/09/2023,Sevilla-El Pino,3,24-11-2023,2231STV,Turismo gasolina,24/11/19,N,47.7
+08/10/2022,Sanlucar la Mayor,2,08-12-2022,9490DFG,Turismo diésel,08/12/18,S,73.4
+08/02/2020,Utrera,1,08-04-2020,9871STV,Turismo eléctrico,08/04/16,S,44.7
+15/08/2022,Sevilla-El Pino,1,15-10-2022,8439YZ,Turismo diésel,15/10/18,S,58.4
+28/10/2019,Utrera,1,28-12-2019,3206FGH,Camión,28/12/15,N,174.9
+03/07/2024,La Rinconada,1,03-09-2024,7683HJK,Moto,03/09/20,S,42.4
+01/08/2022,Sanlucar la Mayor,1,01-10-2022,9065FGH,Turismo eléctrico,01/10/18,S,36
+23/10/2024,Alcalá de Guadaíra,3,23-12-2024,6114CYZ,Turismo diésel,23/12/20,S,60.8
+16/03/2020,Sevilla-Gelves,1,16-05-2020,9771QRS,Turismo eléctrico,16/05/16,S,37.2
+26/01/2019,La Rinconada,1,26-03-2019,1401KLM,Turismo diésel,26/03/15,N,68.2
+16/05/2024,Sanlucar la Mayor,1,16-07-2024,3713QRS,Turismo eléctrico,16/07/20,S,42.4
+07/03/2019,Cazalla de la Sierra,2,07-05-2019,5252BYZ,Turismo diésel,07/05/15,S,70
+12/09/2020,Carmona,1,12-11-2020,4690RST,Moto,12/11/16,S,30.8
+17/03/2023,Lebrija,3,17-05-2023,7492HJK,Camión,17/05/19,N,198.7
+25/08/2022,Sanlucar la Mayor,2,25-10-2022,5030VWX,Moto,25/10/18,S,22.4
+07/10/2021,Sevilla-El Pino,3,07-12-2021,3350BBZ,Turismo gasolina,07/12/17,N,56.4
+02/06/2024,Sevilla-Gelves,1,02-08-2024,5999TVW,Turismo gasolina,02/08/20,S,74.7
+07/10/2021,Cazalla de la Sierra,3,07-12-2021,5156KLM,Turismo diésel,07/12/17,S,46.6
+05/02/2022,Sanlucar la Mayor,1,05-04-2022,9537FGH,Camión,05/04/18,S,110.9
+24/02/2019,Alcalá de Guadaíra,3,24-04-2019,5187MNP,Turismo gasolina,24/04/15,N,52
+23/03/2019,Sevilla-Gelves,3,23-05-2019,0475PQR,Moto,23/05/15,S,41.9
+27/09/2020,La Rinconada,2,27-11-2020,4929LMN,Turismo gasolina,27/11/16,S,72.5
+17/04/2023,Sanlucar la Mayor,3,17-06-2023,7371RST,Turismo gasolina,17/06/19,S,69.7
+02/05/2020,Cazalla de la Sierra,1,02-07-2020,7832NPQ,Turismo diésel,02/07/16,N,74.4
+23/08/2023,Carmona,3,23-10-2023,6903QRS,Turismo gasolina,23/10/19,S,63.5
+07/01/2021,Sevilla-El Pino,1,07-03-2021,5937NPQ,Camión,07/03/17,N,158.2
+28/06/2020,Sanlucar la Mayor,1,28-08-2020,9488WXY,Turismo eléctrico,28/08/16,S,36.3
+20/06/2020,Utrera,2,20-08-2020,5414DFG,Turismo diésel,20/08/16,S,53.1
+13/02/2024,Cazalla de la Sierra,3,13-04-2024,4311QRS,Moto,13/04/20,S,33.4
+22/01/2019,Cazalla de la Sierra,1,22-03-2019,2451NPQ,Turismo gasolina,22/03/15,S,60.3
+09/07/2023,Lebrija,3,09-09-2023,8115XYZ,Camión,09/09/19,N,114.7
+10/06/2022,Carmona,3,10-08-2022,0166KLM,Turismo gasolina,10/08/18,S,48.9
+01/05/2019,Cazalla de la Sierra,2,01-07-2019,6307BCD,Turismo diésel,01/07/15,S,47.2
+26/08/2020,Cazalla de la Sierra,3,26-10-2020,0115KLM,Turismo eléctrico,26/10/16,S,41.3
+08/10/2019,Lebrija,2,08-12-2019,4530QRS,Turismo diésel,08/12/15,N,64.4
+03/05/2019,Sevilla-El Pino,2,03-07-2019,6696MNP,Camión,03/07/15,S,104.9
+11/04/2019,Utrera,2,11-06-2019,2582XYZ,Turismo gasolina,11/06/15,S,53.3
+25/02/2022,La Rinconada,2,25-04-2022,4660LMN,Turismo gasolina,25/04/18,S,57.5
+12/05/2023,Sanlucar la Mayor,2,12-07-2023,6083VWX,Moto,12/07/19,N,36.9
+02/01/2022,Alcalá de Guadaíra,2,02-03-2022,0836CDF,Turismo eléctrico,02/03/18,S,40.6
+15/10/2024,Sevilla-Gelves,3,15-12-2024,5732BYZ,Turismo gasolina,15/12/20,S,72.4
+23/10/2023,La Rinconada,2,23-12-2023,4462WXY,Camión,23/12/19,S,101.4
+28/04/2021,Sanlucar la Mayor,2,28-06-2021,8165KLM,Turismo diésel,28/06/17,N,52.6
+25/03/2021,Alcalá de Guadaíra,2,25-05-2021,0284DFZ,Turismo gasolina,25/05/17,S,60.9
+13/06/2021,Sevilla-Gelves,2,13-08-2021,2073FGH,Camión,13/08/17,S,129.6
+20/06/2023,Carmona,3,20-08-2023,5601BCD,Turismo eléctrico,20/08/19,S,44.9
+27/03/2019,Sanlucar la Mayor,1,27-05-2019,2218WXY,Turismo diésel,27/05/15,S,56.9
+04/10/2022,Sevilla-El Pino,2,04-12-2022,7762VWX,Moto,04/12/18,N,25.7
+17/05/2022,Sevilla-Gelves,2,17-07-2022,6218VWX,Turismo gasolina,17/07/18,S,66.4
+21/03/2022,La Rinconada,1,21-05-2022,1722VWX,Camión,21/05/18,S,171.7
+27/04/2023,Sanlucar la Mayor,3,27-06-2023,1551PQR,Turismo gasolina,27/06/19,S,60.3
+10/01/2024,Alcalá de Guadaíra,3,10-03-2024,3931WXY,Turismo diésel,10/03/20,N,52.6
+22/08/2022,Sevilla-Gelves,2,22-10-2022,5094KLM,Turismo eléctrico,22/10/18,S,41.9
+01/01/2019,La Rinconada,1,01-03-2019,6104WXY,Turismo diésel,01/03/15,S,59
+10/04/2021,Carmona,2,10-06-2021,7090GHJ,Turismo eléctrico,10/06/17,S,42.9
+16/01/2023,Sevilla-El Pino,3,16-03-2023,5924YZ,Turismo diésel,16/03/19,N,59
+11/07/2023,Utrera,3,11-09-2023,2067PQR,Camión,11/09/19,S,181.8
+12/09/2022,La Rinconada,1,12-11-2022,7349MNP,Camión,12/11/18,S,182.7
+05/06/2022,Sanlucar la Mayor,1,05-08-2022,8545MNP,Moto,05/08/18,S,43.5
+12/08/2023,Alcalá de Guadaíra,3,12-10-2023,6693BYZ,Turismo gasolina,12/10/19,N,54.8
+20/06/2023,Sevilla-Gelves,3,20-08-2023,7869TVW,Turismo gasolina,20/08/19,S,55.3
+02/06/2022,La Rinconada,2,02-08-2022,2016PQR,Moto,02/08/18,N,30.2
+08/04/2024,Sanlucar la Mayor,2,08-06-2024,2554QRS,Turismo eléctrico,08/06/20,S,35.4
+28/07/2024,Alcalá de Guadaíra,1,28-09-2024,8763KLM,Turismo diésel,28/09/20,S,61.7
+21/06/2020,Sevilla-Gelves,1,21-08-2020,8304BCD,Turismo gasolina,21/08/16,S,53.1
+19/02/2023,Sevilla-El Pino,1,19-04-2023,4876FGH,Camión,19/04/19,N,130.3
+21/07/2021,Sanlucar la Mayor,3,21-09-2021,1371WXY,Turismo eléctrico,21/09/17,S,40.1
+02/07/2022,Sevilla-El Pino,2,02-09-2022,5994RST,Turismo diésel,02/09/18,S,61.4
+09/05/2021,Sevilla-Gelves,2,09-07-2021,6354HJK,Moto,09/07/17,S,25.7
+26/01/2019,La Rinconada,1,26-03-2019,5114VWX,Turismo gasolina,26/03/15,N,72.6
+14/09/2024,Sanlucar la Mayor,3,14-11-2024,8721NPQ,Camión,14/11/20,S,138.8
+12/08/2023,Alcalá de Guadaíra,2,12-10-2023,8556STV,Turismo gasolina,12/10/19,S,52.3
+10/05/2020,Sevilla-Gelves,2,10-07-2020,3599BDZ,Turismo diésel,10/07/16,S,65.6
+12/07/2022,La Rinconada,1,12-09-2022,9887JKL,Turismo eléctrico,12/09/18,N,41.7
+03/09/2023,Sanlucar la Mayor,2,03-11-2023,1697PQR,Turismo diésel,03/11/19,S,63
+02/07/2020,Alcalá de Guadaíra,1,02-09-2020,9961NPQ,Camión,02/09/16,S,117.1
+14/07/2020,Sevilla-El Pino,2,14-09-2020,8096FGH,Camión,14/09/16,S,158.9
+19/08/2022,Utrera,2,19-10-2022,7196NPQ,Moto,19/10/18,N,26.3
+27/06/2023,La Rinconada,1,27-08-2023,5383HJK,Turismo diésel,27/08/19,S,74.2
+08/10/2023,Sanlucar la Mayor,2,08-12-2023,3539DFG,Turismo eléctrico,08/12/19,N,44.8
+09/06/2023,Alcalá de Guadaíra,1,09-08-2023,6369WXY,Turismo diésel,09/08/19,S,56.6
+09/03/2022,Sevilla-Gelves,2,09-05-2022,2043RST,Camión,09/05/18,S,144
+22/06/2021,La Rinconada,2,22-08-2021,3129QRS,Camión,22/08/17,S,113.5
+18/06/2019,Sanlucar la Mayor,2,18-08-2019,1727BCD,Moto,18/08/15,S,33.2
+20/09/2023,Alcalá de Guadaíra,3,20-11-2023,7199QRS,Turismo gasolina,20/11/19,N,54.3
+27/02/2021,Sevilla-Gelves,2,27-04-2021,6329PQR,Turismo gasolina,27/04/17,S,72.2
+14/07/2024,Sevilla-El Pino,1,14-09-2024,8547HJK,Moto,14/09/20,S,25
+10/04/2021,Sanlucar la Mayor,3,10-06-2021,2648PQR,Turismo eléctrico,10/06/17,S,39.2
+14/01/2024,Sevilla-El Pino,1,14-03-2024,2153FGH,Turismo diésel,14/03/20,N,49.1
+03/06/2020,Sevilla-Gelves,2,03-08-2020,2018TVW,Turismo eléctrico,03/08/16,S,43.5
+12/05/2023,La Rinconada,1,12-07-2023,4198QRS,Turismo diésel,12/07/19,S,50
+10/07/2020,Sanlucar la Mayor,3,10-09-2020,8783FGH,Turismo eléctrico,10/09/16,S,38.9
+13/04/2024,Alcalá de Guadaíra,3,13-06-2024,8355KLM,Turismo diésel,13/06/20,N,66.6
+23/02/2024,Sevilla-Gelves,2,23-04-2024,7590LMN,Camión,23/04/20,S,145.5
+04/03/2019,La Rinconada,2,04-05-2019,0119FDZ,Turismo gasolina,04/05/15,S,45.8
+17/06/2024,Sanlucar la Mayor,2,17-08-2024,1164CDF,Moto,17/08/20,S,35.5
+20/04/2023,Alcalá de Guadaíra,3,20-06-2023,0300GHJ,Turismo gasolina,20/06/19,N,60.3
+18/07/2023,Sevilla-Gelves,2,18-09-2023,8930VWX,Turismo gasolina,18/09/19,S,58.1
+09/03/2021,La Rinconada,2,09-05-2021,1316DYZ,Turismo diésel,09/05/17,S,66.2
+06/07/2019,Sanlucar la Mayor,1,06-09-2019,1711QRS,Turismo gasolina,06/09/15,S,51.1
+08/09/2023,Alcalá de Guadaíra,1,08-11-2023,1611XYZ,Camión,08/11/19,S,185.2
+19/06/2021,Sevilla-Gelves,1,19-08-2021,2643CDF,Turismo eléctrico,19/08/17,N,35.4
+14/07/2023,Carmona,3,14-09-2023,1630LMN,Turismo diésel,14/09/19,S,68.5
+19/01/2020,Sanlucar la Mayor,1,19-03-2020,5867BCD,Moto,19/03/16,S,31.7
+03/03/2021,Sevilla-El Pino,1,03-05-2021,4405WXY,Turismo gasolina,03/05/17,S,71.7
+21/05/2023,Sevilla-Gelves,1,21-07-2023,7460WXY,Camión,21/07/19,N,104.9
+23/10/2023,La Rinconada,1,23-12-2023,3998GHJ,Turismo gasolina,23/12/19,S,58
+07/04/2022,Sanlucar la Mayor,1,07-06-2022,0062XYZ,Turismo diésel,07/06/18,S,69.9
+19/07/2019,Alcalá de Guadaíra,1,19-09-2019,4804VWX,Turismo eléctrico,19/09/15,S,38.5
+05/01/2021,Sevilla-Gelves,1,05-03-2021,0959DFZ,Turismo diésel,05/03/17,N,68.4
+21/07/2019,La Rinconada,1,21-09-2019,4046DFG,Camión,21/09/15,S,108
+17/02/2022,Carmona,1,17-04-2022,7511HHZ,Camión,17/04/18,S,153.3
+07/06/2024,Sevilla-El Pino,1,07-08-2024,8797JKL,Moto,07/08/20,S,33.7
+15/05/2024,Utrera,2,15-07-2024,4122RST,Turismo diésel,15/07/20,N,66.2
+18/02/2023,La Rinconada,1,18-04-2023,7769TVW,Turismo eléctrico,18/04/19,S,42.2
+27/01/2019,Sanlucar la Mayor,1,27-03-2019,9465BCD,Turismo diésel,27/03/15,N,50.1
+27/10/2023,Alcalá de Guadaíra,3,27-12-2023,4992MNP,Camión,27/12/19,S,116.7
+07/10/2021,Sevilla-Gelves,1,07-12-2021,5560FDZ,Camión,07/12/17,S,142.4
+27/08/2020,La Rinconada,2,27-10-2020,5382TVW,Moto,27/10/16,S,43.1
+11/05/2020,Sanlucar la Mayor,2,11-07-2020,7280TVW,Turismo gasolina,11/07/16,S,63.6
+09/06/2019,Alcalá de Guadaíra,2,09-08-2019,1533BCD,Turismo gasolina,09/08/15,N,59.9
+05/01/2023,Sevilla-Gelves,1,05-03-2023,9029WXY,Moto,05/03/19,S,21.1
+24/06/2021,Sevilla-El Pino,3,24-08-2021,8527YZ,Turismo eléctrico,24/08/17,S,35.2
+04/04/2023,Sanlucar la Mayor,1,04-06-2023,7685HDZ,Turismo diésel,04/06/19,S,50.1
+21/10/2019,Sevilla-El Pino,1,21-12-2019,2084TVW,Turismo eléctrico,21/12/15,N,36.8
+05/10/2024,Sevilla-Gelves,3,05-12-2024,1099NPQ,Turismo diésel,05/12/20,S,62.5
+02/01/2024,La Rinconada,1,02-03-2024,0116JKL,Turismo eléctrico,02/03/20,S,37.8
+26/09/2019,Sanlucar la Mayor,2,26-11-2019,4505QRS,Turismo diésel,26/11/15,S,49.7
+02/08/2019,Alcalá de Guadaíra,1,02-10-2019,0241JKL,Moto,02/10/15,N,30.6
+01/09/2024,Sevilla-Gelves,1,01-11-2024,0024DFG,Camión,01/11/20,S,124.1
+14/04/2024,La Rinconada,1,14-06-2024,5402XYZ,Moto,14/06/20,S,36.5
+21/03/2019,Sanlucar la Mayor,1,21-05-2019,9533BCD,Turismo gasolina,21/05/15,S,45.8
+08/04/2022,Alcalá de Guadaíra,2,08-06-2022,9733CDF,Turismo gasolina,08/06/18,N,65.1
+15/05/2022,Sevilla-El Pino,3,15-07-2022,2643KLM,Turismo diésel,15/07/18,S,64.9
+25/10/2020,Utrera,1,25-12-2020,6792QRS,Camión,25/12/16,S,141.3
+13/07/2022,La Rinconada,3,13-09-2022,7562LMN,Turismo gasolina,13/09/18,S,57
+01/02/2021,Sanlucar la Mayor,2,01-04-2021,8938NPQ,Moto,01/04/17,S,36.8
+02/01/2019,Alcalá de Guadaíra,1,02-03-2019,3943NPQ,Turismo gasolina,02/03/15,N,71.8
+19/06/2019,Sevilla-Gelves,1,19-08-2019,3085GHJ,Turismo gasolina,19/08/15,S,69.2
+04/09/2020,La Rinconada,2,04-11-2020,1625XYZ,Turismo diésel,04/11/16,S,53.4
+02/04/2021,Sanlucar la Mayor,1,02-06-2021,4352CDF,Turismo gasolina,02/06/17,S,51.3
+11/06/2019,Alcalá de Guadaíra,3,11-08-2019,0104KYZ,Camión,11/08/15,N,158.7
+28/02/2023,Sevilla-Gelves,1,28-04-2023,0571LMN,Turismo eléctrico,28/04/19,S,40
+04/04/2022,Sevilla-El Pino,2,04-06-2022,8849KZK,Turismo diésel,04/06/18,N,56.4
+15/03/2020,Sanlucar la Mayor,2,15-05-2020,9654MNP,Moto,15/05/16,S,44.6
+24/04/2022,Sevilla-El Pino,2,24-06-2022,7289CDF,Turismo gasolina,24/06/18,S,45.1
+20/02/2020,Sevilla-Gelves,1,20-04-2020,1691GHJ,Camión,20/04/16,S,126.3
+10/05/2019,Sanlucar la Mayor,1,10-07-2019,0171LMN,Turismo diésel,10/07/15,S,64.3
