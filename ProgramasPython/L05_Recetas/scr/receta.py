@@ -28,7 +28,7 @@ def lee_recetas(nombre_fichero:str)->List[Receta]:
             ingredientes = [Ingrediente(ingrediente[0],float(ingrediente[1]),ingrediente[2]) for ingrediente in ingredientes]
             tiempo = int(tiempo)
             calorías = int(calorías)
-            fecha = datetime.strptime(fecha,"%d/%m/%Y")
+            fecha = datetime.strptime(fecha,"%d/%m/%Y").date()
             precio = float(precio.replace(',','.'))
             acum.append(Receta(denominación,tipo,dificultad,ingredientes,tiempo,calorías,fecha,precio))
     return acum
@@ -64,7 +64,8 @@ def receta_más_barata(datos:List[Receta],conjunto:set[str],n:Optional[int]=None
     Si n toma el valor **None** se buscará la receta más barata de entre totas las recetas.
     """   
     filtro = [receta for receta in datos if receta.tipo in conjunto] #Filtro por tipo
-    filtro = sorted(filtro,key=lambda a: a.calorías) #Ordeno de manor a mayor calorías
+    filtro.sort(key=lambda a: a.calorías) #Ordeno de menor a mayor calorías
+    #filtro = sorted(filtro,key=lambda a: a.calorías) #Ordeno de menor a mayor calorías
     if n != None: 
         filtro = filtro[:n]
     return min(filtro,key=lambda a: a.precio)

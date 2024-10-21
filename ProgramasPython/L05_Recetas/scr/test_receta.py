@@ -1,13 +1,21 @@
 from receta import *
 
+def imprime_nombre(funcion):
+    def decora(*args):
+        print("\n"+funcion.__name__)
+        funcion(*args)
+    return decora
+
+@imprime_nombre
 def test_lee_recetas(datos:Receta)->None:
-    print("\n"+test_lee_recetas.__name__)
+    #print("\n"+test_lee_recetas.__name__)
     print(f"Registros leídos: {len(datos)}")
     print(f"Los dos primeros: {datos[:2]}")
     print(f"\nLos dos últimos: {datos[-2:]}")
 
+@imprime_nombre
 def test_diferentes_ingredientes(datos:List[Receta])->None:
-    print("\ntest_diferentes_ingredientes")
+    #print("\ntest_diferentes_ingredientes")
     diferentes = diferentes_ingredientes(datos)
     print(f"Todos los diferentes ingredientes son: {diferentes}")
     diferentes = diferentes_ingredientes(datos,'gr')
@@ -15,8 +23,9 @@ def test_diferentes_ingredientes(datos:List[Receta])->None:
     diferentes = diferentes_ingredientes(datos,'cl')
     print(f"\nLos diferentes ingredientes que se miden en cl son: {diferentes}")
 
+@imprime_nombre
 def test_recetas_con_ingredientes(datos:List[Receta])->None:
-    print("\ntest_diferentes_ingredientes")
+    #print("\ntest_diferentes_ingredientes")
     conjunto = {'harina','azúcar'}
     lista = recetas_con_ingredientes(datos,conjunto)
     print(f"Las recetas con alguno de los siguientes ingredientes {conjunto} son: {lista}")
@@ -24,15 +33,16 @@ def test_recetas_con_ingredientes(datos:List[Receta])->None:
     lista = recetas_con_ingredientes(datos,conjunto)
     print(f"\nLas recetas con alguno de los siguientes ingredientes {conjunto} son: {lista}")
 
+@imprime_nombre
 def test_receta_más_barata(datos:List[Receta])->None:
-    print(f"\ntest_receta_más_barata")
+    #print(f"\ntest_receta_más_barata")
     tipos = {'Entrante', 'Postre'}
     barato = receta_más_barata(datos,tipos)
-    print(f"La receta más barata de que sean de alguno de los siguientes tipos {tipos} es {barato}")
+    print(f"La receta más barata de que sean de alguno de los siguientes tipos {tipos} es: {barato}")
     tipos = {'Plato Principal', 'Postre'}
     n = 5
     barato = receta_más_barata(datos,tipos,5)
-    print(f"\nLa receta más barata de que las {n} con menos calorías de los siguientes tipos {tipos} es {barato}")
+    print(f"\nLa receta más barata de que las {n} con menos calorías de los siguientes tipos {tipos} es: {barato}")
     
 
 if __name__ == "__main__":
