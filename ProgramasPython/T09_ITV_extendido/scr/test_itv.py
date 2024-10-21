@@ -47,7 +47,7 @@ def test_diferencia_entre_importes(datos:List[ITV])->None:
         print(f"{indice+1}. La diferencia entre {tupla[0]} y {tupla[1]} es {tupla[2]}")
 
 if __name__ == "__main__":
-    ITVs = lee_inspecciones("T09_ITV_extendido/data/inspecciones.csv")
+    ITVs = lee_inspecciones("ProgramasPython\T09_ITV_extendido\data\inspecciones.csv")
     test_lee_inspecciones(ITVs)
     test_inspecciones_entre_fechas(ITVs)
     test_promedio_de_días_de_adelanto(ITVs)
