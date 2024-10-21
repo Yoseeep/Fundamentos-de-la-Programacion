@@ -1,5 +1,5 @@
 from typing import NamedTuple,List,Optional,Tuple
-from datetime import date,time,datetime
+from datetime import date,datetime
 import csv
 
 Ingrediente = NamedTuple("Ingrediente",
