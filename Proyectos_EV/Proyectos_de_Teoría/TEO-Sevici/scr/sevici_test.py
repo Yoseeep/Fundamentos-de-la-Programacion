@@ -40,7 +40,14 @@ if __name__ == "__main__":
     test_estaciones_bicis_libres(estaciones)
     test_estaciones_cercanas(estaciones,Coordenadas(37.357659,-5.9863))
 
-
-    # NO ME FUNCIONA EL CÓDIGO: Error al guardar el mapa: [Errno 13] Permission denied: 'Proyectos_EV/Proyectos_de_Teoría/TEO-Sevici/out'
+    # Mostramos todas las estaciones
     mapa_estaciones = crea_mapa_estaciones(estaciones, color_azul)
-    guarda_mapa(mapa_estaciones, "Proyectos_EV/Proyectos_de_Teoría/TEO-Sevici/out")
+    guarda_mapa(mapa_estaciones, "Proyectos_EV/Proyectos_de_Teoría/TEO-Sevici/out/azul.html")
+
+    # Mostramos también las disponibilidades de las bicis en las estaciones
+    mapa_estaciones = crea_mapa_estaciones(estaciones, obten_color_bicis_disponibles)
+    guarda_mapa(mapa_estaciones, "Proyectos_EV/Proyectos_de_Teoría/TEO-Sevici/out/estaciones_bicis_disponibles.html")
+
+    # Mostramos también las disponibilidades de las bornetas en las estaciones
+    mapa_estaciones = crea_mapa_estaciones(estaciones, obten_color_bornetas_disponibles)
+    guarda_mapa(mapa_estaciones, "Proyectos_EV/Proyectos_de_Teoría/TEO-Sevici/out/estaciones_bornetas_disponibles.html")

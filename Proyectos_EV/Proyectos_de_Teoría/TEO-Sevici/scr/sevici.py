@@ -204,7 +204,7 @@ def guarda_mapa(mapa, ruta_fichero):
     :param ruta_fichero: Nombre y ruta del fichero
     :type ruta_fichero: str
     '''
-    mapa.save(ruta_fichero)
+    mapa.save(ruta_fichero)    
     # Abre el fichero creado en un navegador web
     webbrowser.open("file://" + os.path.realpath(ruta_fichero))
 
@@ -219,3 +219,32 @@ def color_azul(estacion):
       :rtype: str
    '''
    return "blue"
+
+def obten_color_bicis_disponibles(estacion):
+    '''Función que devuelve "red" si la estación no tiene bicis disponibles, y verde en caso contrario 
+    ENTRADA
+      :param estacion: Estacion para la que quiero averiguar el color
+      :type estacion: Estacion(str, int, int, int, Coordenadas(float, float))
+    SALIDA
+      :return: "red" o "green" dependiendo de si la estación tiene bicis disponibles o no
+      :rtype: str
+    '''
+    res="red"
+    if estacion.bicis_disponibles>0:
+        res="green"
+    return res
+
+# Función que devuelve "orange" si la estación no tiene bornetas vacías, y "lightblue" en caso contrario
+def obten_color_bornetas_disponibles(estacion):
+    '''Función que devuelve "red" si la estación no tiene bornetas vacías, y verde en caso contrario 
+    ENTRADA
+      :param estacion: Estacion para la que quiero averiguar el color
+      :type estacion: Estacion(str, int, int, int, Coordenadas(float, float))
+    SALIDA
+      :return: "darkred" o "ligthgreen" dependiendo de si la estación tiene bornetas vacías o no
+      :rtype: str
+    '''
+    res="darkred"
+    if estacion.bornetas_vacias>0:
+        res="lightgreen"
+    return res
