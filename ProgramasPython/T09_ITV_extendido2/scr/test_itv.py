@@ -46,10 +46,48 @@ def test_diferencia_entre_importes(datos:List[ITV])->None:
     for indice,tupla in enumerate(diferencias):
         print(f"{indice+1}. La diferencia entre {tupla[0]} y {tupla[1]} es {tupla[2]}")
 
+def test_número_inspecciones_por_estación(datos:List[ITV])->None:
+    print("\ntest_número_inspecciones_por_estación")
+    diccionario = número_inspecciones_por_estación(datos)
+    print(f"El número de inspecciones es: {diccionario}")
+
+def test_recaudación_por_año(datos:List[ITV])->None:
+    print(f"\ntest_recaudación_por_año")
+    resultado = "F"
+    diccionario = recaudación_por_año(datos,resultado)
+    print(f"Los importes por año con inspección {resultado} son: {diccionario}")
+    resultado = "D"
+    diccionario = recaudación_por_año(datos,resultado)
+    print(f"Los importes por año con inspección {resultado} son: {diccionario}")
+
+def test_matrículas_por_tipo(datos:List[ITV])->None:
+    print(f"\ntest_matrículas_por_tipo")
+    f1 = date(2024,1,1)
+    matriculas = matrículas_por_tipo(datos).items()
+    print(f"Las matrículas desde el {f1}:")
+    for tipo,lista in matriculas:
+        print(f"{tipo} --> {lista}")
+    f1 = None
+    f2 = date(2019,10,31)
+    matriculas = matrículas_por_tipo(datos).items()
+    print(f"\Las matrículas hasta el {f2}:")
+    for tipo,lista in matriculas:
+        print(f"{tipo} --> {lista}")
+    f1 = date(2023,6,1)
+    f2 = date(2023,9,30)
+    matriculas = matrículas_por_tipo(datos).items()
+    print(f"\Las matrículas hasta el {f1}:")
+    for tipo,lista in matriculas:
+        print(f"{tipo} --> {lista}")
+
+
 if __name__ == "__main__":
-    ITVs = lee_inspecciones("ProgramasPython\T09_ITV_extendido2\data\inspecciones.csv")
+    ITVs = lee_inspecciones("ProgramasPython/T09_ITV_extendido2/data/inspecciones.csv")
     test_lee_inspecciones(ITVs)
     test_inspecciones_entre_fechas(ITVs)
     test_promedio_de_días_de_adelanto(ITVs)
     test_importes_comunes(ITVs)
     test_diferencia_entre_importes(ITVs)
+    test_número_inspecciones_por_estación(ITVs)
+    test_recaudación_por_año(ITVs)
+    test_matrículas_por_tipo(ITVs)

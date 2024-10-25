@@ -1,6 +1,7 @@
-from typing import NamedTuple,List,Tuple,Set
+from typing import NamedTuple,List,Tuple,Set,Dict,Optional
 from datetime import datetime,date,timedelta
 import csv
+
 
 ITV = NamedTuple('itv',[('f_insp',date),('estación',str),('número',int),('f_límite',date),('matrícula',str),('tipo',str),('f_matr',date),('resultado',bool),('importe',float)])
 
@@ -68,4 +69,43 @@ def diferencia_entre_importes(datos:List[ITV])->List[Tuple[float,float,float]]:
     recorre = zip(importes_ordenados,importes_ordenados[1:])
     return [(precioMayor,precioMenor,precioMayor-precioMenor) for precioMenor,precioMayor in recorre]
     
+def número_inspecciones_por_estación(datos:List[ITV])-> Dict[str,int]:
+    """
+    Recibe una lista de tuplas de tipo ITV
+    Devuelve un diccionario que cada estación le haga corresponder el número de inspecciones realizadas en la estación de que se trate.
+    """
+    acum = dict()
+    for dato in datos:
+        if dato.estación not in acum:
+            acum[dato.estación] = 1
+        else:
+            acum[dato.estación] += 1
+    return acum
 
+def recaudación_por_año(datos:List[ITV], resultado:str)->Dict[int,float]:
+    """
+    Recibe una lista de tuplas de tipo ITV y un resultado de inspección ("F" favorable y "D" desfavorable)
+    Devuelve un diccionario que cada año le haga corresponder la suma de los importes recaudados, según el resultado dado como parametro del año de que se trate.
+    """
+    acum = dict()
+    for dato in datos:
+        if dato.resultado == ("F" == resultado):
+            if dato.f_insp.year not in acum:
+                acum[dato.f_insp.year] = dato.importe
+            else:
+                acum[dato.f_insp.year] += dato.importe
+    return acum
+
+def matrículas_por_tipo(datos:List[ITV],f1:Optional[date]=None,f2:Optional[date]=None)->Dict[str,List[str]]:
+    """
+    Recibe una lista de tuplas de tipo ITV y dos fechas que por defecto pueden valor **None**
+    Devuelve un diccionario que cada tipo de vehículo le haga corresponder la lista de las matrículas de los vehículos inspeccionados entre las fechas dadas (ambas incluidas). No se contemplará filtro para la fecha que tome el valor por defecto.
+    """
+    acum = dict()
+    for dato in datos:
+        if (f1 == None or f1 <= dato.f_insp) and (f2 == None or dato.f_insp < f2):
+            if dato.tipo not in acum:
+                acum[dato.tipo] = [dato.matrícula]
+            else:
+                acum[dato.tipo].append(dato.matrícula)
+    return acum
