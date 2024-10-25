@@ -63,20 +63,20 @@ def test_recaudación_por_año(datos:List[ITV])->None:
 def test_matrículas_por_tipo(datos:List[ITV])->None:
     print(f"\ntest_matrículas_por_tipo")
     f1 = date(2024,1,1)
-    matriculas = matrículas_por_tipo(datos).items()
+    matriculas = matrículas_por_tipo(datos,f1).items()
     print(f"Las matrículas desde el {f1}:")
     for tipo,lista in matriculas:
         print(f"{tipo} --> {lista}")
     f1 = None
     f2 = date(2019,10,31)
-    matriculas = matrículas_por_tipo(datos).items()
-    print(f"\Las matrículas hasta el {f2}:")
+    matriculas = matrículas_por_tipo(datos,f1,f2).items()
+    print(f"\nLas matrículas hasta el {f2}:")
     for tipo,lista in matriculas:
         print(f"{tipo} --> {lista}")
     f1 = date(2023,6,1)
     f2 = date(2023,9,30)
-    matriculas = matrículas_por_tipo(datos).items()
-    print(f"\Las matrículas hasta el {f1}:")
+    matriculas = matrículas_por_tipo(datos,f1,f2).items()
+    print(f"\nLas matrículas hasta el {f1}:")
     for tipo,lista in matriculas:
         print(f"{tipo} --> {lista}")
 
