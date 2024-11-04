@@ -87,7 +87,7 @@ Doble --> {'98762912S', '71970039A', '08437903P', '13359010N', '04812247A', '202
 Estandar --> {'07424130Y', '13359010N', '35963657Y', '70563584K', '04264926J', '43257294K', '22881672F'}
 ```
 ### Ejercicio 7
-Defina una función ``cliente_mayor_facturacion`` que reciba una lista de tuplas de tipo Eeserva y un conjunto de servicios que pode tomar el valor **None**, y devuelve una tupla(dni, total_facturado) con el dni del cliente al que se le ha facturado más, junto con el total facturado, teniendo en cuenta sólo aquellas reservas en las que se haya contratado **alguno** de los servicios adicionales indicados.
+Defina una función ``cliente_mayor_facturacion`` que reciba una lista de tuplas de tipo Reserva y un conjunto de servicios que pode tomar el valor **None**, y devuelve una tupla(dni, total_facturado) con el dni del cliente al que se le ha facturado más, junto con el total facturado, teniendo en cuenta sólo aquellas reservas en las que se haya contratado **alguno** de los servicios adicionales indicados.
 Si el conjunto de servicios toma el valor None  se procesarán todas las reservas.
 
 
