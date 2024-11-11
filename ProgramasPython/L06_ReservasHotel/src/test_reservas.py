@@ -58,6 +58,42 @@ def test_cliente_mayor_facturacion(datos:List[Reserva])->None:
     servicios = {"Parking","Spa"}
     print(f"Con Parking o Spa: {cliente_mayor_facturacion(datos,servicios)}")
 
+@imprime_nombres
+def test_promedios_dias_estancias_por_tipo(datos:List[Reserva])->None:
+    promedios = promedios_dias_estancias_por_tipo(datos)
+    print(promedios)
+
+@imprime_nombres
+def test_reserva_más_barata_por_número_personas(datos:List[Reserva])->None:
+    print("Para cualquier servicio")
+    diccionario = reserva_más_barata_por_número_personas(datos)
+    for c,v in diccionario.items():
+        print(c,"-->",v)
+    servicios = {'Gimnasio','Spa'}
+    print("\nPara los servicios",servicios)
+    diccionario = reserva_más_barata_por_número_personas(datos,servicios)
+    for c,v in diccionario.items():
+        print(c,"-->",v)
+
+@imprime_nombres
+def test_reserva_más_cara_por_mes(datos:List[Reserva])->None:
+    diccionario = reserva_más_cara_por_mes(datos)
+    for c,v in diccionario.items():
+        print(f"{c} --> {v}")
+
+#@imprime_nombres
+def test_clientes_por_servicio(datos:List[Reserva])->None:
+    n = 3
+    print(f"Para n={n}, todos los tipos")
+    diccionario = clientes_por_servicio(datos,n)
+    for c,v in diccionario.items():
+        print(c,"-->",v)
+    n = 4
+    tipo = "Doble"
+    print(f"\nPara n={n} y tipo {tipo}")
+    diccionario = clientes_por_servicio(datos,n,tipo)
+    for c,v in diccionario.items():
+        print(c,"-->",v)
 
 if __name__ == "__main__":
     reservas = lee_reservas("ProgramasPython/L06_ReservasHotel/data/reservas.csv")
@@ -67,3 +103,7 @@ if __name__ == "__main__":
     test_reservas_más_largas(reservas)
     test_dni_por_tipo(reservas)
     test_cliente_mayor_facturacion(reservas)
+    test_promedios_dias_estancias_por_tipo(reservas)
+    test_reserva_más_barata_por_número_personas(reservas)
+    test_reserva_más_cara_por_mes(reservas)
+    test_clientes_por_servicio(reservas)

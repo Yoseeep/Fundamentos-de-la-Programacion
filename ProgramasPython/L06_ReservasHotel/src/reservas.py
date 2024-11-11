@@ -83,3 +83,73 @@ def cliente_mayor_facturacion(reservas:List[Reserva],servicios:Optional[Set[str]
             else:
                 res[reserva.dni] =  res[reserva.dni] + facturado
     return max(res.items(), key=lambda a: a[1])
+
+def promedios_dias_estancias_por_tipo(reservas:List[Reserva])->Dict[str,float]:
+    """
+    Recibe una lista de tuplas de tipo Reserva
+    Devuelve un diccionario con el promedio de días en que se reserva cada tipo de habitación
+    """
+    res = dict()
+    for reserva in reservas:
+        diferencia_dias = reserva.fechas.fecha_salida-reserva.fechas.fecha_entrada
+        if reserva.tipo_habitación not in res:
+            res[reserva.tipo_habitación] = [diferencia_dias.days]
+        else:
+            res[reserva.tipo_habitación].append(diferencia_dias.days)
+    
+    for tipo,días in res.items():
+        res[tipo]=sum(días)/len(días)
+    
+    return res
+
+def reserva_más_barata_por_número_personas(reservas:List[Reserva],servicios:Optional[Set[str]]=None)->Dict[int,Reserva]:
+    """
+    Recibe una lista de tuplas de tipo Reserva y un conjunto de servicios adicionales, que por defecto puede valer **None**.
+    Devuelve un diccionario con la reserva más barata para cada número de personas en las que se han contratado alguno de los 
+        servicios dados como parámetro, salvo que se omitan, en cuyo caso se considerarán todas las reservas.
+    """
+    res = dict()
+    for reserva in reservas:
+        if servicios == None or  len(servicios & set(reserva.servicios_adicionales))>0:
+            if reserva.num_personas not in res:
+                res[reserva.num_personas] = [reserva]
+            else:
+                res[reserva.num_personas].append(reserva)
+    for c,v in res.items():
+        res[c] = min(v,key= lambda a: a.precio_noche / a.num_personas )
+    return res
+
+def reserva_más_cara_por_mes(reservas:List[Reserva])->Dict[int,Tuple[str,str,float]]:
+    """
+    Recibe una lista de tuplas de tipo Reserva.
+    Devuelve un diccionario que a cada número del mes de la fecha de entrada le haga corresponder una tupla con el nombre y apellidos, DNI y el total facturado del cliente que ha pagado por una reserva en el mes de que se trate.
+    """
+    res = dict()
+    for reserva in reservas:
+        facturado = (reserva.fechas.fecha_salida - reserva.fechas.fecha_entrada).days * reserva.precio_noche
+        if reserva.fechas.fecha_entrada.month not in res:
+            res[reserva.fechas.fecha_entrada.month] = []
+        res[reserva.fechas.fecha_entrada.month].append( (reserva.dni,reserva.nombre,facturado) )
+    for c,v in res.items():
+        res[c] = max(v,key= lambda a: a[2])
+    return res
+
+def clientes_por_servicio(reservas:List[Reserva],n:int,tipo:Optional[str]=None)->Dict[str,List[Tuple[str,str,float]]]:
+    """
+    Recibe una lista de tuplas de tipo Reserva, un número entero "n" y un tipo de habitación que puede tomar por defecto el valor None
+    Devuelve un diccionario que a cada servicio adiccional le haga corresponder una lista de tuplas con el dni, el nombre del cliente y el precio noche de las reservas, 
+        ordenada por el precio, de los "n" clientes que han contratado el servicio adiccional de que se trate y se han alojado en el tipo de habitación dado, 
+        salvo que tome el valor por defecto, en cuyo caso se tendrá en cuenta todo tipo de habitación.
+    """
+    res = dict()
+    for reserva in reservas:
+        if (tipo == None or reserva.tipo_habitación == tipo) and len(reserva.servicios_adicionales)>0:
+            información = (reserva.dni,reserva.nombre,reserva.precio_noche)
+            for servicio in reserva.servicios_adicionales:
+                if servicio not in res:
+                    res[servicio] = [información]
+                else:
+                    res[servicio].append(información)
+    for c,v in res.items():
+        res[c] = sorted(v,key = lambda a: a[2])[:n]
+    return res
