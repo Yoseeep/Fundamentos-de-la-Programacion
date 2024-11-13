@@ -81,7 +81,7 @@ def test_reserva_más_cara_por_mes(datos:List[Reserva])->None:
     for c,v in diccionario.items():
         print(f"{c} --> {v}")
 
-#@imprime_nombres
+@imprime_nombres
 def test_clientes_por_servicio(datos:List[Reserva])->None:
     n = 3
     print(f"Para n={n}, todos los tipos")
