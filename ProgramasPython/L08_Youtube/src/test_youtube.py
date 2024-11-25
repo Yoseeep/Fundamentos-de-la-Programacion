@@ -47,15 +47,6 @@ def test_incrementos_visitas(datos:List[Video])->None:
     print(f"Incrementos de visitas del canal {canal}")
     print(incrementos_visitas(datos,canal))
 
-def test_coincide_incrementos_visitas(datos:List[Video])->None:
-    referencia = [-231503, 0, 0, 0, 0, 0, 310425, -310425, 184459, -184459, 0, 0, 0, 132521, -132521, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 200487, -53308, -147179, 0, 80380, -80380, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    coincidencia = coincide_incrementos_visitas(datos,referencia)
-    print(len(referencia))
-    
-    if coincidencia == None:
-        print("No hubo coincidencias.")
-    else:
-        print("Coincide con:", coincidencia)
 
 if __name__ == "__main__":
     videos  = lee_trending_videos("ProgramasPython/L08_Youtube/data/MX_Youtube_2017_utf8.csv")
@@ -65,5 +56,4 @@ if __name__ == "__main__":
     test_canales_top(videos)
     test_video_mas_likeability_por_categoria(videos)
     test_incrementos_visitas(videos)
-    print(len(incrementos_visitas(videos,"Mr. Tops")))
-    test_coincide_incrementos_visitas(videos)
+
