@@ -1,4 +1,4 @@
-from typing import NamedTuple,List,Union,Optional
+from typing import NamedTuple,List,Union,Optional,Tuple,Dict
 from datetime import date,datetime
 import csv
 
@@ -33,3 +33,91 @@ def media_visitas(videos:List[Video],fech:date)->Union[float,int]:
 def video_mayor_ratio_likes_dislikes(videos:List[Video],categoría:Optional[str]=None)->Video:
     filtro = [(video,video.likes/video.dislikes) for video in videos if (categoría == None or categoría == video.categoria) and video.dislikes > 0]
     return max(filtro,key=lambda a: a[1])
+
+def canales_top(videos:List[Video],n:Optional[int]=3)->List[Tuple[str,int]]:
+    res = dict()
+    for video in videos:
+        if video.canal not in res:
+            res[video.canal] = 0
+        res[video.canal] += 1
+    return sorted(res.items(),key=lambda a: a[1],reverse=True)[:n] 
+
+def video_mas_likeability_por_categoria(videos:List[Video],k:Optional[int]=20)->Dict[str,str]:
+    res = dict()
+    for video in videos:
+        if video.categoria not in res:
+            res[video.categoria] = []
+        likeability = (k*video.likes-video.dislikes)/(k*video.visitas) #Se supone que si un video es trending, tiene al menos una visita.
+        res[video.categoria].append( (video.id_video,likeability) )
+    for c,v in res.items():
+        res[c] = max(v,key=lambda a: a[1])[0]
+    return res
+
+"""
+def incrementos_visitas(videos:List[Video],canal:str)->List[int]:
+    fechas_con_registros = sorted({video.fecha_trending for video in videos}) # Lista de todas las fechas registradas, en orden cronológico, a partir del primer día (sin contar)
+    filtro_canal = [video for video in videos if video.canal == canal] # Filtro por el canal dado
+    fecha_visitas = [(video.fecha_trending,video.visitas) for video in filtro_canal] # Lista de tuplas de fecha y visitas
+    diferencias_fecha_visitas = zip(fecha_visitas,fecha_visitas[1:])
+    fecha_incremento = dict([(f1,v2-v1) for (f1,v1),(f2,v2) in diferencias_fecha_visitas]) # Lista de tuplas de fecha y diferencia de visitas con el anterior
+    return [fecha_incremento.get(fecha,0) for fecha in fechas_con_registros]
+"""
+
+"""
+def incrementos_visitas(videos:List[Video],canal:str)->List[int]:
+    # Diccionario con clave todas las fechas registradas en los datos y valor 0:
+    fechas_con_registros = {video.fecha_trending:0 for video in videos}
+    # Agrupamos por días las visitas obtenidas del canal:
+    fechas_visitas = dict()
+    for video in [video for video in videos if video.canal == canal]:
+        if video.fecha_trending not in fechas_visitas: 
+            fechas_visitas[video.fecha_trending] = 0
+        fechas_visitas[video.fecha_trending] += video.visitas
+    # Creamos un diccionario con las fechas y los incrementos:
+    lista_fechas_visitas = list(fechas_visitas.items())
+    diferencias_fecha_visitas = zip(lista_fechas_visitas,lista_fechas_visitas[1:])
+    fechas_incremento = dict([(f1,v2-v1) for (f1,v1),(f2,v2) in diferencias_fecha_visitas])
+    # Añadimos al primer diccionario los valores del segundo. 
+    for fecha,incremento in fechas_incremento.items(): 
+        fechas_con_registros[fecha] = incremento
+    # Nos quedamos con los incrementos ordenados por fecha registrada en los datos: 
+    return [v for c,v in sorted(fechas_con_registros.items())][:-1]
+"""
+
+def incrementos_visitas(videos:List[Video],canal:str)->List[int]:
+    # Diccionario con clave todas las fechas registradas en los datos y valor 0:
+    fechas_con_registros = {video.fecha_trending:0 for video in videos}
+    # Agrupamos por días las visitas obtenidas del canal:
+    fechas_visitas = dict()
+    for video in [video for video in videos if video.canal == canal]:
+        if video.fecha_trending not in fechas_visitas: 
+            fechas_visitas[video.fecha_trending] = 0
+        fechas_visitas[video.fecha_trending] += video.visitas
+    # Añadimos al primer diccionario los valores del segundo:
+    for fecha,visitas in fechas_visitas.items():
+        fechas_con_registros[fecha] = visitas
+    # Creamos un diccionario con las fechas y los incrementos:
+    lista_fechas_visitas = list(fechas_con_registros.items())
+    diferencias_fecha_visitas = zip(lista_fechas_visitas,lista_fechas_visitas[1:])
+    fechas_incremento = dict([(f1,v2-v1) for (f1,v1),(f2,v2) in diferencias_fecha_visitas])
+    # Nos quedamos con los incrementos ordenados por fecha registrada en los datos: 
+    return [v for c,v in sorted(fechas_incremento.items())]
+
+
+
+def coincide_incrementos_visitas(videos:List[Video],referencia:List[int])->str:
+    for canal in {video.canal for video in videos}:
+        if incrementos_visitas(videos,canal) == referencia:
+            return canal
+    return None
+
+"""
+    filtro_canal = [video for video in videos if video.canal == canal] # Filtro por el canal dado
+    fecha_visitas = [(video.fecha_trending,video.visitas) for video in filtro_canal] # Lista de tuplas de fecha y visitas
+    diferencias_fecha_visitas = zip(fecha_visitas,fecha_visitas[1:])
+    fecha_incremento = dict([(f1,v2-v1) for (f1,v1),(f2,v2) in diferencias_fecha_visitas]) # Lista de tuplas de fecha y diferencia de visitas con el anterior
+    return [fecha_incremento.get(fecha,0) for fecha in fechas_con_registros]
+"""
+
+
+    
