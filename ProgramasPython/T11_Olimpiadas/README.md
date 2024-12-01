@@ -103,17 +103,17 @@ A estos efectos, el **identificador** de unos juegos se forma con la **ciudad ol
 Resultados esperados en el test:
 ```
 test_deportes_mas_participantes_de_genero_por_juego
-los tres deportes con más participantes de género MUJER_de ESPAÑA son:
-0-('Seúl88', [('atletismo', 21), ('ciclismo', 14), ('boxeo', 9)])     
+Los tres deportes con más registros de género {género} de {país} son:
+0-('Seúl88', [('atletismo', 16), ('ciclismo', 14), ('boxeo', 9)])
 1-('Tokio64', [('esgrima', 17), ('hípica', 10), ('vela', 4)])
 2-('Rio de Janeiro16', [('esgrima', 16), ('tiro', 5)])
-3-('Sydney00', [('hípica', 12), ('boxeo', 11), ('halterofilia', 7)])  
-4-('Los Ángeles84', [('boxeo', 33), ('atletismo', 16), ('remo', 16)]) 
+3-('Sydney00', [('hípica', 12), ('boxeo', 11), ('halterofilia', 7)])
+4-('Los Ángeles84', [('boxeo', 18), ('atletismo', 16), ('remo', 16)])
 5-('Barcelona92', [('atletismo', 15), ('boxeo', 6)])
 
-los tres deportes con más participantes de género HOMBRE_de PORTUGAL son:
-0-('Sydney00', [('boxeo', 26), ('remo', 20), ('judo', 14)])
-1-('Seúl88', [('ciclismo', 26), ('tiro', 19), ('vela', 14)])
+Los tres deportes con más registros de género {género} de {país} son:
+0-('Sydney00', [('remo', 20), ('boxeo', 18), ('judo', 14)])
+1-('Seúl88', [('tiro', 19), ('vela', 14), ('ciclismo', 13)])
 2-('Rio de Janeiro16', [('atletismo', 13), ('vela', 7)])
 3-('Los Ángeles84', [('remo', 17), ('hípica', 10), ('vela', 4)])
 4-('Barcelona92', [('gimnasia', 9), ('esgrima', 8)])

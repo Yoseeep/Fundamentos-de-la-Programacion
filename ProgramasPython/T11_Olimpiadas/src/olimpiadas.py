@@ -1,4 +1,4 @@
-from typing import NamedTuple,List,Set,Optional,Tuple
+from typing import NamedTuple,List,Set,Optional,Tuple,Dict
 from datetime import date,datetime
 import csv
 
@@ -48,3 +48,42 @@ def deporte_femenino_con_mas_paises_distintos_con_oro(registros: List[Registro])
             res[registro.deporte].add(registro.pais)
     return max(res.items(),key=lambda a: len(a[1]))[0]
 
+
+def deportes_mas_participantes_de_genero_por_juego(registros: List[Registro],pais:str, genero:str) -> Dict[str, List[str]]:
+    pais_deportes = dict()
+    for registro in registros:
+        if registro.pais == pais and registro.genero == genero:
+            clave = registro.ciudad_olimpica + str(registro.fecha_inicio.year)[2:]
+            if clave not in pais_deportes:
+                pais_deportes[clave] = []
+            pais_deportes[clave].append( (registro.deporte,registro.num_participantes) )
+
+    for c,v in pais_deportes.items():
+        pais_deportes[c] = sorted(v,reverse=True,key=lambda a: a[1])[:3]
+    
+    return pais_deportes
+
+
+def deporte_con_todos_los_paises(registros: List[Registro]) -> bool:
+    paises = {registro.pais for registro in registros}
+    deportes_paises = dict()
+    for registro in registros:
+        if registro.deporte not in deportes_paises:
+            deportes_paises[registro.deporte] = set()
+        deportes_paises[registro.deporte].add(registro.pais)
+    
+    for deporte,paises_por_deporte in deportes_paises.items():
+        if len(paises_por_deporte & paises)>0:
+            return True
+    return False
+
+def año_con_mayor_incremento_participantes_de_pais(registros: List[Registro],pais: str) -> Tuple[int, int]:
+    res = dict()
+    for registro in registros:
+        if registro.fecha_inicio.year not in res:
+            res[registro.fecha_inicio.year] = 0
+        if registro.pais == pais:
+            res[registro.fecha_inicio.year] += registro.num_participantes
+    datos = sorted( res.items() )
+    incremento_año = [(p2-p1,año2) for (año1,p1),(año2,p2) in zip(datos,datos[1:])]
+    return max(incremento_año)
