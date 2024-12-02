@@ -1,4 +1,4 @@
-from typing import NamedTuple,Optional,List,Set,Tuple
+from typing import NamedTuple,Optional,List,Set,Tuple,Dict
 import csv
 
 BatallaGoT = NamedTuple('BatallaGoT',
@@ -33,3 +33,98 @@ def batallas_mas_comandantes(batallas:List[BatallaGoT],regiones:Optional[Set]=No
     filtro.sort(key=lambda a: a[1],reverse=True)
     return filtro if n == None else filtro[:n]
 
+
+def reyes_mayor_menor_ejercito(batallas:List[BatallaGoT])->Tuple[str,str]:
+    res = dict()
+    for batalla in batallas:
+        if batalla.rey_atacante not in res:
+            res[batalla.rey_atacante] = 0
+        if batalla.num_atacantes != None:
+            res[batalla.rey_atacante] += batalla.num_atacantes
+
+        if batalla.rey_atacado not in res:
+            res[batalla.rey_atacado] = 0
+        if batalla.num_atacados != None:
+            res[batalla.rey_atacado] += batalla.num_atacados
+
+    return ( max(res.items(),key=lambda a: a[1])[0] , min(res.items(),key=lambda a: a[1])[0] )
+
+""" *UN INTENTO QUE NO SALIÓ:*
+def rey_mas_victorias(batallas:List[BatallaGoT],rol:Optional[str]="ambos")->Tuple[str,int]:
+    # Los reyes que hay
+    reyes = set()
+    for batalla in batallas:
+        reyes.add(batalla.rey_atacante)
+        reyes.add(batalla.rey_atacado)
+
+    # Diccionario base con el que trabajar
+    res = {rey:None for rey in reyes}
+
+    # Rellenamos el diccionario base
+    for batalla in batallas:
+        if rol == "ambos" or (rol == "atacante" and batalla.gana_atacante):
+            if res[batalla.rey_atacante] == None:
+                res[batalla.rey_atacante] = 0
+            res[batalla.rey_atacante] += 1
+        if rol == "ambos" or (rol == "atacado" and not(batalla.gana_atacante)):
+            if res[batalla.rey_atacado] == None:
+                res[batalla.rey_atacado] = 0
+            res[batalla.rey_atacado] += 1
+    
+    return max(res.items(),key=lambda a: a[1])
+"""
+
+
+""" *OTRA FORMA DE HACERLO: *
+def rey_mas_victorias(batallas:List[BatallaGoT],rol:Optional[str]="ambos")->Tuple[str,int]:
+    res = dict()
+    for batalla in batallas:
+        if rol == "atacante" and batalla.gana_atacante:
+            if batalla.rey_atacante not in res:
+                res[batalla.rey_atacante] = 0
+            res[batalla.rey_atacante] += 1
+        elif rol == "atacado" and not(batalla.gana_atacante):
+            if batalla.rey_atacado not in res:
+                res[batalla.rey_atacado] = 0
+            res[batalla.rey_atacado] += 1
+        else: # si rol == "ambos"
+            if batalla.gana_atacante:
+                if batalla.rey_atacante not in res:
+                    res[batalla.rey_atacante] = 0
+                res[batalla.rey_atacante] += 1
+            else:
+                if batalla.rey_atacado not in res:
+                    res[batalla.rey_atacado] = 0
+                res[batalla.rey_atacado] += 1
+
+    return max(res.items(),key=lambda a: a[1]) if len(res)>0 else None
+"""
+
+
+def rey_mas_victorias(batallas:List[BatallaGoT],rol:Optional[str]="ambos")->Tuple[str,int]:
+    res = dict()
+    for batalla in batallas:
+        if (rol == "ambos" or rol == "atacante") and batalla.gana_atacante:
+            if batalla.rey_atacante not in res:
+                res[batalla.rey_atacante] = 0
+            res[batalla.rey_atacante] += 1
+        elif (rol == "ambos" or rol == "atacado") and not(batalla.gana_atacante):
+            if batalla.rey_atacado not in res:
+                res[batalla.rey_atacado] = 0
+            res[batalla.rey_atacado] += 1
+
+    return max(res.items(),key=lambda a: a[1]) if len(res)>0 else None
+
+
+def rey_mas_victorias_por_region(batallas:List[BatallaGoT],rol:Optional[str]="ambos")->Dict[str,str]:
+    regiones = {batalla.region for batalla in batallas}
+    
+    res = dict()
+    for region in regiones:
+        informacion = rey_mas_victorias([batalla for batalla in batallas if batalla.region == region], rol)
+        res[region] = informacion[0] if informacion != None else None
+    
+    return res
+
+
+            
