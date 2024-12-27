@@ -8,7 +8,7 @@
 ### Contexto
 
 La empresa Festi World S.A. pone a su disposición un dataset con algunos datos de los festivales de música que organiza.
-Ebn el proyecto se le facilita una carpeta **data** que incluye el fichero ``festivales.csv`` que respoende a la siguiente estructura de datos:
+En el proyecto se le facilita una carpeta **data** que incluye el fichero ``festivales.csv`` que respoende a la siguiente estructura de datos:
 
 
 - **Nombre del festival**.
