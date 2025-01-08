@@ -56,4 +56,4 @@ if __name__ == "__main__":
     test_busca_vivienda_mayor_consumo_acumulado(facturas)
     test_barrios_mayor_consumo_valle_medio(facturas)
     test_compara_importe_tipos_factura(facturas)
-    test_busca_cambios_beneficiosos(facturas)
+    #test_busca_cambios_beneficiosos(facturas)

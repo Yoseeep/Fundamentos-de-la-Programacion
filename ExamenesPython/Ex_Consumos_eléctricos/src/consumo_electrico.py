@@ -109,74 +109,61 @@ def barrios_mayor_consumo_valle_medio(facturas: List[Factura], top_n: int) -> Li
 
 
 # Ejercicio 5
-def agrupa_facturas_de_id_dado(facturas:List[Factura],id_vivienda:str)->List[Factura]|None:
-    agrupación = []
+def filtra_facturas_de_id_dado(facturas:List[Factura],id_vivienda:str)->List[Factura]|None:
+    filtro = []
     for factura in facturas:
         if factura.id_vivienda == id_vivienda:
-            agrupación.append(factura)
+            filtro.append(factura)
     
-    return None if agrupación == [] else agrupación
+    return None if filtro == [] else filtro
 
 def imprime_cambio_tipo_factura(factura:Factura)->str:
     tipo_factura = factura.tipo_tarifa
     cambio_tipo_factura = f"{tipo_factura}->{contrario_tipo_tarifa[tipo_factura]}"
     return cambio_tipo_factura
 
-def calcula_importe_total_factura(factura:Factura,tipo_tarifa:Optional[str]=None)->float:
+def calcula_importe_total_factura(tipo_tarifa:str,consumo_punta:float,consumo_valle:float,coste_potencia:float,precio_punta:float,precio_valle:float)->float:
     if tipo_tarifa == "única":
-        importe_total = factura.consumo_punta * factura.precio_punta + factura.coste_potencia
+        importe_total = consumo_punta * precio_punta + coste_potencia
     else:
-        importe_punta = factura.consumo_punta * factura.precio_punta 
-        importe_valle = factura.consumo_valle * factura.precio_valle
-        importe_total = importe_punta + importe_valle + factura.coste_potencia
+        importe_punta = consumo_punta * precio_punta 
+        importe_valle = consumo_valle * precio_valle
+        importe_total = importe_punta + importe_valle + coste_potencia
     return importe_total
 
-def modifica_tipo_factura(facturas:List[Factura],factura:Factura)->Factura:
-    año_mes = factura.periodo_facturado.inicio.strftime("%Y-%m")
-    precio_punta_tipo_contrario, precio_valle_tipo_contrario = extrae_precio_por_mes(facturas,contrario_tipo_tarifa[factura.tipo_tarifa])[año_mes]
+def calcula_precios_tarifa_original(facturas:List[Factura])->float:
+    precio_original = sum( [factura.importe_total for factura in facturas] )
+    return precio_original
 
-    factura_tipo_contrario = Factura(factura.id_vivienda,factura.tipo_vivienda,factura.barrio,contrario_tipo_tarifa[factura.tipo_tarifa],factura.periodo_facturado,factura.coste_potencia,factura.consumo_punta,factura.consumo_valle,precio_punta_tipo_contrario,precio_valle_tipo_contrario,factura.importe_total)
-    
-    importe_total_contrario = calcula_importe_total_factura(factura_tipo_contrario)
-    return Factura(factura.id_vivienda,factura.tipo_vivienda,factura.barrio,contrario_tipo_tarifa[factura.tipo_tarifa],factura.periodo_facturado,factura.coste_potencia,factura.consumo_punta,factura.consumo_valle,precio_punta_tipo_contrario,precio_valle_tipo_contrario,importe_total_contrario)
+def calcula_precios_tarifa_contraria(facturas:List[Factura],añoMes_precioPuntaValle_tipo_contrario:Dict[str,Tuple[float,float]])->Tuple[float, float]: 
+    acum = 0
+    tipo_tarifa = contrario_tipo_tarifa[facturas[0].tipo_tarifa]
+    for factura in facturas:
+        consumo_punta = factura.consumo_punta
+        consumo_valle = factura.consumo_valle
+        coste_potencia = factura.coste_potencia
+        mesAño = factura.periodo_facturado.inicio.strftime("%Y-%m")
+        precio_punta, precio_valle = añoMes_precioPuntaValle_tipo_contrario[mesAño]
+        acum += calcula_importe_total_factura(tipo_tarifa,consumo_punta,consumo_valle,coste_potencia,precio_punta,precio_valle)
+    return acum
 
-def calcula_precios_originales_y_contrarios_de_facturas(facturas:List[Factura],facturas_tipo_original:List[Factura])->Tuple[float, float]:
-    precio_original = sum( [factura.importe_total for factura in facturas_tipo_original] )
-
-    facturas_tipo_contrario = [modifica_tipo_factura(facturas,factura) for factura in facturas_tipo_original]
-    precio_contrario = sum( [factura.importe_total for factura in facturas_tipo_contrario] )
-
-    return (precio_original,precio_contrario)
-
-def compara_importe_tipos_factura(facturas: List[Factura], id_vivienda: str) -> Optional[Tuple[str, float, float]]:
-    facturas_tipo_original = agrupa_facturas_de_id_dado(facturas,id_vivienda) 
-    if facturas_tipo_original == []:
+def compara_importe_tipos_factura(facturas_completo: List[Factura], id_vivienda: str) -> Optional[Tuple[str, float, float]]:
+    facturas_filtradas = filtra_facturas_de_id_dado(facturas_completo,id_vivienda) 
+    if facturas_filtradas == []:
         return None
     
-    precio_original, precio_contrario = calcula_precios_originales_y_contrarios_de_facturas(facturas,facturas_tipo_original)
+    precio_original = calcula_precios_tarifa_original(facturas_filtradas)
 
-    mensaje = imprime_cambio_tipo_factura(facturas[0])
+    añoMes_preciosPuntaValle = extrae_precio_por_mes(facturas_completo, tipo_tarifa = contrario_tipo_tarifa[ facturas_filtradas[0].tipo_tarifa ])
+    precio_contrario = calcula_precios_tarifa_contraria(facturas_filtradas, añoMes_precioPuntaValle_tipo_contrario = añoMes_preciosPuntaValle)
 
-    return (mensaje,precio_original,precio_contrario)
-
-
-"""
-def compara_importe_tipos_factura(facturas: List[Factura], id_vivienda: str) -> Optional[Tuple[str, float, float]]:
-    facturas_tipo_original = agrupa_facturas_de_id_dado(facturas,id_vivienda) 
-    if facturas_tipo_original == []:
-        return None
-    precio_original = sum( [factura.importe_total for factura in facturas_tipo_original] )
-
-    facturas_tipo_contrario = [modifica_tipo_factura(facturas,factura) for factura in facturas_tipo_original]
-    precio_contrario = sum( [factura.importe_total for factura in facturas_tipo_contrario] )
-
-    mensaje = imprime_cambio_tipo_factura(facturas[0])
+    mensaje = imprime_cambio_tipo_factura(facturas_filtradas[0])
 
     return (mensaje,precio_original,precio_contrario)
-"""
 
 
 # Ejercicio 6
+"""
 def calcula_diferencia_cambios_beneficiosos_de_tipos_tarifa(facturas:List[Factura],facturas_de_id_dado:List[Factura]):
     precio_original, precio_contrario = calcula_precios_originales_y_contrarios_de_facturas(facturas,facturas_de_id_dado)
     return precio_contrario - precio_original
@@ -196,7 +183,7 @@ def busca_cambios_beneficiosos(facturas: List[Factura]) -> List[Tuple[str,int, f
                 acum_única_a_tramos.append( (imprime_cambio_tipo_factura(valor[0]), diferencia_precio) )
     
     return [ ("tramos->única",len(acum_tramos_a_única),acum_tramos_a_única[1]), ("única->tramos",len(acum_única_a_tramos),acum_única_a_tramos[1]) ]
-
+"""
         
 
         
