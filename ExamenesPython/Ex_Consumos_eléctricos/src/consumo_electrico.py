@@ -142,8 +142,8 @@ def calcula_precios_tarifa_contraria(facturas:List[Factura],añoMes_precioPuntaV
         consumo_punta = factura.consumo_punta
         consumo_valle = factura.consumo_valle
         coste_potencia = factura.coste_potencia
-        mesAño = factura.periodo_facturado.inicio.strftime("%Y-%m")
-        precio_punta, precio_valle = añoMes_precioPuntaValle_tipo_contrario[mesAño]
+        añoMes = factura.periodo_facturado.inicio.strftime("%Y-%m")
+        precio_punta, precio_valle = añoMes_precioPuntaValle_tipo_contrario[añoMes]
         acum += calcula_importe_total_factura(tipo_tarifa,consumo_punta,consumo_valle,coste_potencia,precio_punta,precio_valle)
     return acum
 
@@ -163,29 +163,36 @@ def compara_importe_tipos_factura(facturas_completo: List[Factura], id_vivienda:
 
 
 # Ejercicio 6
-"""
-def calcula_diferencia_cambios_beneficiosos_de_tipos_tarifa(facturas:List[Factura],facturas_de_id_dado:List[Factura]):
-    precio_original, precio_contrario = calcula_precios_originales_y_contrarios_de_facturas(facturas,facturas_de_id_dado)
-    return precio_contrario - precio_original
-    
-
 def busca_cambios_beneficiosos(facturas: List[Factura]) -> List[Tuple[str,int, float]]:
-    facturas_agrupadas = agrupa_facturas_por_id(facturas)
+    ids = {factura.id_vivienda for factura in facturas}
 
     acum_tramos_a_única = list()
     acum_única_a_tramos = list()
-    for _,valor in facturas_agrupadas.items():
-        diferencia_precio = calcula_diferencia_cambios_beneficiosos_de_tipos_tarifa(facturas,valor)
-        if diferencia_precio >= 0:
-            if valor[0].tipo_tarifa == "tramos":
-                acum_tramos_a_única.append( (imprime_cambio_tipo_factura(valor[0]), diferencia_precio) )
-            else:
-                acum_única_a_tramos.append( (imprime_cambio_tipo_factura(valor[0]), diferencia_precio) )
+    for id in ids:
+        mensaje,precio_original,precio_contrario = compara_importe_tipos_factura(facturas,id_vivienda=id)
+        diferencia_precio = precio_original - precio_contrario
+        if diferencia_precio > 0:
+            if mensaje == "tramos->única":
+                acum_tramos_a_única.append(diferencia_precio)
+            elif mensaje == "única->tramos":
+                acum_única_a_tramos.append(diferencia_precio)
     
-    return [ ("tramos->única",len(acum_tramos_a_única),acum_tramos_a_única[1]), ("única->tramos",len(acum_única_a_tramos),acum_única_a_tramos[1]) ]
-"""
-        
+    return [ ("tramos->única",len(acum_tramos_a_única),sum(acum_tramos_a_única)), ("única->tramos",len(acum_única_a_tramos),sum(acum_única_a_tramos)) ]
 
+
+# Ejercio 7
+def calcula_mes_incremento_maximo_consumo_acumulado(facturas: List[Factura], tipo_vivienda: Optional[str] = None) -> Tuple[str, float]:
+    res = DefaultDict(float)
+    for factura in facturas:
+        if tipo_vivienda == None or tipo_vivienda == factura.tipo_vivienda:
+            añoMes = factura.periodo_facturado.inicio.strftime("%Y-%m")
+            res[añoMes] += factura.consumo_punta + factura.consumo_valle
+    
+    aux = sorted(res.items(), key= lambda a: a[0])
+    diferencia = zip(aux,aux[1:])
+    diferencia = [(añoMes2,consumo2-consumo1) for(añoMes1,consumo1),(añoMes2,consumo2) in diferencia]
+    
+    return max(diferencia,key=lambda a: a[1])
         
 
 
