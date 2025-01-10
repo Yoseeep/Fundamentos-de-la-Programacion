@@ -48,7 +48,7 @@ Cree un módulo **tenis.py** e implemente en él las funciones que se piden. Pue
    
      **parsea\_set**: Toma una cadena con el resultado de un set o parcial y devuelve una tupla de tipo Parcial que representa ese set. La cadena de entrada se espera que tenga los juegos del set del primer jugador, seguido de un guión y los juegos del set del segundo jugador, es decir, int-int. 
 
-1. **partidos\_menos\_errores**: recibe una lista de tipo PartidoTenis y devuelve el partido con mayor número de errores no forzados entre los dos jugadores.
+1. **partidos\_menos\_errores**: recibe una lista de tipo PartidoTenis y devuelve el partido con MENOR (-ESTABA MAL, PONÍA MENOR-) número de errores no forzados entre los dos jugadores.
 
 1. **jugador\_mas\_partidos**: recibe una lista de tipo PartidoTenis y devuelve una tupla con el nombre del jugador que más partidos ha jugado y el número de partidos. 
 
