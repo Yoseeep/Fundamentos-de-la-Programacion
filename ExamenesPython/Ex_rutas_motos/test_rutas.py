@@ -30,6 +30,12 @@ def test_ciudades_top_tiempo_dificultad(rutas:List[Ruta]) -> None:
     resultado = ciudades_top_tiempo_dificultad(rutas,n)
     print(resultado)
 
+#Extra
+def test_suma_kms_rutas_sin_fechas(rutas:List[Ruta]) -> None:
+    print("\ntest_suma_kms_rutas_sin_fechas")
+    resultado = suma_kms_rutas_sin_fechas(rutas)
+    print(f"La suma de los kilómetros de las rutas sin fecha es: {resultado:.2f}")
+
 
 
 if __name__ == "__main__":
@@ -39,3 +45,6 @@ if __name__ == "__main__":
     test_diferencias_kms_meses_anyo(rutas)
     test_top_rutas_lejanas(rutas)
     test_ciudades_top_tiempo_dificultad(rutas)
+
+    # Extra
+    test_suma_kms_rutas_sin_fechas(rutas)   

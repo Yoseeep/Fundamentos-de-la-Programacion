@@ -120,4 +120,9 @@ def ciudades_top_tiempo_dificultad(rutas:List[Ruta],n:int) -> Dict[str,List[str]
 
     return dict(res)
 
-        
+
+
+# Extra
+def suma_kms_rutas_sin_fechas(rutas:List[Ruta]) -> float:
+    acum = [ruta.km for ruta in rutas if ruta.fecha_ruta == '']
+    return sum(acum)
