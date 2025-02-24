@@ -5,6 +5,11 @@ public class CircunferenciaImpl4 implements Circunferencia{
 	private Punto puntoPerteneciente;
 	
 	public CircunferenciaImpl4(Punto centro, Double radio) {
+		if (radio<=0) {
+			throw new IllegalArgumentException
+			("El radio debe ser positivo");
+			}
+		
 		this.centro = centro;
 		this.puntoPerteneciente = new Punto(centro.getX(), centro.getY() + radio);
 	}
@@ -22,6 +27,11 @@ public class CircunferenciaImpl4 implements Circunferencia{
 	}
 
 	public void setRadio(Double radio) {
+		if (radio<=0) {
+			throw new IllegalArgumentException
+			("El radio debe ser positivo");
+			}
+		
 		puntoPerteneciente.setY(centro.getY() + radio);
 		// Otra forma: this.puntoPerteneciente = new Punto(centro.getX(), centro.getY() + radio);
 	}

@@ -25,6 +25,7 @@ public record Animal(Familia familia, String nombre,
 		return res;
 	}
 	
+	
 	public int hashCode() {
 		return 11*this.familia.hashCode() + 17*this.nombre.hashCode() + 31*this.pesoMedio.hashCode() 
 			   + 51*this.edadMedia.hashCode() + 71*this.puedeSerDoméstico.hashCode();

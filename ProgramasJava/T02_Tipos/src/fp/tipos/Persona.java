@@ -26,7 +26,6 @@ public record Persona(String dni, String nombre, String
 		return 3*this.dni.hashCode() + 11*this.nombre.hashCode() + 23*this.apellidos.hashCode() + 37*this.fechaNacimiento.hashCode();
 	}
 
-	
 	public int compareTo(Persona o) {
 		return this.dni.compareTo(o.dni);
 	}

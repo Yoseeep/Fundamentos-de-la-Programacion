@@ -5,6 +5,11 @@ public class CircunferenciaImpl2 implements Circunferencia{
 	private Double área;
 	
 	public CircunferenciaImpl2(Punto centro, Double radio) {
+		if (radio<=0) {
+			throw new IllegalArgumentException
+			("El radio debe ser positivo");
+			}
+		
 		this.centro = centro;
 		this.área = Math.PI * Math.pow(radio, 2);
 	}
@@ -22,6 +27,11 @@ public class CircunferenciaImpl2 implements Circunferencia{
 	}
 
 	public void setRadio(Double radio) {
+		if (radio<=0) {
+			throw new IllegalArgumentException
+			("El radio debe ser positivo");
+			}
+		
 		this.área = Math.PI * Math.pow(radio, 2);
 	}
 	
