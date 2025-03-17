@@ -4,11 +4,28 @@ import java.time.DayOfWeek;
 import java.time.Duration;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Objects;
 
-public record Tutoria(DayOfWeek diaSemana, LocalTime horaComienzo, LocalTime horaFin) {
+import utiles.Checkers;
+
+public record Tutoria(DayOfWeek diaSemana, LocalTime horaComienzo, LocalTime horaFin) implements Comparable<Tutoria>{
+	
+	public Tutoria{
+		Checkers.check("Las tutorias deben tener lugar de Lunes a Viernes",
+					   diaSemana != DayOfWeek.SUNDAY && diaSemana != DayOfWeek.SATURDAY);
+		chequeaDuracion(horaComienzo,horaFin);
+	}
+		
+	private void chequeaDuracion(LocalTime horaComienzo, LocalTime horaFin) {
+		long duracion = Duration.between(horaComienzo, horaFin).toMinutes();
+		boolean res = duracion > 15;
+		Checkers.check("Las tutorias deben durar al menos 15 minutos",
+				   res);
+	}
+	
 	
 	public long duracion() {
-		return Duration.between(horaFin, horaComienzo).toMinutes(); 
+		return Duration.between(horaComienzo, horaFin).toMinutes(); 
 	}
 	
 	
@@ -28,9 +45,11 @@ public record Tutoria(DayOfWeek diaSemana, LocalTime horaComienzo, LocalTime hor
 		case THURSDAY:
 			res = 'J';
 			break;
-		default:
-			res = 'V';
+		case FRIDAY:
+			res = 'F';
 			break;
+		default:
+			res = '*';
 		}
 		
 		return res;
@@ -46,5 +65,28 @@ public record Tutoria(DayOfWeek diaSemana, LocalTime horaComienzo, LocalTime hor
 	
 	public String toString() {
 		return this.diaSemanaParseado() + " " + this.horasParseadas();
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(diaSemana, horaComienzo);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (!(obj instanceof Tutoria))
+			return false;
+		Tutoria other = (Tutoria) obj;
+		return diaSemana == other.diaSemana && Objects.equals(horaComienzo, other.horaComienzo);
+	}
+	
+	public int compareTo(Tutoria t) {
+		int res = this.diaSemana.compareTo(t.diaSemana);
+		if (res == 0) {
+			res = this.horaComienzo.compareTo(t.horaComienzo);
+		}
+		return res;
 	}
 }

@@ -1,15 +1,15 @@
 package fp.universidad.tipos;
 
-public record Nota(Asignatura asignatura, Integer curso, Convocatoria convocatoria, Double valor, Boolean mencionHonor) {
+import java.util.Objects;
+
+import utiles.Checkers;
+
+public record Nota(Asignatura asignatura, Integer curso, Convocatoria convocatoria, Double valor, Boolean mencionHonor) implements Comparable<Nota>{
 	
 	public Nota{
-		if (valor < 0 && valor > 10) {
-			throw new IllegalArgumentException("El valor de la nota debe estar comprendido en [0,10].");
-		}
-		
-		if (mencionHonor && valor<9) {
-			throw new IllegalArgumentException("No se puede tener mención de honor con un valor menor que 9.");
-		}
+		Checkers.check("La calificacion debe estar entre 0 y 10", 0 <= valor && valor <= 10);
+		Checkers.check("Una nota sólo puede tener mención de honor si su valor numérico es igual o superior a 9.",
+					   mencionHonor? valor>=9: true);
 	}
 	
 	public Nota(Asignatura asignatura, Integer curso, Convocatoria convocatoria, Double valor) {
@@ -45,5 +45,32 @@ public record Nota(Asignatura asignatura, Integer curso, Convocatoria convocator
 	public String toString() {
 		return this.asignatura + ", " + this.cursoParseado() + ", " + 
 			   this.convocatoria + ", " + this.valor + ", " + this.calificacion(); 
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(asignatura, convocatoria, curso);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (!(obj instanceof Nota))
+			return false;
+		Nota other = (Nota) obj;
+		return Objects.equals(asignatura, other.asignatura) && convocatoria == other.convocatoria
+				&& Objects.equals(curso, other.curso);
+	}
+	
+	public int compareTo(Nota n) {
+		int res = this.curso.compareTo(n.curso);
+		if (res == 0) {
+			res = this.asignatura.compareTo(n.asignatura);
+			if (res == 0) {
+				res = this.convocatoria.compareTo(n.convocatoria);
+			}
+		}
+		return res;
 	}
 }
