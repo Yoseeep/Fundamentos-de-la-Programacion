@@ -18,7 +18,7 @@ public class TestNota02 {
 		try {
 			Asignatura a = new Asignatura("Fundamentos de Programación","0000230",12d,
 					TipoAsignatura.ANUAL,1);
-			Nota n = new Nota(a,2014,Convocatoria.TRIMERA,7.5,false);
+			Nota n = new Nota(a,2014,Convocatoria.PRIMERA,7.5,false);
 			System.out.println(n);
 			System.out.println("Asignatura: "+n.asignatura());
 			System.out.println("Curso: "+n.curso());
@@ -35,7 +35,7 @@ public class TestNota02 {
 		try {
 			Asignatura a = new Asignatura("Fundamentos de Programación","0000230",12d,
 					TipoAsignatura.ANUAL,1);
-			Nota n = new Nota(a,2014,Convocatoria.TRIMERA,9d,true);
+			Nota n = new Nota(a,2014,Convocatoria.PRIMERA,9d,true);
 			System.out.println(n);
 			System.out.println("Asignatura: "+n.asignatura());
 			System.out.println("Curso: "+n.curso());
@@ -52,7 +52,7 @@ public class TestNota02 {
 		try {
 			Asignatura a = new Asignatura("Fundamentos de Programación","0000230",12d,
 					TipoAsignatura.ANUAL,1);
-			Nota n = new Nota(a,2014,Convocatoria.TRIMERA,11d,false);
+			Nota n = new Nota(a,2014,Convocatoria.PRIMERA,11d,false);
 			System.out.println(n);
 			System.out.println("Asignatura: "+n.asignatura());
 			System.out.println("Curso: "+n.curso());
@@ -69,7 +69,7 @@ public class TestNota02 {
 		try {
 			Asignatura a = new Asignatura("Fundamentos de Programación","0000230",12d,
 					TipoAsignatura.ANUAL,1);
-			Nota n = new Nota(a,2014,Convocatoria.TRIMERA,7.5,true);
+			Nota n = new Nota(a,2014,Convocatoria.PRIMERA,7.5,true);
 			System.out.println(n);
 			System.out.println("Asignatura: "+n.asignatura());
 			System.out.println("Curso: "+n.curso());
@@ -88,7 +88,7 @@ public class TestNota02 {
 		try {
 			Asignatura a = new Asignatura("Fundamentos de Programación","0000230",12d,
 					TipoAsignatura.ANUAL,1);
-			Nota n = new Nota(a,2014,Convocatoria.TRIMERA,7.5);
+			Nota n = new Nota(a,2014,Convocatoria.PRIMERA,7.5);
 			System.out.println(n);
 			System.out.println("Asignatura: "+n.asignatura());
 			System.out.println("Curso: "+n.curso());
@@ -105,7 +105,7 @@ public class TestNota02 {
 		try {
 			Asignatura a = new Asignatura("Fundamentos de Programación","0000230",12d,
 					TipoAsignatura.ANUAL,1);
-			Nota n = new Nota(a,2014,Convocatoria.TRIMERA,11d);
+			Nota n = new Nota(a,2014,Convocatoria.PRIMERA,11d);
 			System.out.println(n);
 			System.out.println("Asignatura: "+n.asignatura());
 			System.out.println("Curso: "+n.curso());

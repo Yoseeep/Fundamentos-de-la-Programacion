@@ -40,7 +40,7 @@ public class TrayectoTrenImpl1 {
 		chequeaCodigo(codigoTren);
 		Checkers.checkNoNull(horaSalida,horaLlegada);
 		Checkers.check("La hora de salida de la primera estación no debe ser anterior a la hora de llegada a la última estación", 
-				horaSalida.compareTo(horaLlegada) < 0);
+				horaSalida.isAfter(horaLlegada));
 	}
 	
 	private void chequeaCodigo(String codigoTren) {
@@ -49,7 +49,7 @@ public class TrayectoTrenImpl1 {
 			res =  false;
 		} else {
 			for (char c: codigoTren.toCharArray()) {
-				if (Character.isDigit(c)) {
+				if (!Character.isDigit(c)) {
 					res = false;
 				}
 			}

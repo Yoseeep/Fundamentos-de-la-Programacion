@@ -123,7 +123,7 @@ public class Centro implements Comparable<Centro>{
 		Espacio[] arrayEspacios = (Espacio[]) espacios.toArray();
 		Espacio res = arrayEspacios[0];
 		for (Espacio e: arrayEspacios){
-			if (e.capacidad > res.capacidad) {
+			if (e.getCapacidad() > res.getCapacidad()) {
 				res = e;
 			}
 		}

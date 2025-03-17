@@ -5,10 +5,10 @@ import java.util.Objects;
 import utiles.Checkers;
 
 public class Espacio implements Comparable<Espacio>{
-	TipoEspacio tipo;
-	String nombre;
-	Integer capacidad;
-	Integer planta;
+	private TipoEspacio tipo;
+	private String nombre;
+	private Integer capacidad;
+	private Integer planta;
 	
 	
 	public Espacio(TipoEspacio tipo, String nombre, Integer capacidad, Integer planta) {
