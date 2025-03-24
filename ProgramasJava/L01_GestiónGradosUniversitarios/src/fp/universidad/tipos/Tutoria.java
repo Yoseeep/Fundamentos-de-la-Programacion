@@ -15,6 +15,10 @@ public record Tutoria(DayOfWeek diaSemana, LocalTime horaComienzo, LocalTime hor
 					   diaSemana != DayOfWeek.SUNDAY && diaSemana != DayOfWeek.SATURDAY);
 		chequeaDuracion(horaComienzo,horaFin);
 	}
+	
+	public Tutoria(DayOfWeek diaSemana, LocalTime horaComienzo, Duration duracion) {
+		this(diaSemana, horaComienzo, horaComienzo.plus(duracion));
+	}
 		
 	private void chequeaDuracion(LocalTime horaComienzo, LocalTime horaFin) {
 		long duracion = Duration.between(horaComienzo, horaFin).toMinutes();

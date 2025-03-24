@@ -4,13 +4,13 @@ import java.time.Duration;
 import java.time.LocalTime;
 import java.util.List;
 
-public interface TrayectoTren {
+public interface TrayectoTren extends Comparable<TrayectoTren>{
 	String getCodigoTren();
 	String getNombreTrayecto();
 	TipoTren getTipo();
 	List<String> getEstaciones();
-	List<LocalTime> getHorasLlegadas();
-	List<LocalTime> getHorasSalidas();
+	List<LocalTime> getHorasLlegada();
+	List<LocalTime> getHorasSalida();
 	LocalTime horaSalida();
 	LocalTime horaLlegada();
 	Duration duracionTrayecto();

@@ -2,6 +2,8 @@ package fp.tipos;
 
 import java.util.Objects;
 
+import utiles.Checkers;
+
 public class Electrodoméstico implements Comparable<Electrodoméstico>{
 	private String númeroSerie;
 	private String denominación;
@@ -23,6 +25,16 @@ public class Electrodoméstico implements Comparable<Electrodoméstico>{
 		this.mesesGarantía = 0;
 		this.importe = 0f;
 		this.iva = 0f;
+	}
+	
+	public Electrodoméstico(String s) {
+		String[] tr = s.split("#");
+		Checkers.check("La cadena no está bien formada" + s, tr.length == 5);	
+		this.númeroSerie  = tr[0].trim();
+		this.denominación  = tr[1].trim();
+		this.mesesGarantía = Integer.valueOf(tr[2].trim());
+		this.importe  = Float.valueOf(tr[3].trim());
+		this.iva  = Float.valueOf(tr[4].trim());
 	}
 
 	public String getNúmeroSerie() {
