@@ -26,11 +26,17 @@ public class Despacho extends Espacio{
 		this.profesores = new HashSet<Profesor>();
 		chequeaCapacidadDespacho(capacidad, profesores);
 	}
+	
+	public Despacho(String s) {
+		super(s + ",OTRO");
+		this.profesores = new HashSet<Profesor>();
+		
+	}
 
 	
 	private void chequeaCapacidadDespacho(Integer capacidad, Set<Profesor> profesores) {
 		Checkers.check("El numero de profesores excede la capacidad del despacho",
-				   capacidad <= profesores.size());
+				   capacidad >= profesores.size());
 	}
 	
 	

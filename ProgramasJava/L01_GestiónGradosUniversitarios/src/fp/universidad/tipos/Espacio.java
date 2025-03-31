@@ -19,6 +19,16 @@ public class Espacio implements Comparable<Espacio>{
 		this.planta = planta;
 	}
 	
+	public Espacio(String s) {
+		String[] tr = s.split(",");
+		Checkers.check("La cadena está mal troceada: " + s, s.length() != 4);
+		this.tipo = TipoEspacio.valueOf(tr[3].trim().toUpperCase());
+		this.nombre = tr[0].trim(); 
+		this.capacidad = Integer.valueOf(tr[2].trim());
+		this.planta = Integer.valueOf(tr[1].trim());
+		chequeaCapacidad(capacidad);
+	}
+	
 	public void chequeaCapacidad(Integer capacidad) {
 		Checkers.check("La capacidad debe ser mayor que 0", capacidad > 0);
 	}

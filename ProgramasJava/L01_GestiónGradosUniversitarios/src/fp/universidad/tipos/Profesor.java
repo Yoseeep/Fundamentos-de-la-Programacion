@@ -32,6 +32,7 @@ public class Profesor extends Persona{
 	
 	public void nuevaTutoria(LocalTime horaComienzo, Duration duracion, DayOfWeek diaSemana) {
 		Tutoria tutoria = new Tutoria(diaSemana, horaComienzo, duracion);
+		this.tutorías.add(tutoria);
 	}
 	
 	public void borraTutoria(LocalTime horaComienzo, DayOfWeek diaSemana) {
