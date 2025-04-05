@@ -19,7 +19,7 @@ public class FactoriaAeropuerto {
 		
 		try {
 			Stream<Vuelo> sv = Files.lines(Path.of(ruta)).skip(1).map(FactoriaAeropuerto::parseaVuelo);
-			System.out.println("Después de leer");
+			
 			res = new Aeropuerto(nombre, localidad,sv);
 		} catch (Exception e) {
 			System.out.println("No se ha encontrado el fichero " + ruta);
