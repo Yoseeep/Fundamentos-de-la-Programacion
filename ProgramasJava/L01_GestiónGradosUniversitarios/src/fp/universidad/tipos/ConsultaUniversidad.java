@@ -97,11 +97,6 @@ public class ConsultaUniversidad {
 				acum += i; 
 			}
 			res.put(clave, acum / par.getValue().size());
-			/*
-			 * if (! res.containsKey(clave)) { List<Double> valor = new ArrayList<Double>();
-			 * valor.add(nota.valor()); aux.put(clave, valor); } else {
-			 * aux.get(clave).add(nota.valor()); }
-			 */
 		}
 		
 		return res;
