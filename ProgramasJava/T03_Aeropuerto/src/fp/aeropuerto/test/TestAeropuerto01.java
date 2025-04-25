@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -34,11 +35,15 @@ public class TestAeropuerto01 {
 		// Construimos un aeropuerto
 		Aeropuerto aeropuerto = new Aeropuerto("San Pablo", "Sevilla", vuelos);
 		
+		
+		
 		// Representamos
 		System.out.println("Representacion aeropuerto: " + aeropuerto);
 		System.out.println("Representacion lista de vuelos del aeropuerto: " + aeropuerto.getVuelos());
-		
+			
 		
 	}
+	
+	
 
 }

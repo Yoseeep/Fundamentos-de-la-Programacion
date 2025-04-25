@@ -1,14 +1,23 @@
 package fp.aeropuerto;
 
 import java.security.KeyStore.Entry;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
+import java.util.SortedSet;
+import java.util.TreeSet;
+import java.util.function.Function;
 import java.util.stream.Stream;
+import fp.aeropuerto.Persona;
+
 
 import útiles.Checkers;
 
@@ -161,4 +170,84 @@ public class Aeropuerto implements Comparable<Aeropuerto>{
 	}
 	
 	
+	public List<Vuelo> vuelosPorOrdenNatural(){
+		List<Vuelo> res = new ArrayList<Vuelo>(this.vuelos);
+		Collections.sort(res);
+		return res;
+	}
+	
+	public Vuelo máximoVueloPorOrdenNatural() {
+		return Collections.max(this.vuelos);
+	}
+	
+	public List<Vuelo> vuelosPorInversoAlOrdenNatural(){
+		List<Vuelo> res = new ArrayList<Vuelo>(this.vuelos);
+		Collections.sort(res,Comparator.reverseOrder());
+		return res;
+	}
+	
+	public List<Vuelo> vuelosPorPrecioYHoraSalida(){
+		List<Vuelo> res = new ArrayList<Vuelo>(this.vuelos);
+		
+		Comparator<Vuelo> cmp1 = Comparator.comparing(Vuelo::precio);
+		Comparator<Vuelo> cmp2 = cmp1.thenComparing(v -> v.fechaHoraSalida().toLocalTime());
+		
+		Collections.sort(res,cmp2);
+		return res;
+	}
+	
+	public List<Vuelo> vuelosPorDuraciónYMayorNroPasajeros(){
+		List<Vuelo> res = new ArrayList<Vuelo>(this.vuelos);
+		
+		Comparator<Vuelo> cmp1 = Comparator.comparing(Vuelo::duracion);
+		Comparator<Vuelo> cmp2 = cmp1.thenComparing(v -> v.numeroPasajeros()).reversed();
+		
+		Collections.sort(res,cmp2);
+		return res;
+	}
+	
+	public List<Persona> pasajerosDePrimerVueloPorNombreYDni(){
+		List<Persona> res = new ArrayList<Persona>(this.vuelos.getFirst().pasajeros());
+		
+		Comparator<Persona> cmp1 = Comparator.comparing(Persona::nombre).thenComparing(Persona::dni);
+		
+		Collections.sort(res,cmp1);
+		return res;
+	}
+	
+	public SortedSet<String> diferentesNombresDePasajerosPorOrdenAlfabéticoInverso() {
+		Comparator<String> cmp1 = Comparator.reverseOrder();
+		
+		SortedSet<String> res = new TreeSet<String>(cmp1);
+		
+		for(Vuelo v : new ArrayList<Vuelo>(vuelos)) {
+			res.addAll((v.pasajeros().stream().map(Persona::nombre).toList()));
+		}
+				
+		return res;
+	}
+	
+	public List<Persona> pasajerosDeTodosLosVuelosPorApellidosYNombre() {
+		List<Persona> res = new ArrayList<Persona>();
+		for(Vuelo v : this.vuelos) {
+			res.addAll(v.pasajeros());
+		}
+		
+		Comparator<Persona> cmp1 = Comparator.comparing(Persona::apellidos).thenComparing(Persona::nombre);
+		
+		Collections.sort(res,cmp1);
+				
+		return res;
+	}
+	
+	public List<Persona> pasajerosSinRepetirDeTodosLosVuelosPorApellidosYNombre() {
+		Comparator<Persona> cmp1 = Comparator.comparing(Persona::apellidos).thenComparing(Persona::nombre);
+				
+		SortedSet<Persona> res = new TreeSet<Persona>(cmp1);
+		for(Vuelo v : this.vuelos) {
+			res.addAll(v.pasajeros());
+		}
+				
+		return res.stream().toList();
+	}
 }
