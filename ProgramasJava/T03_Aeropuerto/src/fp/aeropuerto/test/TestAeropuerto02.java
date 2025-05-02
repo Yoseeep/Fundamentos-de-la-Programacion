@@ -50,6 +50,22 @@ public class TestAeropuerto02 {
 		testPasajerosDeTodosLosVuelosPorApellidosYNombre(aeropuerto);
 		
 		testPasajerosSinRepetirDeTodosLosVuelosPorApellidosYNombre(aeropuerto);
+		
+		testNúmeroVuelosADestino(aeropuerto);
+		
+		testNúmeroPasajerosADestino(aeropuerto);
+		
+		testVueloMenorRecaudaciónVuelosCompletos(aeropuerto);
+		
+		testCódigoDeAlgúnVueloADestinoConPlazasLibres(aeropuerto);
+		
+		testExisteVueloPrecioMenorQue(aeropuerto);
+		
+		testPromedioPreciosVuelosCompletos(aeropuerto);
+		
+		testSumaPreciosDistintosVuelosCompletos(aeropuerto);
+		
+		testContarDistintosPasajeros(aeropuerto);
 	}
 	
 	private static void visualizaAeropuerto(Aeropuerto aeropuerto) {
@@ -213,6 +229,82 @@ public class TestAeropuerto02 {
 				System.out.println("Apellido=" + p.apellidos() + ",Nombre=" + p.nombre() + " --> " + p);
 			}
 			System.out.println("Nros: "+a.pasajerosSinRepetirDeTodosLosVuelosPorApellidosYNombre().size());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testNúmeroVuelosADestino(Aeropuerto a) {
+		try {
+			System.out.println("\ntestNúmeroVuelosADestino");
+			System.out.println("Nº de  vuelos con destino Barcelona: "
+								+ a.númeroVuelosADestino("Barcelona"));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testNúmeroPasajerosADestino(Aeropuerto a) {
+		try {
+			System.out.println("\ntestNúmeroPasajerosADestino");
+			System.out.println("Nº de pasajeros con vuelos destino Barcelona: "
+								+ a.númeroPasajerosADestino("Barcelona"));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testVueloMenorRecaudaciónVuelosCompletos(Aeropuerto a) {
+		try {
+			System.out.println("\ntestVueloMenorRecaudaciónVuelosCompletos");
+			System.out.println("" + a.vueloMenorRecaudaciónVuelosCompletos());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testCódigoDeAlgúnVueloADestinoConPlazasLibres(Aeropuerto a) {
+		try {
+			System.out.println("\ntestVueloMenorRecaudaciónVuelosCompletos");
+			System.out.println("Málaga:" + a.códigoDeAlgúnVueloADestinoConPlazasLibres("Málaga"));
+			System.out.println("Cuenca:" + a.códigoDeAlgúnVueloADestinoConPlazasLibres("Cuenca"));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testExisteVueloPrecioMenorQue(Aeropuerto a) {
+		try {
+			System.out.println("\ntestExisteVueloPrecioMenorQue");
+			System.out.println("100:" + a.existeVueloPrecioMenorQue(100.0));
+			System.out.println("3:" + a.existeVueloPrecioMenorQue(3.0));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testPromedioPreciosVuelosCompletos(Aeropuerto a) {
+		try {
+			System.out.println("\ntestPromedioPreciosVuelosCompletos");
+			System.out.println("" + a.promedioPreciosVuelosCompletos());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testSumaPreciosDistintosVuelosCompletos(Aeropuerto a) {
+		try {
+			System.out.println("\ntestSumaPreciosDistintosVuelosCompletos");
+			System.out.println("" + a.sumaPreciosDistintosVuelosCompletos());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testContarDistintosPasajeros(Aeropuerto a) {
+		try {
+			System.out.println("\ntestContarDistintosPasajeros");
+			System.out.println("" + a.contarDistintosPasajeros());
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

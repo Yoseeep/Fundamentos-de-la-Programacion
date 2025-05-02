@@ -11,10 +11,12 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
 import java.util.function.Function;
+import java.util.function.Predicate;
 import java.util.stream.Stream;
 import fp.aeropuerto.Persona;
 
@@ -249,5 +251,49 @@ public class Aeropuerto implements Comparable<Aeropuerto>{
 		}
 				
 		return res.stream().toList();
+	}
+	
+	public int númeroVuelosADestino(String destino) {
+		return (int) this.vuelos.stream()
+				.filter(v->v.destino().equals(destino))
+				.count();
+	}
+	
+	public long númeroPasajerosADestino(String destino) {
+		return this.vuelos.stream()
+				.filter(v->v.destino().equals(destino))
+				.mapToInt(v->v.numeroPasajeros())
+				.sum();
+	}
+	
+	public Vuelo vueloMenorRecaudaciónVuelosCompletos() {
+		Comparator<Vuelo> comp = Comparator.comparing(v->v.precio()*v.numeroPasajeros());
+		return this.vuelos.stream().filter(Vuelo::vueloCompleto).min(comp).get();
+	}
+	
+	public String códigoDeAlgúnVueloADestinoConPlazasLibres(String destino) {
+		Vuelo res= this.vuelos.stream()
+				.filter(v -> v.destino().equals(destino) && ! v.vueloCompleto())
+				.findAny().orElse(null);
+		
+		return res == null ? null : res.codigo();
+	}
+	
+	public boolean existeVueloPrecioMenorQue(Double precio) {
+		return this.vuelos.stream()
+				.anyMatch(v -> v.precio() <= precio);
+	}
+	
+	//TODO: Ejercicio 17
+	public double promedioPreciosVuelosCompletos() {
+		return this.vuelos.stream().filter(Vuelo::vueloCompleto).mapToDouble(Vuelo::precio).average().orElse(0);
+	}
+	
+	public double sumaPreciosDistintosVuelosCompletos() {
+		return this.vuelos.stream().filter(Vuelo::vueloCompleto).mapToDouble(Vuelo::precio).distinct().sum();
+	}
+	
+	public long contarDistintosPasajeros() {
+		return this.vuelos.stream().flatMap(v->v.pasajeros().stream()).distinct().count();
 	}
 }
