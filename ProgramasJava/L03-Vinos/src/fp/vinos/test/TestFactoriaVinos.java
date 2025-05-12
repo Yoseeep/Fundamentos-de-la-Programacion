@@ -1,4 +1,5 @@
 package fp.vinos.test;
+
 /**
  * @author José A. Troyano
  * @reviewed Toñi Reina
@@ -10,7 +11,7 @@ import fp.vinos.FactoriaVinos;
 import fp.vinos.Vinoteca;
 
 public class TestFactoriaVinos {
-	
+
 	public static void main(String[] args) {
 		testCreacionVinos("data/wine_reviews.csv");
 	}
@@ -18,10 +19,10 @@ public class TestFactoriaVinos {
 	private static void testCreacionVinos(String filename) {
 		System.out.println("\nTEST de la creacion de vinos");
 		try {
-			Vinoteca vinos = FactoriaVinos.leerVinoteca(filename);
-			System.out.println("   VINOS: "+ vinos);
-		} catch(Exception e) {
-			System.out.println("Excepción inesperada capturada:\n   " + e);	
+			Vinoteca vinos = FactoriaVinos.leerVinoteca(filename, "B");
+			System.out.println("   VINOS: " + vinos);
+		} catch (Exception e) {
+			System.out.println("Excepción inesperada capturada:\n   " + e);
 		}
 	}
 }
