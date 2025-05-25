@@ -1,11 +1,17 @@
 package fp.aeropuerto.test;
 
 import java.time.Duration;
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.SortedMap;
+import java.util.SortedSet;
 import java.util.Map.Entry;
+import java.util.Optional;
 
 import fp.aeropuerto.Aeropuerto;
 import fp.aeropuerto.Compañía;
@@ -66,6 +72,44 @@ public class TestAeropuerto02 {
 		testSumaPreciosDistintosVuelosCompletos(aeropuerto);
 		
 		testContarDistintosPasajeros(aeropuerto);
+		
+		testMapListaVuelosPorDestinos(aeropuerto);
+		
+		testMapSetVuelosPorFechaLlegada(aeropuerto);
+		
+		testMapSetOrdenadoVuelosPorFechaSalida(aeropuerto);
+		
+		testMapNumVuelosCompletosPorCompañia(aeropuerto);
+		
+		testMapPreciosDiferentesOrdenadosPorDestino(aeropuerto);
+		
+		testMapPrecioMedioPorCompañia(aeropuerto);
+		
+		testMapPrecioVuelosConEscalasMásBaratoPorDestino(aeropuerto);
+		
+		testMapSumaPlazasLibresPorHoraDeLlegada(aeropuerto);
+		
+		testDestinoMayorNúmeroDeplazasLibres(aeropuerto);
+		
+		testPromediosDePasajerosPorFechasDeSalida(aeropuerto);
+		
+		testPromediosDePasajerosPorFechasDeSalida2(aeropuerto);
+		
+		testMapDestinosPorDuración(aeropuerto);
+		
+		testMapPorcentajeVuelosPorDestino(aeropuerto);
+		
+		testCompañíaConMayorSumaDePlazasLibres(aeropuerto);
+		
+		testSegundoDíaConMenosVuelos(aeropuerto);
+		
+		testMapPreciosSuperioresPorFechas(aeropuerto);
+		
+		testDestinoConMayorDiferenciaDePrecio(aeropuerto);
+		
+		testFechaEnQueLLeganMasConDistintoNombrePasajerosConDestinos(aeropuerto);
+		
+		testTopNMediaPreciosPorDestino(aeropuerto);
 	}
 	
 	private static void visualizaAeropuerto(Aeropuerto aeropuerto) {
@@ -309,4 +353,250 @@ public class TestAeropuerto02 {
 			e.printStackTrace();
 		}
 	}
+	
+	private static void testMapListaVuelosPorDestinos(Aeropuerto a) {
+		try {
+			System.out.println("\ntestMapListaVuelosPorDestinos");
+			Map<String,List<Vuelo>> resultado = a.mapListaVuelosPorDestinos(); 
+			for(Entry<String, List<Vuelo>> i: resultado.entrySet()) {
+				System.out.println("Clave: " + i.getKey() + ", Valor: " + i.getValue());
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testMapSetVuelosPorFechaLlegada(Aeropuerto a) {
+		try {
+			System.out.println("\ntestMapSetVuelosPorFechaLlegada");
+			Map<LocalDate,Set<Vuelo>> resultado = a.mapSetVuelosPorFechaLlegada(); 
+			for(Entry<LocalDate, Set<Vuelo>> i: resultado.entrySet()) {
+				System.out.println("Clave: " + i.getKey() + ", Valor: " + i.getValue());
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testMapSetOrdenadoVuelosPorFechaSalida(Aeropuerto a) {
+		try {
+			System.out.println("\ntestMapSetOrdenadoVuelosPorFechaSalida");
+			Map<LocalDate,SortedSet<Vuelo>> resultado = a.mapSetOrdenadoVuelosPorFechaSalida(); 
+			for(Entry<LocalDate, SortedSet<Vuelo>> i: resultado.entrySet()) {
+				System.out.println("Clave: " + i.getKey() + ", Valor: " + i.getValue());
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testMapNumVuelosCompletosPorCompañia(Aeropuerto a) {
+		try {
+			System.out.println("\ntestMapNumVuelosCompletosPorCompañia");
+			Map<Compañía,Integer> resultado = a.mapNumVuelosCompletosPorCompañia(); 
+			for(Entry<Compañía, Integer> i: resultado.entrySet()) {
+				System.out.println("Clave: " + i.getKey() + ", Valor: " + i.getValue());
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testMapPreciosDiferentesOrdenadosPorDestino(Aeropuerto a) {
+		try {
+			System.out.println("\ntestMapPreciosDiferentesOrdenadosPorDestino");
+			Map<String, SortedSet<Double>> resultado = a.mapPreciosDiferentesOrdenadosPorDestino(); 
+			for(Entry<String, SortedSet<Double>> i: resultado.entrySet()) {
+				System.out.println("Clave: " + i.getKey() + ", Valor: " + i.getValue());
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testMapPrecioMedioPorCompañia(Aeropuerto a) {
+		try {
+			System.out.println("\ntestMapPrecioMedioPorCompañia");
+			Map<Compañía, Double> resultado = a.mapPrecioMedioPorCompañia(); 
+			for(Entry<Compañía, Double> i: resultado.entrySet()) {
+				System.out.println("Clave: " + i.getKey() + ", Valor: " + i.getValue());
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	
+	private static void testMapPrecioVuelosConEscalasMásBaratoPorDestino(Aeropuerto a) {
+		try {
+			System.out.println("\ntestMapPrecioVuelosConEscalasMásBaratoPorDestino");
+			Map<String, Double> resultado = a.mapPrecioVuelosConEscalasMásBaratoPorDestino(); 
+			for(Entry<String, Double> i: resultado.entrySet()) {
+				System.out.println("Clave: " + i.getKey() + ", Valor: " + i.getValue());
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testMapSumaPlazasLibresPorHoraDeLlegada(Aeropuerto a) {
+		try {
+			System.out.println("\ntestMapSumaPlazasLibresPorHoraDeLlegada");
+			Map<LocalTime, Integer> resultado = a.mapSumaPlazasLibresPorHoraDeLlegada(Compañía.IBE); 
+			for(Entry<LocalTime, Integer> i: resultado.entrySet()) {
+				System.out.println("Clave: " + i.getKey() + ", Valor: " + i.getValue());
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testDestinoMayorNúmeroDeplazasLibres(Aeropuerto a) {
+		try {
+			System.out.println("\ntestDestinoMayorNúmeroDeplazasLibres");
+			String resultado = a.destinoMayorNúmeroDeplazasLibres(); 
+			System.out.println(resultado);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testPromediosDePasajerosPorFechasDeSalida(Aeropuerto a) {
+		try {
+			System.out.println("\ntestPromediosDePasajerosPorFechasDeSalida");
+			List<Double> resultado = a.promediosDePasajerosPorFechasDeSalida(); 
+			System.out.println(resultado);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testPromediosDePasajerosPorFechasDeSalida2(Aeropuerto a) {
+		try {
+			System.out.println("\ntestPromediosDePasajerosPorFechasDeSalida2");
+			List<Entry<LocalDate, Double>> resultado = a.promediosDePasajerosPorFechasDeSalida2(); 
+			for (Entry<LocalDate,Double> par : resultado) {
+				System.out.println(par.getKey() + " --> " + par.getValue());
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testMapDestinosPorDuración(Aeropuerto a) {
+		try {
+			System.out.println("\ntestMapDestinosPorDuración");
+			Map<Duration, SortedSet<String>> resultado = a.mapDestinosPorDuración(); 
+			for (Entry<Duration, SortedSet<String>> par : resultado.entrySet()) {
+				System.out.println(par.getKey() + " --> " + par.getValue());
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testMapPorcentajeVuelosPorDestino(Aeropuerto a) {
+		try {
+			System.out.println("\ntestMapPorcentajeVuelosPorDestino");
+			System.out.println("-Para un precio de 60:");
+			Map<String, Double> resultado = a.mapPorcentajeVuelosPorDestino(60d); 
+			for (Entry<String, Double> par : resultado.entrySet()) {
+				System.out.println(par.getKey() + " --> " + par.getValue() + "%");
+			}
+			System.out.println("-Para un precio de 1000:");
+			Map<String, Double> resultado1 = a.mapPorcentajeVuelosPorDestino(1000d); 
+			for (Entry<String, Double> par : resultado1.entrySet()) {
+				System.out.println(par.getKey() + " --> " + par.getValue() + "%");
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testCompañíaConMayorSumaDePlazasLibres(Aeropuerto a) {
+		try {
+			System.out.println("\ntestCompañíaConMayorSumaDePlazasLibres");
+			Compañía resultado = a.compañíaConMayorSumaDePlazasLibres(); 
+			System.out.println(resultado);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testSegundoDíaConMenosVuelos(Aeropuerto a) {
+		try {
+			System.out.println("\ntestSegundoDíaConMenosVuelos");
+			LocalDate resultado = a.segundoDíaConMenosVuelos(); 
+			System.out.println(resultado);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testMapPreciosSuperioresPorFechas(Aeropuerto a) {
+		try {
+			System.out.println("\ntestMapPreciosSuperioresPorFechas");
+			Map<LocalDate, Set<Double>> resultado = a.mapPreciosSuperioresPorFechas(); 
+			for (Entry<LocalDate, Set<Double>> par : resultado.entrySet()) {
+				System.out.println(par.getKey() + " --> " + par.getValue());
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testDestinoConMayorDiferenciaDePrecio(Aeropuerto a) {
+		try {
+			System.out.println("\ntestDestinoConMayorDiferenciaDePrecio");
+			String resultado = a.destinoConMayorDiferenciaDePrecio(); 
+			System.out.println(resultado);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testFechaEnQueLLeganMasConDistintoNombrePasajerosConDestinos(Aeropuerto a) {
+		try {
+			System.out.println("\ntestFechaEnQueLLeganMasConDistintoNombrePasajerosConDestinos");
+			Set<String> destinos = new HashSet<String>();
+			destinos.add("Madrid");
+			destinos.add("Madrid");
+			LocalDate resultado = a.fechaEnQueLLeganMasConDistintoNombrePasajerosConDestinos(destinos); 
+			System.out.println(resultado);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static void testTopNMediaPreciosPorDestino(Aeropuerto a) {
+		try {
+			System.out.println("\ntestTopNMediaPreciosPorDestino");
+			SortedMap<String, Double> resultado = a.topNMediaPreciosPorDestino(4); 
+			for (Entry<String, Double> par : resultado.entrySet()) {
+				System.out.println(par.getKey() + " --> " + par.getValue());
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
 }

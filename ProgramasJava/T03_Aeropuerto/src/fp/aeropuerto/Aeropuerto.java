@@ -1,6 +1,10 @@
 package fp.aeropuerto;
 
-import java.security.KeyStore.Entry;
+import java.util.Map.Entry;
+import java.time.Duration;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.util.AbstractMap;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -13,10 +17,15 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
+import java.util.SortedMap;
 import java.util.SortedSet;
+import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+import java.util.stream.DoubleStream;
 import java.util.stream.Stream;
 import fp.aeropuerto.Persona;
 
@@ -276,7 +285,7 @@ public class Aeropuerto implements Comparable<Aeropuerto>{
 				.filter(v -> v.destino().equals(destino) && ! v.vueloCompleto())
 				.findAny().orElse(null);
 		
-		return res == null ? null : res.codigo();
+		return res != null ? res.codigo() : null;
 	}
 	
 	public boolean existeVueloPrecioMenorQue(Double precio) {
@@ -284,7 +293,6 @@ public class Aeropuerto implements Comparable<Aeropuerto>{
 				.anyMatch(v -> v.precio() <= precio);
 	}
 	
-	//TODO: Ejercicio 17
 	public double promedioPreciosVuelosCompletos() {
 		return this.vuelos.stream().filter(Vuelo::vueloCompleto).mapToDouble(Vuelo::precio).average().orElse(0);
 	}
@@ -295,5 +303,263 @@ public class Aeropuerto implements Comparable<Aeropuerto>{
 	
 	public long contarDistintosPasajeros() {
 		return this.vuelos.stream().flatMap(v->v.pasajeros().stream()).distinct().count();
+	}
+	
+	public Map<String,List<Vuelo>> mapListaVuelosPorDestinos(){
+		return this.vuelos.stream().collect(Collectors.groupingBy(Vuelo::destino));
+	}
+	
+	public Map<LocalDate,Set<Vuelo>> mapSetVuelosPorFechaLlegada(){
+		return this.vuelos.stream()
+				.filter(v->v.conEscalas())
+				.collect(Collectors.groupingBy(
+						v->v.fechaHoraLlegada().toLocalDate(),
+						Collectors.toSet()
+						)) ;
+	}
+	
+	public Map<LocalDate,SortedSet<Vuelo>> mapSetOrdenadoVuelosPorFechaSalida(){
+		Comparator<Vuelo> cmp = Comparator.comparing(Vuelo::numeroPasajeros);
+		return this.vuelos.stream()
+				.collect(Collectors.groupingBy(
+						v->v.fechaHoraSalida().toLocalDate(),
+						Collectors.toCollection( ()->new TreeSet<Vuelo>(cmp) )
+						)) ;
+	}
+	
+	public Map<Compañía,Integer> mapNumVuelosCompletosPorCompañia(){
+		return this.vuelos.stream()
+				.filter(Vuelo::vueloCompleto)
+				.collect(Collectors.groupingBy(
+						Vuelo::compañia,
+						Collectors.collectingAndThen(
+								Collectors.counting(), 
+								l->l.intValue() )));
+	}
+	
+	public Map<String,SortedSet<Double>> mapPreciosDiferentesOrdenadosPorDestino() {
+		Comparator<Double> cmp = Comparator.reverseOrder();
+		return this.vuelos.stream()
+				.collect(Collectors.groupingBy(
+						Vuelo::destino,
+						Collectors.mapping(
+								Vuelo::precio, 
+								Collectors.toCollection( ()->new TreeSet<Double>(cmp) ))
+						));
+	}
+	
+	public Map<Compañía,Double> mapPrecioMedioPorCompañia() {
+		return this.vuelos.stream()
+				.collect(Collectors.groupingBy(
+						Vuelo::compañia,
+						()-> new TreeMap<Compañía,Double>(Comparator.naturalOrder()),
+						Collectors.averagingDouble(Vuelo::precio)	
+						)) ;
+	}
+	
+
+	public Map<String, Double> mapPrecioVuelosConEscalasMásBaratoPorDestino(){
+		return this.vuelos.stream()
+				.filter(Vuelo::conEscalas)
+				.collect(Collectors.groupingBy(
+						Vuelo::destino,
+						Collectors.collectingAndThen(
+								Collectors.minBy(Comparator.comparing(Vuelo::precio)),
+								v->v.get().precio()))
+				);
+	}
+	
+	
+
+	public Map<LocalTime,Integer> mapSumaPlazasLibresPorHoraDeLlegada(Compañía cp){
+		Comparator<LocalTime> cmp = Comparator.reverseOrder();
+		return this.vuelos.stream()
+				.filter( v -> v.compañia().equals(cp) )
+				.collect(Collectors.groupingBy(
+						v -> v.fechaHoraLlegada().toLocalTime(),
+						()->new TreeMap<>( cmp ),
+						Collectors.summingInt( v -> v.numeroPlazas() - v.numeroPasajeros() )
+						)
+				);
+	}
+	
+	public String destinoMayorNúmeroDeplazasLibres() {
+		Comparator<Entry<String,Integer>> cmp = Comparator.comparing(Entry<String,Integer>::getKey);
+		return this.vuelos.stream()
+				.collect(Collectors.groupingBy(
+						Vuelo::destino, 
+						Collectors.summingInt(v -> v.numeroPlazas() - v.numeroPasajeros())
+						))
+				.entrySet().stream()
+				.max(cmp).get().getKey()
+				;
+	}
+
+	public List<Double> promediosDePasajerosPorFechasDeSalida(){
+		Comparator<Entry<LocalDate,Double>> cmp = Comparator.comparing(Entry<LocalDate,Double>::getKey); 
+		return this.vuelos.stream()
+				.collect(Collectors.groupingBy(
+						v -> v.fechaHoraSalida().toLocalDate(),
+						Collectors.averagingDouble(Vuelo::numeroPasajeros)
+						))
+				.entrySet().stream()
+				.sorted(cmp)
+				.map(e->e.getValue())
+				.toList();
+	}
+	
+	
+	public List<Entry<LocalDate,Double>> promediosDePasajerosPorFechasDeSalida2(){
+		Comparator<Entry<LocalDate,Double>> cmp = Comparator.comparing(Entry<LocalDate,Double>::getKey); 
+		return this.vuelos.stream()
+				.collect(Collectors.groupingBy(
+						v -> v.fechaHoraSalida().toLocalDate(),
+						Collectors.averagingDouble(Vuelo::numeroPasajeros)
+						))
+				.entrySet().stream()
+				.sorted(cmp)
+				.toList();
+	}
+	
+	public SortedMap<Duration,SortedSet<String>> mapDestinosPorDuración(){
+		Comparator<Duration> cmp = Comparator.reverseOrder();
+		Comparator<String> cmp1 = Comparator.reverseOrder();
+		return this.vuelos.stream()
+				.collect(Collectors.groupingBy(
+						v->v.duracion(),
+						()->new TreeMap<Duration,SortedSet<String>>(cmp),
+						Collectors.mapping(
+								v->v.destino(), 
+								Collectors.toCollection( ()->new TreeSet<String>(cmp1) )
+								)						
+						));
+	}
+	
+	
+	public SortedMap<String,Double> mapPorcentajeVuelosPorDestino(Double precio){
+		double numFiltro = this.vuelos.stream()
+				.filter( v -> v.precio() >= precio )
+				.count();
+		return this.vuelos.stream()
+				.filter( v->v.precio()>=precio )
+				.collect(Collectors.groupingBy(
+						v->v.destino(),
+						() -> new TreeMap<String, Double>(),
+						Collectors.collectingAndThen(
+								Collectors.counting(), 
+								c -> c == 0 ? null : (c/numFiltro) * 100
+								)
+						));	
+	}
+	
+	public Compañía compañíaConMayorSumaDePlazasLibres() {
+		Comparator<Entry<Compañía,Integer>> cmp = Comparator.comparing( Entry<Compañía,Integer> :: getValue );
+		return this.vuelos.stream()
+				.collect(Collectors.groupingBy(
+						v->v.compañia(),
+						Collectors.summingInt(v -> v.numeroPlazas() - v.numeroPasajeros())
+						))
+				.entrySet().stream()
+				.max(cmp).get().getKey();
+	}
+	
+	public LocalDate segundoDíaConMenosVuelos() {
+		Comparator<Entry<LocalDate,Long>> cmp = Comparator.comparing(Entry<LocalDate,Long>::getValue);
+		return this.vuelos.stream()
+				.collect(Collectors.groupingBy(
+						v->v.fechaHoraSalida().toLocalDate(),
+						Collectors.counting()
+						))
+				.entrySet().stream()
+				.sorted(cmp)
+				.map(Entry<LocalDate,Long>::getKey)
+				.toList().get(1); 
+	}
+	
+	public SortedMap<LocalDate,Set<Double>> mapPreciosSuperioresPorFechas() {
+		return this.vuelos.stream()
+				.collect(Collectors.groupingBy(
+						v->v.fechaHoraLlegada().toLocalDate(),
+						TreeMap::new,
+						Collectors.collectingAndThen(
+								Collectors.mapping(
+										Vuelo::precio, 
+										Collectors.toList()),
+								 lp -> filtraPromedios(lp)
+								 )
+				));
+	}
+	private static Set<Double> filtraPromedios(List<Double> lp) {
+		Double minimo = lp.stream().min(Comparator.naturalOrder()).get();
+		Double maximo = lp.stream().max(Comparator.naturalOrder()).get();
+		Double promedio = ( minimo + maximo ) / 2;
+		return lp.stream()
+				.filter( p -> p >= promedio )
+				.collect(Collectors.toSet());
+	}
+		
+	public String destinoConMayorDiferenciaDePrecio(){
+		Comparator<Entry<String,Double>> cmp = Comparator.comparing(Entry<String,Double>::getValue);
+		return this.vuelos.stream()
+				.collect(Collectors.groupingBy(
+						v->v.destino(),
+						Collectors.collectingAndThen(
+								Collectors.mapping(
+										Vuelo::precio, 
+										Collectors.toList()
+										), 
+								lp -> lp.stream().max(Comparator.naturalOrder()).get() 
+									- lp.stream().min(Comparator.naturalOrder()).get()
+								)
+						))
+				.entrySet().stream()
+				.max(cmp).get().getKey()
+				;
+	}
+	
+	public LocalDate fechaEnQueLLeganMasConDistintoNombrePasajerosConDestinos(Set<String> destinos) {
+		Comparator< Entry<LocalDate,Integer> > cmp = Comparator.comparingDouble(Entry<LocalDate,Integer>::getValue);
+		return this.vuelos.stream()
+				.filter( v -> destinos.contains( v.destino() ) )
+				.collect(Collectors.groupingBy(
+						v -> v.fechaHoraLlegada().toLocalDate(),
+						Collectors.collectingAndThen(
+								Collectors.flatMapping(
+										v -> v.pasajeros().stream(), 
+										Collectors.toSet()
+								), 
+								sp -> sp.size()
+								)
+						))
+				.entrySet().stream()
+				.max(cmp).get()
+				.getKey();
+	}
+	
+	public SortedMap<String,Double> topNMediaPreciosPorDestino(Integer n) {
+		Comparator<String> cmp = Comparator.reverseOrder();
+		Comparator<Double> cmp1 = Comparator.reverseOrder();
+		return this.vuelos.stream()
+				.collect(Collectors.groupingBy(
+						v -> v.destino(),
+						() -> new TreeMap<String,Double>( cmp ),
+						Collectors.collectingAndThen(
+								Collectors.mapping(
+										v->v.precio(), 
+										Collectors.toList()
+										), 
+								lp -> mediaNMasCaros(lp, n)						
+								)						
+						));
+	}
+	
+	private static Double mediaNMasCaros(List<Double> lp, Integer n) {
+		Checkers.check("El número n debe ser positivo", n>0);
+		Comparator<Double> cmp1 = Comparator.reverseOrder();
+		return lp.stream()
+				.sorted(cmp1)
+				.limit(n)
+				.mapToDouble(d -> d.doubleValue())
+				.average().getAsDouble();
 	}
 }
