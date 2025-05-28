@@ -1,0 +1,12 @@
+﻿CarreraID,Localidad,FechaHora,Tipo,Distancia,Desnivel
+tr_cobre_23,Gerena,2023-11-26 10:30,TRAIL,15000,750
+tr_cazalla_24,Cazalla de la Sierra,2024-01-14 10:30,TRAIL,13500,600
+cr_lmcp_23,Castilleja de la Cuesta,2023-09-23 21:45,CROSS,7800,200
+imd_sev_sanpab_24,Sevilla,2024-04-28 9:00,ASFALTO,10000,10
+imd_sev_marlui_24,Sevilla,2024-05-12 9:00,ASFALTO,10000,10
+imd_sev_tam_24,Sevilla,2024-05-26 9:00,ASFALTO,10000,10
+cr_esqui_24,Esquivel,2024-04-21 9:30,CROSS,10500,100
+tr_rutagu_24,Guillena,2024-04-14 10:00,TRAIL,27500,800
+imd_sev_noct_23,Sevilla,2023-09-29 22:00,ASFALTO,8500,10
+medmar_sev_24,Sevilla,2024-01-28 9:00,ASFALTO,21097,10
+tr_lima_pedr_24,El Pedroso,2024-03-03 9:30,TRAIL,14000,520
